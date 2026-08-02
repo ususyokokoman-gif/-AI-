@@ -1,35 +1,35 @@
 {
   "site": {
     "title": "AI実務レーダー",
-    "editorial_policy": "公式・信頼できる情報源のみ。日本語で実務への使い道と次の行動を示す。"
+    "editorial_policy": "公式・信頼できる情報源のみ。1情報源1件。日本語で論点、使い道、次の行動を示す。"
   },
-  "updated_at": "2026-08-02T03:39:02.290700+00:00",
-  "item_count": 20,
+  "updated_at": "2026-08-02T03:40:38.414938+00:00",
+  "item_count": 13,
   "sources": [
     {
       "name": "openai/codex",
       "ok": true,
-      "items": 3
+      "items": 1
     },
     {
       "name": "anthropics/claude-code",
       "ok": true,
-      "items": 3
+      "items": 1
     },
     {
       "name": "google-gemini/gemini-cli",
       "ok": true,
-      "items": 3
+      "items": 1
     },
     {
       "name": "openai/openai-agents-python",
       "ok": true,
-      "items": 3
+      "items": 1
     },
     {
       "name": "modelcontextprotocol/servers",
       "ok": true,
-      "items": 2
+      "items": 1
     },
     {
       "name": "openai/openai-cookbook",
@@ -44,40 +44,59 @@
     {
       "name": "n8n-io/n8n",
       "ok": true,
-      "items": 3
+      "items": 1
     },
     {
       "name": "langgenius/dify",
       "ok": true,
-      "items": 3
+      "items": 1
     },
     {
       "name": "browser-use/browser-use",
       "ok": true,
-      "items": 3
+      "items": 1
     },
     {
       "name": "microsoft/playwright",
       "ok": true,
-      "items": 3
+      "items": 1
     },
     {
       "name": "ollama/ollama",
       "ok": true,
-      "items": 3
+      "items": 1
     },
     {
       "name": "langchain-ai/langgraph",
       "ok": true,
-      "items": 3
+      "items": 1
     }
   ],
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.146.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：自分の検証用リポジトリで、変更点を一つだけ再現して採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 97,
+      "published_at": "2026-07-29T01:42:51Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0",
+      "verdict": "読む価値あり",
+      "original_excerpt": "## New Features - Name new sessions with `/new` or `/clear`, pin important threads, and switch between side conversations without closing them. (#34605, #34840, #35011) - Support Agent Plugins manifests, workspace plugin publishing, and additional plugin marketplaces for Amazon Bedrock and Claude Co…"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "openai/openai-agents-python",
       "title": "OpenAI Agents SDK：v0.19.2",
-      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。正式版の「v0.19.2」が公開されました。",
+      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携に関する変更です。",
       "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
       "category": "AIエージェント",
       "tags": [
@@ -86,188 +105,36 @@
         "公式",
         "正式版"
       ],
-      "score": 97,
+      "score": 96,
       "published_at": "2026-08-01T01:08:37Z",
       "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.2",
-      "verdict": "要確認",
-      "original_excerpt": "## What's Changed * feat: expose original callable through wrapped by @seratch in https://github.com/openai/openai-agents-python/pull/4038 * fix: report input guardrail results when a tripwire aborts the run by @hsusul in https://github.com…"
+      "verdict": "読む価値あり",
+      "original_excerpt": "## What's Changed * feat: expose original callable through wrapped by @seratch in https://github.com/openai/openai-agents-python/pull/4038 * fix: report input guardrail results when a tripwire aborts the run by @hsusul in https://github.com/openai/openai-agents-python/pull/4071 * fix: consolidate sa…"
     },
     {
       "source_kind": "github_release",
-      "source_name": "openai/openai-agents-python",
-      "title": "OpenAI Agents SDK：v0.19.1",
-      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。正式版の「v0.19.1」が公開されました。",
-      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
-      "category": "AIエージェント",
-      "tags": [
-        "Agents SDK",
-        "エージェント設計",
-        "公式",
-        "正式版"
-      ],
-      "score": 97,
-      "published_at": "2026-07-29T07:44:24Z",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.1",
-      "verdict": "要確認",
-      "original_excerpt": "## What's Changed * feat(sandbox): support native host paths in path grants by @seratch in https://github.com/openai/openai-agents-python/pull/4009 * fix: redact Realtime audio format diagnostics by @seratch in https://github.com/openai/ope…"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.220",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。正式版の「v2.1.220」が公開されました。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "source_name": "google-gemini/gemini-cli",
+      "title": "Gemini CLI：Release v0.53.1",
+      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
       "category": "AI開発エージェント",
       "tags": [
-        "Claude Code",
+        "Gemini CLI",
         "開発自動化",
         "公式",
         "正式版"
       ],
-      "score": 96,
-      "published_at": "2026-07-25T01:35:55Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
-      "verdict": "要確認",
-      "original_excerpt": "## What's changed - Bug fixes and reliability improvements"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.219",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。正式版の「v2.1.219」が公開されました。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 96,
-      "published_at": "2026-07-24T17:14:23Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
-      "verdict": "要確認",
-      "original_excerpt": "## What's changed - Added Claude Opus 5 (`claude-opus-5`), now the default Opus model — 1M context, fast mode at $10/$50 per Mtok - Added `sandbox.network.strictAllowlist` setting to deny non-allowlisted hosts for sandboxed commands without…"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.218",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。正式版の「v2.1.218」が公開されました。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 96,
-      "published_at": "2026-07-22T21:24:56Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
-      "verdict": "要確認",
-      "original_excerpt": "## What's changed - Changed `/code-review` to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review target - Added screen-reader announcements of deleted text for word …"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.147.0-alpha.4",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。試験版の「rust-v0.147.0-alpha.4」が公開されました。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：自分の検証用リポジトリで、変更点を一つだけ再現して採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "試験版"
-      ],
-      "score": 95,
-      "published_at": "2026-07-31T17:54:49Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.4",
-      "verdict": "要確認",
-      "original_excerpt": "Release 0.147.0-alpha.4"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.147.0-alpha.3",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。試験版の「rust-v0.147.0-alpha.3」が公開されました。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：自分の検証用リポジトリで、変更点を一つだけ再現して採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "試験版"
-      ],
-      "score": 95,
-      "published_at": "2026-07-31T15:36:34Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.3",
-      "verdict": "要確認",
-      "original_excerpt": "Release 0.147.0-alpha.3"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.147.0-alpha.1.1",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。試験版の「rust-v0.147.0-alpha.1.1」が公開されました。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：自分の検証用リポジトリで、変更点を一つだけ再現して採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "試験版"
-      ],
-      "score": 95,
-      "published_at": "2026-07-31T09:48:25Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.1.1",
-      "verdict": "要確認",
-      "original_excerpt": "Release 0.147.0-alpha.1.1"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/openai-agents-python",
-      "title": "OpenAI Agents SDK：v0.19.0",
-      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。正式版の「v0.19.0」が公開されました。",
-      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
-      "category": "AIエージェント",
-      "tags": [
-        "Agents SDK",
-        "エージェント設計",
-        "公式",
-        "正式版"
-      ],
-      "score": 95,
-      "published_at": "2026-07-27T04:10:05Z",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.0",
-      "verdict": "要確認",
-      "original_excerpt": "## Key Changes This minor release does **not** introduce a breaking change. The minor version bump reflects a significant new OpenAI Responses feature area: Programmatic Tool Calling. ### Highlights: - Added `agents.tool.ProgrammaticToolCal…"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "microsoft/playwright",
-      "title": "Playwright：v1.62.1",
-      "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。正式版の「v1.62.1」が公開されました。",
-      "reason": "あなたへの使い道：Garoonや各種Webサービスの操作検証、自動テスト、画面取得の安定性向上に使えます。次にすること：AI任せにする前に、固定手順をPlaywrightで再現可能にする。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "Playwright",
-        "ブラウザ自動化",
-        "テスト",
-        "正式版"
-      ],
-      "score": 92,
-      "published_at": "2026-07-30T16:35:55Z",
-      "url": "https://github.com/microsoft/playwright/releases/tag/v1.62.1",
-      "verdict": "要確認",
-      "original_excerpt": "### Bug Fixes - #41989 [Regression]: tsconfig \"extends\" bare specifier isn't resolved via node_modules walk-up like tsc (fatal since 1.62) - #41998 [Regression]: directory-form tsconfig project references (\"path\": \"../pkg\") fail to resolve …"
+      "score": 93,
+      "published_at": "2026-07-31T21:34:30Z",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.1",
+      "verdict": "読む価値あり",
+      "original_excerpt": "## What's Changed * fix(patch): cherry-pick f47d6c6 to release/v0.53.0-pr-28566 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28610 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.53.0...v0.53.1"
     },
     {
       "source_kind": "github_release",
       "source_name": "modelcontextprotocol/servers",
       "title": "MCP公式サーバー集：Release 2026.7.10",
-      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。正式版の「2026.7.10」が公開されました。",
+      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
       "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
       "category": "MCP・外部連携",
       "tags": [
@@ -279,33 +146,33 @@
       "score": 92,
       "published_at": "2026-07-10T03:39:07Z",
       "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "verdict": "要確認",
+      "verdict": "読む価値あり",
       "original_excerpt": "# Release : v2026.7.10 ## Updated packages - @modelcontextprotocol/server-filesystem@2026.7.10 - mcp-server-time@2026.7.10 - mcp-server-fetch@2026.7.10 - mcp-server-git@2026.7.10"
     },
     {
       "source_kind": "github_release",
-      "source_name": "modelcontextprotocol/servers",
-      "title": "MCP公式サーバー集：Release 2026.7.4",
-      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。正式版の「2026.7.4」が公開されました。",
-      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
-      "category": "MCP・外部連携",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.220",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
       "tags": [
-        "MCP",
-        "外部連携",
+        "Claude Code",
+        "開発自動化",
         "公式",
         "正式版"
       ],
-      "score": 92,
-      "published_at": "2026-07-04T23:05:56Z",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
-      "verdict": "要確認",
-      "original_excerpt": "# Release : v2026.7.4 ## Updated packages - @modelcontextprotocol/server-everything@2026.7.4 - @modelcontextprotocol/server-filesystem@2026.7.4 - @modelcontextprotocol/server-sequential-thinking@2026.7.4 - @modelcontextprotocol/server-memor…"
+      "score": 90,
+      "published_at": "2026-07-25T01:35:55Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+      "verdict": "読む価値あり",
+      "original_excerpt": "## What's changed - Bug fixes and reliability improvements"
     },
     {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
       "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。正式版の「stable」が公開されました。",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
       "category": "業務自動化",
       "tags": [
@@ -314,36 +181,17 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 90,
+      "score": 89,
       "published_at": "2026-07-31T07:56:05Z",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "verdict": "要確認",
-      "original_excerpt": "## [2.32.7](https://github.com/n8n-io/n8n/compare/n8n@2.32.6...n8n@2.32.7) (2026-07-31) ### Bug Fixes * **core:** Import security audit risk reporters with a file extension ([#35267](https://github.com/n8n-io/n8n/issues/35267)) ([7d61ea0](h…"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：n8n@2.32.7",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。正式版の「n8n@2.32.7」が公開されました。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 90,
-      "published_at": "2026-07-31T07:56:03Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.7",
-      "verdict": "要確認",
-      "original_excerpt": "## [2.32.7](https://github.com/n8n-io/n8n/compare/n8n@2.32.6...n8n@2.32.7) (2026-07-31) ### Bug Fixes * **core:** Import security audit risk reporters with a file extension ([#35267](https://github.com/n8n-io/n8n/issues/35267)) ([7d61ea0](h…"
+      "verdict": "読む価値あり",
+      "original_excerpt": "## [2.32.7](https://github.com/n8n-io/n8n/compare/n8n@2.32.6...n8n@2.32.7) (2026-07-31) ### Bug Fixes * **core:** Import security audit risk reporters with a file extension ([#35267](https://github.com/n8n-io/n8n/issues/35267)) ([7d61ea0](https://github.com/n8n-io/n8n/commit/7d61ea01229858d1dc6f75fc…"
     },
     {
       "source_kind": "github_release",
       "source_name": "ollama/ollama",
       "title": "Ollama：v0.32.5",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。正式版の「v0.32.5」が公開されました。",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を実データではなく匿名化データで測る。",
       "category": "ローカルAI",
       "tags": [
@@ -352,74 +200,112 @@
         "機密情報",
         "正式版"
       ],
-      "score": 90,
+      "score": 89,
       "published_at": "2026-07-27T01:25:40Z",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
-      "verdict": "要確認",
+      "verdict": "読む価値あり",
       "original_excerpt": "## What's Changed * Fixed an MLX Metal bug that could reduce output quality for NVFP4 models, particularly Laguna. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.4...v0.32.5"
     },
     {
-      "source_kind": "github_release",
-      "source_name": "google-gemini/gemini-cli",
-      "title": "Gemini CLI：Release v0.55.0-nightly.20260802.gf47d6c6f7",
-      "summary": "Google公式のGemini CLIに関する機能追加と修正です。試験版の「v0.55.0-nightly.20260802.gf47d6c6f7」が公開されました。",
-      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
-      "category": "AI開発エージェント",
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、対応モデル・コンテキスト・トークン、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
       "tags": [
-        "Gemini CLI",
-        "開発自動化",
+        "実装例",
+        "評価",
         "公式",
-        "試験版"
+        "公式更新"
       ],
-      "score": 89,
-      "published_at": "2026-08-02T01:34:41Z",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260802.gf47d6c6f7",
-      "verdict": "監視",
-      "original_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260801.gf47d6c6f7...v0.55.0-nightly.20260802.gf47d6c6f7"
+      "score": 88,
+      "published_at": "2026-07-28T17:08:55Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/0a796c4b95457a82dc090d0e31392deaf3b07f28",
+      "verdict": "読む価値あり",
+      "original_excerpt": "docs(audio): add Whisper to GPT-Transcribe migration cookbook (#2900)"
     },
     {
       "source_kind": "github_release",
-      "source_name": "google-gemini/gemini-cli",
-      "title": "Gemini CLI：Release v0.55.0-nightly.20260801.gf47d6c6f7",
-      "summary": "Google公式のGemini CLIに関する機能追加と修正です。試験版の「v0.55.0-nightly.20260801.gf47d6c6f7」が公開されました。",
-      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
-      "category": "AI開発エージェント",
+      "source_name": "microsoft/playwright",
+      "title": "Playwright：v1.62.1",
+      "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Garoonや各種Webサービスの操作検証、自動テスト、画面取得の安定性向上に使えます。次にすること：AI任せにする前に、固定手順をPlaywrightで再現可能にする。",
+      "category": "ブラウザ自動化",
       "tags": [
-        "Gemini CLI",
-        "開発自動化",
-        "公式",
-        "試験版"
+        "Playwright",
+        "ブラウザ自動化",
+        "テスト",
+        "正式版"
       ],
-      "score": 89,
-      "published_at": "2026-08-01T01:27:07Z",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260801.gf47d6c6f7",
-      "verdict": "監視",
-      "original_excerpt": "## What's Changed * fix(core): classify capacity exhaustion as terminal to prevent retry hangs by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28599 * fix(core,cli): propagate InvalidStreamError details to UI for spec…"
+      "score": 86,
+      "published_at": "2026-07-30T16:35:55Z",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.62.1",
+      "verdict": "必要時に確認",
+      "original_excerpt": "### Bug Fixes - #41989 [Regression]: tsconfig \"extends\" bare specifier isn't resolved via node_modules walk-up like tsc (fatal since 1.62) - #41998 [Regression]: directory-form tsconfig project references (\"path\": \"../pkg\") fail to resolve (fatal since 1.62) - #41985 Accessibility snapshot drops but…"
     },
     {
       "source_kind": "github_release",
-      "source_name": "google-gemini/gemini-cli",
-      "title": "Gemini CLI：Release v0.54.0-preview.1",
-      "summary": "Google公式のGemini CLIに関する機能追加と修正です。試験版の「v0.54.0-preview.1」が公開されました。",
-      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
-      "category": "AI開発エージェント",
+      "source_name": "browser-use/browser-use",
+      "title": "Browser Use：0.13.7",
+      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
+      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
+      "category": "ブラウザ自動化",
       "tags": [
-        "Gemini CLI",
-        "開発自動化",
-        "公式",
-        "試験版"
+        "ブラウザ操作",
+        "AIエージェント",
+        "自動化",
+        "正式版"
       ],
-      "score": 89,
-      "published_at": "2026-07-31T21:39:53Z",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-preview.1",
-      "verdict": "監視",
-      "original_excerpt": "## What's Changed * fix(patch): cherry-pick f47d6c6 to release/v0.54.0-preview.0-pr-28566 to patch version v0.54.0-preview.0 and create version 0.54.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28609 …"
+      "score": 86,
+      "published_at": "2026-07-27T17:10:13Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.7",
+      "verdict": "必要時に確認",
+      "original_excerpt": "Ships the latest version of the CLI, which includes bug fixes and better browser management. ## What's Changed * fix: dont send default params in gemini genconfig by @markmcd in https://github.com/browser-use/browser-use/pull/5173 * Fix tool name in flash prompts: replace_file_str -> replace_file by…"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "langgenius/dify",
+      "title": "Dify：Release v1.16.1 - Bug Fixes and Security Enhancements",
+      "summary": "RAG、チャットボット、エージェント型業務アプリを構築するDifyの更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：社内文書検索、相談受付、補助金候補整理などの試作を短期間で作れます。次にすること：機密情報を入れず、公開資料だけで小規模な業務試作を行う。",
+      "category": "AI業務アプリ",
+      "tags": [
+        "Dify",
+        "RAG",
+        "業務アプリ",
+        "正式版"
+      ],
+      "score": 85,
+      "published_at": "2026-07-28T03:43:51Z",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.16.1",
+      "verdict": "必要時に確認",
+      "original_excerpt": "## What's Changed ### New Features **Tool Multi-Select Input** - Workflow tool nodes now support multi-select dropdown inputs, allowing users to choose multiple values from a predefined list when configuring tool parameters. (#39346) **Workflow Node Locator** - You can now click a node_id in workflo…"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 84,
+      "published_at": "2026-07-23T17:31:03Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/6c63a145b7136a610092dbd2c3ef412b055e003b",
+      "verdict": "必要時に確認",
+      "original_excerpt": "Rewrite the crop-tool cookbook around a measured zoom tool"
     },
     {
       "source_kind": "github_release",
       "source_name": "langchain-ai/langgraph",
       "title": "LangGraph：langgraph-checkpoint-sqlite==3.1.1",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。正式版の「checkpointsqlite==3.1.1」が公開されました。",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
       "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：単純な処理を無理にエージェント化せず、分岐と再試行が必要な案件だけに使う。",
       "category": "AIエージェント",
       "tags": [
@@ -428,30 +314,11 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 88,
+      "score": 82,
       "published_at": "2026-07-30T19:19:47Z",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1",
-      "verdict": "監視",
-      "original_excerpt": "Changes since checkpointsqlite==3.1.0 * release(checkpoint-sqlite): 3.1.1 (#8481) * fix(checkpoint-postgres,checkpoint-sqlite): scope namespace matching to segment boundaries (#8478) * chore(deps): bump the minor-and-patch group in /libs/ch…"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph-checkpoint-postgres==3.1.1",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。正式版の「checkpointpostgres==3.1.1」が公開されました。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：単純な処理を無理にエージェント化せず、分岐と再試行が必要な案件だけに使う。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 88,
-      "published_at": "2026-07-30T19:16:01Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.1",
-      "verdict": "監視",
-      "original_excerpt": "Changes since checkpointpostgres==3.1.0 * release(checkpoint-postgres): 3.1.1 (#8480) * fix(checkpoint-postgres,checkpoint-sqlite): scope namespace matching to segment boundaries (#8478) * feat(checkpoint,checkpoint-postgres): add opt-in om…"
+      "verdict": "必要時に確認",
+      "original_excerpt": "Changes since checkpointsqlite==3.1.0 * release(checkpoint-sqlite): 3.1.1 (#8481) * fix(checkpoint-postgres,checkpoint-sqlite): scope namespace matching to segment boundaries (#8478) * chore(deps): bump the minor-and-patch group in /libs/checkpoint-sqlite with 4 updates (#8249) * chore(deps): bump l…"
     }
   ]
 }
