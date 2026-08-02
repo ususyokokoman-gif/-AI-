@@ -149,14 +149,26 @@ SOURCES = [
     },
 ]
 
-MAX_ITEMS = 20
-RELEASE_DAYS = 60
-COMMIT_DAYS = 21
+MAX_ITEMS = 13
+RELEASE_DAYS = 90
+COMMIT_DAYS = 30
+
+TOPIC_RULES = [
+    (("security", "sandbox", "permission", "allowlist", "auth", "redact", "secret"), "権限・認証・サンドボックスなど安全性"),
+    (("agent", "subagent", "handoff", "tool", "workflow", "background"), "エージェント実行・ツール連携・ワークフロー"),
+    (("model", "context", "opus", "gpt", "gemini", "token"), "対応モデル・コンテキスト・トークン"),
+    (("mcp", "server", "connector", "integration"), "MCP・外部サービス連携"),
+    (("browser", "playwright", "chromium", "firefox", "webkit"), "ブラウザ操作・自動テスト"),
+    (("rag", "retrieval", "embedding", "vector", "document"), "RAG・文書検索・知識活用"),
+    (("performance", "speed", "latency", "memory", "cache"), "速度・メモリ・処理性能"),
+    (("fix", "bug", "reliability", "crash", "error"), "不具合修正・安定性"),
+    (("example", "cookbook", "guide", "docs", "sample"), "実装例・ガイド・ドキュメント"),
+]
 
 
 def get_json(path):
-    req = urllib.request.Request(API + path, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as response:
+    request = urllib.request.Request(API + path, headers=HEADERS)
+    with urllib.request.urlopen(request, timeout=30) as response:
         return json.load(response)
 
 
@@ -166,125 +178,131 @@ def parse_date(value):
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
-def clean_text(value, limit=120):
+def clean_text(value, limit=180):
     text = re.sub(r"\s+", " ", value or "").strip()
     return text[:limit] + ("…" if len(text) > limit else "")
 
 
 def recency_score(published_at):
-    dt = parse_date(published_at)
-    if not dt:
+    date = parse_date(published_at)
+    if not date:
         return 0
-    days = max(0, (datetime.now(timezone.utc) - dt).days)
+    days = max(0, (datetime.now(timezone.utc) - date).days)
     if days <= 3:
-        return 6
+        return 5
     if days <= 7:
-        return 4
+        return 3
     if days <= 14:
-        return 2
+        return 1
     return 0
 
 
-def release_items(source):
+def topic_summary(text):
+    lower = (text or "").lower()
+    topics = []
+    for words, japanese in TOPIC_RULES:
+        if any(word in lower for word in words):
+            topics.append(japanese)
+    if not topics:
+        return "詳細は公式の更新内容で確認が必要です"
+    return "、".join(topics[:3]) + "に関する変更です"
+
+
+def latest_stable_release(source):
     repo = source["repo"]
-    releases = get_json(f"/repos/{repo}/releases?per_page=3")
+    releases = get_json(f"/repos/{repo}/releases?per_page=10")
     cutoff = datetime.now(timezone.utc) - timedelta(days=RELEASE_DAYS)
-    items = []
     for release in releases:
         published = release.get("published_at") or release.get("created_at")
-        dt = parse_date(published)
-        if not dt or dt < cutoff or release.get("draft"):
+        date = parse_date(published)
+        if not date or date < cutoff or release.get("draft") or release.get("prerelease"):
             continue
         name = clean_text(release.get("name") or release.get("tag_name") or "新しいリリース", 70)
-        prerelease = bool(release.get("prerelease"))
-        status = "試験版" if prerelease else "正式版"
-        score = min(100, source["base_score"] + recency_score(published) - (5 if prerelease else 0))
-        items.append(
-            {
-                "source_kind": "github_release",
-                "source_name": repo,
-                "title": f"{source['label']}：{name}",
-                "summary": f"{source['summary']}。{status}の「{release.get('tag_name') or name}」が公開されました。",
-                "reason": f"あなたへの使い道：{source['use_case']}。次にすること：{source['action']}。",
-                "category": source["category"],
-                "tags": source["tags"] + (["試験版"] if prerelease else ["正式版"]),
-                "score": score,
-                "published_at": published,
-                "url": release.get("html_url") or f"https://github.com/{repo}/releases",
-                "verdict": "要確認" if score >= 90 else "監視",
-                "original_excerpt": clean_text(release.get("body"), 240),
-            }
-        )
-    return items
+        body = release.get("body") or ""
+        score = min(100, source["base_score"] + recency_score(published))
+        if body and topic_summary(body).startswith("不具合修正"):
+            score = max(72, score - 5)
+        return {
+            "source_kind": "github_release",
+            "source_name": repo,
+            "title": f"{source['label']}：{name}",
+            "summary": f"{source['summary']}。主な論点は、{topic_summary(body)}。",
+            "reason": f"あなたへの使い道：{source['use_case']}。次にすること：{source['action']}。",
+            "category": source["category"],
+            "tags": source["tags"] + ["正式版"],
+            "score": score,
+            "published_at": published,
+            "url": release.get("html_url") or f"https://github.com/{repo}/releases",
+            "verdict": "読む価値あり" if score >= 88 else "必要時に確認",
+            "original_excerpt": clean_text(body, 300),
+        }
+    return None
 
 
-def commit_item(source):
+def latest_meaningful_commit(source):
     repo = source["repo"]
-    commits = get_json(f"/repos/{repo}/commits?per_page=5")
+    commits = get_json(f"/repos/{repo}/commits?per_page=10")
     cutoff = datetime.now(timezone.utc) - timedelta(days=COMMIT_DAYS)
-    useful_words = ("example", "cookbook", "guide", "docs", "support", "feature", "add", "improve", "fix")
+    useful_words = ("example", "cookbook", "guide", "docs", "support", "feature", "add", "improve", "fix", "update")
     for commit in commits:
         info = commit.get("commit", {})
         published = info.get("committer", {}).get("date") or info.get("author", {}).get("date")
-        dt = parse_date(published)
+        date = parse_date(published)
         message = (info.get("message") or "").splitlines()[0]
-        if not dt or dt < cutoff:
+        if not date or date < cutoff:
             continue
         if source["category"] == "実装例・ノウハウ" and not any(word in message.lower() for word in useful_words):
             continue
-        score = min(100, source["base_score"] - 6 + recency_score(published))
+        score = min(94, source["base_score"] - 5 + recency_score(published))
         return {
             "source_kind": "github_commit",
             "source_name": repo,
             "title": f"{source['label']}：公式情報が更新",
-            "summary": f"{source['summary']}。直近の更新内容は原文リンクから確認できます。",
+            "summary": f"{source['summary']}。主な論点は、{topic_summary(message)}。",
             "reason": f"あなたへの使い道：{source['use_case']}。次にすること：{source['action']}。",
             "category": source["category"],
             "tags": source["tags"] + ["公式更新"],
             "score": score,
             "published_at": published,
             "url": commit.get("html_url") or f"https://github.com/{repo}/commits",
-            "verdict": "監視",
-            "original_excerpt": clean_text(message, 180),
+            "verdict": "読む価値あり" if score >= 88 else "必要時に確認",
+            "original_excerpt": clean_text(message, 220),
         }
     return None
 
 
 def main():
     items = []
-    sources_status = []
+    source_status = []
     for source in SOURCES:
         try:
-            repo_items = release_items(source)
-            if not repo_items:
-                fallback = commit_item(source)
-                if fallback:
-                    repo_items = [fallback]
-            items.extend(repo_items)
-            sources_status.append({"name": source["repo"], "ok": True, "items": len(repo_items)})
-        except urllib.error.HTTPError as exc:
-            sources_status.append({"name": source["repo"], "ok": False, "error": f"HTTP {exc.code}"})
-        except Exception as exc:
-            sources_status.append({"name": source["repo"], "ok": False, "error": str(exc)[:160]})
+            # 1情報源につき最大1件。細かなバージョン違いで一覧を埋めない。
+            item = latest_stable_release(source) or latest_meaningful_commit(source)
+            if item:
+                items.append(item)
+            source_status.append({"name": source["repo"], "ok": True, "items": 1 if item else 0})
+        except urllib.error.HTTPError as error:
+            source_status.append({"name": source["repo"], "ok": False, "error": f"HTTP {error.code}"})
+        except Exception as error:
+            source_status.append({"name": source["repo"], "ok": False, "error": str(error)[:160]})
 
-    # 同一URLの重複を除外し、実務価値と鮮度で並べる。
-    unique = {}
-    for item in items:
-        unique[item["url"]] = item
     items = sorted(
-        unique.values(),
-        key=lambda item: (item["score"], parse_date(item["published_at"]) or datetime.min.replace(tzinfo=timezone.utc)),
+        items,
+        key=lambda item: (
+            item["score"],
+            parse_date(item["published_at"]) or datetime.min.replace(tzinfo=timezone.utc),
+        ),
         reverse=True,
     )[:MAX_ITEMS]
 
     payload = {
         "site": {
             "title": "AI実務レーダー",
-            "editorial_policy": "公式・信頼できる情報源のみ。日本語で実務への使い道と次の行動を示す。",
+            "editorial_policy": "公式・信頼できる情報源のみ。1情報源1件。日本語で論点、使い道、次の行動を示す。",
         },
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "item_count": len(items),
-        "sources": sources_status,
+        "sources": source_status,
         "items": items,
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
