@@ -1,9 +1,14 @@
 {
   "site": {
     "title": "AI実務レーダー",
-    "editorial_policy": "公式・信頼できる情報源のみ。1情報源1件。日本語で論点、使い道、次の行動を示す。"
+    "editorial_policy": "公式・信頼できる情報源をZun実務優先プロファイルで採点。鮮度、実装可能性、現在案件との一致、証拠と再現性を重視する。"
   },
-  "updated_at": "2026-08-02T05:58:09.421559+00:00",
+  "personalization": {
+    "profile_name": "Zun実務優先プロファイル",
+    "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
+    "sort": "newest_then_personalized"
+  },
+  "updated_at": "2026-08-02T05:58:42.309216+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -75,25 +80,6 @@
   "items": [
     {
       "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.146.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：自分の検証用リポジトリで、変更点を一つだけ再現して採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 97,
-      "published_at": "2026-07-29T01:42:51Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0",
-      "verdict": "読む価値あり",
-      "original_excerpt": "## New Features - Name new sessions with `/new` or `/clear`, pin important threads, and switch between side conversations without closing them. (#34605, #34840, #35011) - Support Agent Plugins manifests, workspace plugin publishing, and additional plugin marketplaces for Amazon Bedrock and Claude Co…"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "openai/openai-agents-python",
       "title": "OpenAI Agents SDK：v0.19.2",
       "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携に関する変更です。",
@@ -105,11 +91,18 @@
         "公式",
         "正式版"
       ],
-      "score": 96,
+      "score": 100,
       "published_at": "2026-08-01T01:08:37Z",
       "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.2",
-      "verdict": "読む価値あり",
-      "original_excerpt": "## What's Changed * feat: expose original callable through wrapped by @seratch in https://github.com/openai/openai-agents-python/pull/4038 * fix: report input guardrail results when a tripwire aborts the run by @hsusul in https://github.com/openai/openai-agents-python/pull/4071 * fix: consolidate sa…"
+      "original_excerpt": "## What's Changed * feat: expose original callable through wrapped by @seratch in https://github.com/openai/openai-agents-python/pull/4038 * fix: report input guardrail results when a tripwire aborts the run by @hsusul in https://github.com/openai/openai-agents-python/pull/4071 * fix: consolidate sa…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI",
+      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -124,49 +117,19 @@
         "公式",
         "正式版"
       ],
-      "score": 93,
+      "score": 100,
       "published_at": "2026-07-31T21:34:30Z",
       "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.1",
-      "verdict": "読む価値あり",
-      "original_excerpt": "## What's Changed * fix(patch): cherry-pick f47d6c6 to release/v0.53.0-pr-28566 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28610 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.53.0...v0.53.1"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "modelcontextprotocol/servers",
-      "title": "MCP公式サーバー集：Release 2026.7.10",
-      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
-      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
-      "category": "MCP・外部連携",
-      "tags": [
-        "MCP",
-        "外部連携",
-        "公式",
-        "正式版"
+      "original_excerpt": "## What's Changed * fix(patch): cherry-pick f47d6c6 to release/v0.53.0-pr-28566 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28610 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.53.0...v0.53.1",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順",
+        "一次情報"
       ],
-      "score": 92,
-      "published_at": "2026-07-10T03:39:07Z",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "verdict": "読む価値あり",
-      "original_excerpt": "# Release : v2026.7.10 ## Updated packages - @modelcontextprotocol/server-filesystem@2026.7.10 - mcp-server-time@2026.7.10 - mcp-server-fetch@2026.7.10 - mcp-server-git@2026.7.10"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.220",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 90,
-      "published_at": "2026-07-25T01:35:55Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
-      "verdict": "読む価値あり",
-      "original_excerpt": "## What's changed - Bug fixes and reliability improvements"
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
+      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -181,49 +144,45 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 89,
+      "score": 100,
       "published_at": "2026-07-31T07:56:05Z",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "verdict": "読む価値あり",
-      "original_excerpt": "## [2.32.7](https://github.com/n8n-io/n8n/compare/n8n@2.32.6...n8n@2.32.7) (2026-07-31) ### Bug Fixes * **core:** Import security audit risk reporters with a file extension ([#35267](https://github.com/n8n-io/n8n/issues/35267)) ([7d61ea0](https://github.com/n8n-io/n8n/commit/7d61ea01229858d1dc6f75fc…"
+      "original_excerpt": "## [2.32.7](https://github.com/n8n-io/n8n/compare/n8n@2.32.6...n8n@2.32.7) (2026-07-31) ### Bug Fixes * **core:** Import security audit risk reporters with a file extension ([#35267](https://github.com/n8n-io/n8n/issues/35267)) ([7d61ea0](https://github.com/n8n-io/n8n/commit/7d61ea01229858d1dc6f75fc…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "検証・証拠・安全性",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、検証・証拠・安全性、失敗・回避策",
+      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.32.5",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を実データではなく匿名化データで測る。",
-      "category": "ローカルAI",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph-checkpoint-sqlite==3.1.1",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
       "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
         "正式版"
       ],
       "score": 89,
-      "published_at": "2026-07-27T01:25:40Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
-      "verdict": "読む価値あり",
-      "original_excerpt": "## What's Changed * Fixed an MLX Metal bug that could reduce output quality for NVFP4 models, particularly Laguna. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.4...v0.32.5"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、対応モデル・コンテキスト・トークン、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
+      "published_at": "2026-07-30T19:19:47Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1",
+      "original_excerpt": "Changes since checkpointsqlite==3.1.0 * release(checkpoint-sqlite): 3.1.1 (#8481) * fix(checkpoint-postgres,checkpoint-sqlite): scope namespace matching to segment boundaries (#8478) * chore(deps): bump the minor-and-patch group in /libs/checkpoint-sqlite with 4 updates (#8249) * chore(deps): bump l…",
+      "personalization_adjustment": 6,
+      "personalization_matches": [
+        "一次情報"
       ],
-      "score": 88,
-      "published_at": "2026-07-28T17:08:55Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/0a796c4b95457a82dc090d0e31392deaf3b07f28",
-      "verdict": "読む価値あり",
-      "original_excerpt": "docs(audio): add Whisper to GPT-Transcribe migration cookbook (#2900)"
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：一次情報",
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -238,30 +197,75 @@
         "テスト",
         "正式版"
       ],
-      "score": 86,
+      "score": 100,
       "published_at": "2026-07-30T16:35:55Z",
       "url": "https://github.com/microsoft/playwright/releases/tag/v1.62.1",
-      "verdict": "必要時に確認",
-      "original_excerpt": "### Bug Fixes - #41989 [Regression]: tsconfig \"extends\" bare specifier isn't resolved via node_modules walk-up like tsc (fatal since 1.62) - #41998 [Regression]: directory-form tsconfig project references (\"path\": \"../pkg\") fail to resolve (fatal since 1.62) - #41985 Accessibility snapshot drops but…"
+      "original_excerpt": "### Bug Fixes - #41989 [Regression]: tsconfig \"extends\" bare specifier isn't resolved via node_modules walk-up like tsc (fatal since 1.62) - #41998 [Regression]: directory-form tsconfig project references (\"path\": \"../pkg\") fail to resolve (fatal since 1.62) - #41985 Accessibility snapshot drops but…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "ブラウザ・業務自動化",
+        "Garoon・経営カルテ自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、Garoon・経営カルテ自動化、失敗・回避策",
+      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
-      "source_name": "browser-use/browser-use",
-      "title": "Browser Use：0.13.7",
-      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
-      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
-      "category": "ブラウザ自動化",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.146.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
       "tags": [
-        "ブラウザ操作",
-        "AIエージェント",
-        "自動化",
+        "Codex",
+        "開発自動化",
+        "公式",
         "正式版"
       ],
-      "score": 86,
-      "published_at": "2026-07-27T17:10:13Z",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.7",
-      "verdict": "必要時に確認",
-      "original_excerpt": "Ships the latest version of the CLI, which includes bug fixes and better browser management. ## What's Changed * fix: dont send default params in gemini genconfig by @markmcd in https://github.com/browser-use/browser-use/pull/5173 * Fix tool name in flash prompts: replace_file_str -> replace_file by…"
+      "score": 100,
+      "published_at": "2026-07-29T01:42:51Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0",
+      "original_excerpt": "## New Features - Name new sessions with `/new` or `/clear`, pin important threads, and switch between side conversations without closing them. (#34605, #34840, #35011) - Support Agent Plugins manifests, workspace plugin publishing, and additional plugin marketplaces for Amazon Bedrock and Claude Co…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、対応モデル・コンテキスト・トークン、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 99,
+      "published_at": "2026-07-28T17:08:55Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/0a796c4b95457a82dc090d0e31392deaf3b07f28",
+      "original_excerpt": "docs(audio): add Whisper to GPT-Transcribe migration cookbook (#2900)",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "文字起こし・文書整理・RAG",
+        "会議文字起こし・報告書",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：文字起こし・文書整理・RAG、会議文字起こし・報告書、コード・設定・手順",
+      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -276,11 +280,102 @@
         "業務アプリ",
         "正式版"
       ],
-      "score": 85,
+      "score": 96,
       "published_at": "2026-07-28T03:43:51Z",
       "url": "https://github.com/langgenius/dify/releases/tag/1.16.1",
-      "verdict": "必要時に確認",
-      "original_excerpt": "## What's Changed ### New Features **Tool Multi-Select Input** - Workflow tool nodes now support multi-select dropdown inputs, allowing users to choose multiple values from a predefined list when configuring tool parameters. (#39346) **Workflow Node Locator** - You can now click a node_id in workflo…"
+      "original_excerpt": "## What's Changed ### New Features **Tool Multi-Select Input** - Workflow tool nodes now support multi-select dropdown inputs, allowing users to choose multiple values from a predefined list when configuring tool parameters. (#39346) **Workflow Node Locator** - You can now click a node_id in workflo…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "ブラウザ・業務自動化",
+        "検証・証拠・安全性",
+        "文字起こし・文書整理・RAG",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "browser-use/browser-use",
+      "title": "Browser Use：0.13.7",
+      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
+      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "ブラウザ操作",
+        "AIエージェント",
+        "自動化",
+        "正式版"
+      ],
+      "score": 94,
+      "published_at": "2026-07-27T17:10:13Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.7",
+      "original_excerpt": "Ships the latest version of the CLI, which includes bug fixes and better browser management. ## What's Changed * fix: dont send default params in gemini genconfig by @markmcd in https://github.com/browser-use/browser-use/pull/5173 * Fix tool name in flash prompts: replace_file_str -> replace_file by…",
+      "personalization_adjustment": 12,
+      "personalization_matches": [
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "読む価値あり"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.32.5",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 97,
+      "published_at": "2026-07-27T01:25:40Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
+      "original_excerpt": "## What's Changed * Fixed an MLX Metal bug that could reduce output quality for NVFP4 models, particularly Laguna. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.4...v0.32.5",
+      "personalization_adjustment": 12,
+      "personalization_matches": [
+        "Mac・ローカルAI・機密保持",
+        "失敗・回避策",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持、失敗・回避策、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.220",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-07-25T01:35:55Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+      "original_excerpt": "## What's changed - Bug fixes and reliability improvements",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性",
+        "コード・設定・手順",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
+      "verdict": "最優先"
     },
     {
       "source_kind": "github_commit",
@@ -295,30 +390,43 @@
         "公式",
         "公式更新"
       ],
-      "score": 84,
+      "score": 87,
       "published_at": "2026-07-23T17:31:03Z",
       "url": "https://github.com/anthropics/claude-cookbooks/commit/6c63a145b7136a610092dbd2c3ef412b055e003b",
-      "verdict": "必要時に確認",
-      "original_excerpt": "Rewrite the crop-tool cookbook around a measured zoom tool"
+      "original_excerpt": "Rewrite the crop-tool cookbook around a measured zoom tool",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph-checkpoint-sqlite==3.1.1",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：単純な処理を無理にエージェント化せず、分岐と再試行が必要な案件だけに使う。",
-      "category": "AIエージェント",
+      "source_name": "modelcontextprotocol/servers",
+      "title": "MCP公式サーバー集：Release 2026.7.10",
+      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
+      "category": "MCP・外部連携",
       "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
+        "MCP",
+        "外部連携",
+        "公式",
         "正式版"
       ],
-      "score": 82,
-      "published_at": "2026-07-30T19:19:47Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1",
-      "verdict": "必要時に確認",
-      "original_excerpt": "Changes since checkpointsqlite==3.1.0 * release(checkpoint-sqlite): 3.1.1 (#8481) * fix(checkpoint-postgres,checkpoint-sqlite): scope namespace matching to segment boundaries (#8478) * chore(deps): bump the minor-and-patch group in /libs/checkpoint-sqlite with 4 updates (#8249) * chore(deps): bump l…"
+      "score": 98,
+      "published_at": "2026-07-10T03:39:07Z",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "original_excerpt": "# Release : v2026.7.10 ## Updated packages - @modelcontextprotocol/server-filesystem@2026.7.10 - mcp-server-time@2026.7.10 - mcp-server-fetch@2026.7.10 - mcp-server-git@2026.7.10",
+      "personalization_adjustment": 10,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
+      "verdict": "最優先"
     }
   ]
 }
