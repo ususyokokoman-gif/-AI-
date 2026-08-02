@@ -1,11 +1,21 @@
 #!/bin/zsh
-set -e
+set -u
 
 cd "$(dirname "$0")"
 
-# 最新データを取得。失敗しても手元のデータで起動する。
+# リポジトリ本体を更新。失敗しても手元の版で続行する。
 if command -v git >/dev/null 2>&1 && git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-  git pull --ff-only || echo "最新データの取得に失敗したため、手元のデータで表示します。"
+  git pull --ff-only || echo "GitHubからの更新に失敗したため、手元の版で続行します。"
+fi
+
+# 公開情報を再収集し、twitter-cliが使える場合だけXも追加する。
+# ローカル結果はgit管理外の data/local-items.json に保存する。
+echo "AI実務情報を更新しています…"
+if command -v python3 >/dev/null 2>&1; then
+  PYTHONUNBUFFERED=1 python3 scripts/collect_local.py \
+    || echo "一部の収集に失敗しました。前回データまたはGitHub上のデータで表示します。"
+else
+  echo "python3が見つからないため、既存データで表示します。"
 fi
 
 PORT=8765
