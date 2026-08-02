@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="AIエージェント、業務自動化、中小企業支援に役立つ一次情報をGitHubとXから自動収集する実務レーダー">
+  <meta name="description" content="AIエージェント、業務自動化、中小企業支援に役立つ一次情報をGitHubから自動収集する実務レーダー">
   <title>AI実務レーダー</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
       <div>
         <p class="eyebrow">ZUN CONSULTING · INTELLIGENCE</p>
         <h1>AI実務レーダー</h1>
-        <p class="lead">話題性ではなく、明日から使えるか。GitHubとXの一次情報から、手順・コード・導入事例・重要リリースを自動選別します。</p>
+        <p class="lead">話題性ではなく、明日から使えるか。信頼できる一次情報から、実務に関係する更新だけを自動選別します。</p>
       </div>
       <div class="hero__status">
         <span class="pulse" aria-hidden="true"></span>
@@ -27,23 +27,23 @@
 
   <main>
     <section class="decision-strip" aria-label="判断基準">
-      <div><span>01</span><strong>一次情報</strong><small>公式API・原投稿へ直結</small></div>
+      <div><span>01</span><strong>一次情報</strong><small>公式リリース・公式実装例</small></div>
       <div><span>02</span><strong>実行可能性</strong><small>手順・コード・事例を重視</small></div>
-      <div><span>03</span><strong>鮮度</strong><small>原則60日以内を保持</small></div>
-      <div><span>04</span><strong>実務価値</strong><small>反応・具体性・検証可能性で採点</small></div>
+      <div><span>03</span><strong>鮮度</strong><small>公開日を最上段に表示</small></div>
+      <div><span>04</span><strong>実務価値</strong><small>使い道と次の行動を明示</small></div>
     </section>
 
     <section class="toolbar" aria-label="絞り込み">
       <label class="search"><span>検索</span><input id="searchInput" type="search" placeholder="例：MCP、Claude Code、業務自動化"></label>
       <label><span>カテゴリ</span><select id="categoryFilter"><option value="">すべて</option></select></label>
       <label><span>情報源</span><select id="sourceFilter"><option value="">すべて</option><option value="github">GitHub</option><option value="x">X</option></select></label>
-      <label><span>並び順</span><select id="sortOrder"><option value="score">実務価値順</option><option value="newest">新着順</option></select></label>
+      <label><span>並び順</span><select id="sortOrder"><option value="newest">新着順</option><option value="score">実務価値順</option></select></label>
       <button id="highValueOnly" class="toggle" type="button" aria-pressed="false">高価値のみ</button>
     </section>
 
     <section class="summary-row">
       <div><strong id="visibleCount">0</strong><span>件を表示</span></div>
-      <p id="activeSummary">実務価値の高い情報から表示します。</p>
+      <p id="activeSummary">新しい情報から表示しています。</p>
     </section>
 
     <section id="cards" class="cards" aria-live="polite"></section>
@@ -52,6 +52,10 @@
 
   <template id="cardTemplate">
     <article class="card">
+      <div class="date-row">
+        <strong class="relative-date"></strong>
+        <span class="published-date"></span>
+      </div>
       <div class="card__top">
         <div class="badges"><span class="badge badge--source"></span><span class="badge badge--category"></span></div>
         <div class="score"><span>実務価値</span><strong></strong></div>
@@ -60,7 +64,7 @@
       <p class="summary"></p>
       <p class="reason"></p>
       <div class="tags"></div>
-      <footer><div><strong class="source-name"></strong><span class="date"></span></div><a target="_blank" rel="noopener noreferrer">原文を確認 <span>↗</span></a></footer>
+      <footer><div><strong class="source-name"></strong></div><a target="_blank" rel="noopener noreferrer">原文を確認 <span>↗</span></a></footer>
     </article>
   </template>
 
