@@ -1,1 +1,1037 @@
-{"site":{"title":"AI実務レーダー"},"updated_at":"2026-08-02T10:50:00+09:00","item_count":0,"sources":[],"items":[]}
+{
+  "site": {
+    "title": "AI実務レーダー"
+  },
+  "updated_at": "2026-08-02T01:47:27.670738+00:00",
+  "item_count": 57,
+  "sources": [
+    {
+      "name": "GitHub repository search",
+      "ok": true
+    },
+    {
+      "name": "GitHub repository search",
+      "ok": true
+    },
+    {
+      "name": "GitHub repository search",
+      "ok": true
+    }
+  ],
+  "items": [
+    {
+      "source_kind": "github",
+      "source_name": "langgenius/dify",
+      "title": "langgenius/dify",
+      "summary": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai"
+      ],
+      "score": 85,
+      "published_at": "2026-08-02T01:43:16Z",
+      "url": "https://github.com/langgenius/dify"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "simstudioai/sim",
+      "title": "simstudioai/sim",
+      "summary": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-workflow",
+        "agentic-workflow",
+        "agents",
+        "ai",
+        "aiagents"
+      ],
+      "score": 85,
+      "published_at": "2026-08-02T01:42:12Z",
+      "url": "https://github.com/simstudioai/sim"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "t8y2/dbx",
+      "title": "t8y2/dbx",
+      "summary": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "ai",
+        "cli",
+        "clickhouse",
+        "database",
+        "database-client"
+      ],
+      "score": 85,
+      "published_at": "2026-08-02T01:33:11Z",
+      "url": "https://github.com/t8y2/dbx"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Skyvern-AI/skyvern",
+      "title": "Skyvern-AI/skyvern",
+      "summary": "Automate browser based workflows with AI",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "ai",
+        "api",
+        "automation",
+        "browser",
+        "browser-automation"
+      ],
+      "score": 85,
+      "published_at": "2026-08-02T01:20:52Z",
+      "url": "https://github.com/Skyvern-AI/skyvern"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "khoj-ai/khoj",
+      "title": "khoj-ai/khoj",
+      "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent",
+        "ai",
+        "assistant",
+        "chat",
+        "chatgpt"
+      ],
+      "score": 85,
+      "published_at": "2026-08-02T00:21:57Z",
+      "url": "https://github.com/khoj-ai/khoj"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "activepieces/activepieces",
+      "title": "activepieces/activepieces",
+      "summary": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai-agent",
+        "ai-agent-tools",
+        "ai-agents",
+        "ai-agents-framework",
+        "mcp"
+      ],
+      "score": 85,
+      "published_at": "2026-08-02T00:12:04Z",
+      "url": "https://github.com/activepieces/activepieces"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "triggerdotdev/trigger.dev",
+      "title": "triggerdotdev/trigger.dev",
+      "summary": "Trigger.dev – build and deploy fully‑managed AI agents and workflows",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai",
+        "ai-agent-framework",
+        "ai-agents",
+        "automation",
+        "background-jobs"
+      ],
+      "score": 85,
+      "published_at": "2026-08-01T19:54:08Z",
+      "url": "https://github.com/triggerdotdev/trigger.dev"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "modelcontextprotocol/inspector",
+      "title": "modelcontextprotocol/inspector",
+      "summary": "Visual testing tool for MCP servers",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [],
+      "score": 81,
+      "published_at": "2026-08-02T00:13:32Z",
+      "url": "https://github.com/modelcontextprotocol/inspector"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "jo-inc/camofox-browser",
+      "title": "jo-inc/camofox-browser",
+      "summary": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai-agent",
+        "anti-bot",
+        "antidetect-browser",
+        "automation",
+        "bot-detection"
+      ],
+      "score": 76,
+      "published_at": "2026-08-02T01:27:37Z",
+      "url": "https://github.com/jo-inc/camofox-browser"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "KunAgent/Kun",
+      "title": "KunAgent/Kun",
+      "summary": "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agentic-workflow",
+        "ai-agent",
+        "ai-assistant",
+        "ai-design",
+        "automation"
+      ],
+      "score": 71,
+      "published_at": "2026-08-02T01:15:23Z",
+      "url": "https://github.com/KunAgent/Kun"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "baserow/baserow",
+      "title": "baserow/baserow",
+      "summary": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "airtable",
+        "airtable-alternative",
+        "airtable-replacement",
+        "application-builder",
+        "automations"
+      ],
+      "score": 70,
+      "published_at": "2026-08-01T17:49:59Z",
+      "url": "https://github.com/baserow/baserow"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Agenta-AI/agenta",
+      "title": "Agenta-AI/agenta",
+      "summary": "The open-source workspace for building AI agents and automations for teams.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-builder",
+        "agent-observability",
+        "agent-orchestration",
+        "agent-workspace",
+        "agentic-ai"
+      ],
+      "score": 68,
+      "published_at": "2026-08-01T22:08:08Z",
+      "url": "https://github.com/Agenta-AI/agenta"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "callstack/agent-device",
+      "title": "callstack/agent-device",
+      "summary": "CLI to control iOS and Android devices for AI agents",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "adb",
+        "agentic-ai",
+        "agents",
+        "ai-agents",
+        "android-emulator"
+      ],
+      "score": 67,
+      "published_at": "2026-08-01T19:17:06Z",
+      "url": "https://github.com/callstack/agent-device"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "pipeshub-ai/pipeshub-ai",
+      "title": "pipeshub-ai/pipeshub-ai",
+      "summary": "PipesHub is an open-source fully extensible AI context layer that unifies your business data for explainable enterprise search and agentic workflow automation.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent",
+        "agents",
+        "ai",
+        "drive",
+        "glean"
+      ],
+      "score": 66,
+      "published_at": "2026-08-01T19:56:42Z",
+      "url": "https://github.com/pipeshub-ai/pipeshub-ai"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "jeremylongshore/claude-code-plugins-plus-skills",
+      "title": "jeremylongshore/claude-code-plugins-plus-skills",
+      "summary": "471 plugins, 3,069 skills, 347 agents for Claude Code. Open-source marketplace at tonsofskills.com with the ccpi CLI package manager.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-skills",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "automation"
+      ],
+      "score": 65,
+      "published_at": "2026-08-02T01:32:04Z",
+      "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "stickerdaniel/linkedin-mcp-server",
+      "title": "stickerdaniel/linkedin-mcp-server",
+      "summary": "Open-source MCP server for LinkedIn. Give Claude and any MCP-compatible AI agent access to profiles, companies, jobs, and messages.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "chatgpt-desktop",
+        "claude"
+      ],
+      "score": 65,
+      "published_at": "2026-08-02T01:28:30Z",
+      "url": "https://github.com/stickerdaniel/linkedin-mcp-server"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "spider-rs/spider",
+      "title": "spider-rs/spider",
+      "summary": "Get web data for AI agents and LLMs",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai-agent",
+        "automation",
+        "crawler",
+        "headless-chrome",
+        "rust"
+      ],
+      "score": 65,
+      "published_at": "2026-08-01T22:46:18Z",
+      "url": "https://github.com/spider-rs/spider"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "foryourhealth111-pixel/Vibe-Skills",
+      "title": "foryourhealth111-pixel/Vibe-Skills",
+      "summary": "VibeSkills is a general-purpose Skill that automatically routes local Skills and intelligently orchestrates harness workflows.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "agent-framework",
+        "agent-skills",
+        "agentic-coding",
+        "ai-agents",
+        "ai-scientist"
+      ],
+      "score": 65,
+      "published_at": "2026-08-01T10:54:51Z",
+      "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "MCPJam/inspector",
+      "title": "MCPJam/inspector",
+      "summary": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "anthropic",
+        "chatgpt",
+        "cicd",
+        "debugger",
+        "evals"
+      ],
+      "score": 64,
+      "published_at": "2026-08-02T01:45:46Z",
+      "url": "https://github.com/MCPJam/inspector"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "chrisryugj/kordoc",
+      "title": "chrisryugj/kordoc",
+      "summary": "모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로. 양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 | Convert Korean documents (HWP, HWPX, PDF, Office) to Markdown — CLI and MCP server with form filling and diff",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "cli",
+        "document-parser",
+        "docx",
+        "hancom",
+        "hwp"
+      ],
+      "score": 63,
+      "published_at": "2026-08-02T01:43:41Z",
+      "url": "https://github.com/chrisryugj/kordoc"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "darkzOGx/youtube-automation-agent",
+      "title": "darkzOGx/youtube-automation-agent",
+      "summary": "🎬 Fully automated YouTube channel management with AI agents. Creates, optimizes & publishes videos 24/7. Works with FREE Gemini API or OpenAI. No coding required!",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai-agents",
+        "ai-powered",
+        "automation",
+        "content-automation",
+        "content-creation"
+      ],
+      "score": 63,
+      "published_at": "2026-08-01T21:09:00Z",
+      "url": "https://github.com/darkzOGx/youtube-automation-agent"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "hi-godot/godot-ai",
+      "title": "hi-godot/godot-ai",
+      "summary": "Production-grade MCP server and AI tools for the Godot engine. A Snap to install. Totally free and fun.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "ai",
+        "game-development",
+        "godot",
+        "godot-plugin",
+        "mcp"
+      ],
+      "score": 62,
+      "published_at": "2026-08-02T01:34:34Z",
+      "url": "https://github.com/hi-godot/godot-ai"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "sceneview/sceneview",
+      "title": "sceneview/sceneview",
+      "summary": "3D & AR SDK for Android (Jetpack Compose + Filament), iOS (SwiftUI + RealityKit), and Web. AI-first: llms.txt, MCP server, Copilot/Cursor rules. The only Compose-native 3D library.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "3d",
+        "ai",
+        "android",
+        "ar",
+        "arcore"
+      ],
+      "score": 62,
+      "published_at": "2026-08-02T00:49:26Z",
+      "url": "https://github.com/sceneview/sceneview"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "skalesapp/skales",
+      "title": "skalesapp/skales",
+      "summary": "Personal AI desktop agent for Windows, macOS, Linux, Android & iOS. Set a goal, it works on its own. Teams (pair two desktops, agents + humans), Agent2Agent, Workflows, Codework, multi-agent orgs, desktop + browser automation. 15+ AI providers, BYOK. No Docker, no terminal. Agent Skills (SKILL.md). Migration importer. Recurring autonomous tasks.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agentic-ai",
+        "ai-agent",
+        "ai-assistant",
+        "android",
+        "automation"
+      ],
+      "score": 62,
+      "published_at": "2026-08-01T20:36:35Z",
+      "url": "https://github.com/skalesapp/skales"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "hexabot-ai/Hexabot",
+      "title": "hexabot-ai/Hexabot",
+      "summary": "Hexabot v3 is an AI workflow automation platform, combining workflows, actions, agents, and conversational channels in one runtime.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent",
+        "agentic",
+        "agents",
+        "ai",
+        "ai-automation"
+      ],
+      "score": 62,
+      "published_at": "2026-08-01T11:10:27Z",
+      "url": "https://github.com/hexabot-ai/Hexabot"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "bartolli/codanna",
+      "title": "bartolli/codanna",
+      "summary": "Local code intelligence MCP server and CLI for AI coding agents",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai-agents",
+        "call-graph-analysis",
+        "code-indexing",
+        "code-intelligence",
+        "code-search"
+      ],
+      "score": 61,
+      "published_at": "2026-08-02T01:43:40Z",
+      "url": "https://github.com/bartolli/codanna"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "henrydaum/second-brain",
+      "title": "henrydaum/second-brain",
+      "summary": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agentic-ai",
+        "agentic-workflow",
+        "ai",
+        "ai-agent-tools",
+        "ai-agents"
+      ],
+      "score": 61,
+      "published_at": "2026-08-02T01:29:39Z",
+      "url": "https://github.com/henrydaum/second-brain"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "rush86999/atom",
+      "title": "rush86999/atom",
+      "summary": "Atom Agent, Open-Source AI Agent Platform for Self-Hosted Automation",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agentic-workflow",
+        "ai",
+        "ai-agent",
+        "calendar",
+        "finance"
+      ],
+      "score": 61,
+      "published_at": "2026-08-02T00:59:11Z",
+      "url": "https://github.com/rush86999/atom"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "retentioneering/retentioneering-tools",
+      "title": "retentioneering/retentioneering-tools",
+      "summary": "Python toolkit, MCP server, and agent skills for reproducible, auditable clickstream and event log analytics. Helps AI agents, data scientists and analysts build, validate, and cross-check product analytics, quantitative UX, customer journeys, graph-based user flows, behavioral segmentation, A/B tests, process mining models, Markov chain simulation",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-skills",
+        "analytics-mcp",
+        "behaviour-analysis",
+        "clickstream",
+        "clickstream-analysis"
+      ],
+      "score": 61,
+      "published_at": "2026-08-02T00:52:11Z",
+      "url": "https://github.com/retentioneering/retentioneering-tools"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Cranot/roam-code",
+      "title": "Cranot/roam-code",
+      "summary": "Local codebase intelligence CLI + MCP server for AI coding agents: SQLite code graph, 28 languages, 281 commands, 244 MCP tools, change-safety gates, audit evidence, zero API keys.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai-agents",
+        "ai-coding",
+        "cli",
+        "code-analysis",
+        "code-graph"
+      ],
+      "score": 61,
+      "published_at": "2026-08-02T00:34:29Z",
+      "url": "https://github.com/Cranot/roam-code"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "ai-boost/awesome-a2a",
+      "title": "ai-boost/awesome-a2a",
+      "summary": "Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one place.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "a2a",
+        "a2a-cli",
+        "a2a-mcp",
+        "a2a-protocol",
+        "a2a-server"
+      ],
+      "score": 61,
+      "published_at": "2026-08-02T00:34:26Z",
+      "url": "https://github.com/ai-boost/awesome-a2a"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "egeominotti/bunqueue",
+      "title": "egeominotti/bunqueue",
+      "summary": "⚡ High-performance job queue for Bun. SQLite persistence, DLQ, cron jobs, S3 backups. Built for AI agents and automation  ",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-scheduler",
+        "background-jobs",
+        "bullmq-alternative"
+      ],
+      "score": 61,
+      "published_at": "2026-08-01T22:10:18Z",
+      "url": "https://github.com/egeominotti/bunqueue"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "lahfir/agent-desktop",
+      "title": "lahfir/agent-desktop",
+      "summary": "Native desktop automation CLI for AI agents. Control any application through OS accessibility trees with structured JSON output and deterministic element refs.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "accessibility",
+        "accessibility-api",
+        "ai-agents",
+        "automation",
+        "cli"
+      ],
+      "score": 61,
+      "published_at": "2026-08-01T21:25:02Z",
+      "url": "https://github.com/lahfir/agent-desktop"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Pipelex/pipelex",
+      "title": "Pipelex/pipelex",
+      "summary": "Declarative language for composable Al workflows. Devtool for agents and mere humans.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agents",
+        "ai",
+        "automation",
+        "dsl",
+        "language"
+      ],
+      "score": 61,
+      "published_at": "2026-08-01T19:13:19Z",
+      "url": "https://github.com/Pipelex/pipelex"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "macOS26/Agent",
+      "title": "macOS26/Agent",
+      "summary": "Mac Agent for macOS 26: the agentic AI harness for your Mac Desktop. Computer use, automation, scripting, coding, and more. Powered by 18+ providers across local and cloud LLMs.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "accessibility",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "ai-agent"
+      ],
+      "score": 61,
+      "published_at": "2026-08-01T18:34:21Z",
+      "url": "https://github.com/macOS26/Agent"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "bytechefhq/bytechef",
+      "title": "bytechefhq/bytechef",
+      "summary": "Open-source platform that unifies AI agent orchestration and workflow automation — autonomy and precision in one platform.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "api",
+        "automation",
+        "embedded-ipaas"
+      ],
+      "score": 61,
+      "published_at": "2026-07-31T15:44:10Z",
+      "url": "https://github.com/bytechefhq/bytechef"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Rheosoph/flow-like",
+      "title": "Rheosoph/flow-like",
+      "summary": "Flow-Like: Strongly Typed Enterprise Scale Workflows. Built for scalability, speed, seamless AI integration and rich customization.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "agents",
+        "ai",
+        "apis",
+        "automation",
+        "data-flow"
+      ],
+      "score": 61,
+      "published_at": "2026-07-31T09:52:25Z",
+      "url": "https://github.com/Rheosoph/flow-like"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "JinHo-von-Choi/anchormind",
+      "title": "JinHo-von-Choi/anchormind",
+      "summary": "Fragment-Based Memory MCP Server — AI 중장기 기억 시스템 (구 Memento-mcp)",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [],
+      "score": 60,
+      "published_at": "2026-08-02T01:46:30Z",
+      "url": "https://github.com/JinHo-von-Choi/anchormind"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "devantler-tech/ksail",
+      "title": "devantler-tech/ksail",
+      "summary": "All-in-one Kubernetes SDK: create, manage, and operate clusters across distributions (Kind, K3d, Talos, VCluster) with built-in GitOps, secrets, AI assistant, and MCP server. Only requires Docker or a Cloud Provider.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "argocd",
+        "chat",
+        "cli",
+        "cloud-native",
+        "developer-tool"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T01:45:52Z",
+      "url": "https://github.com/devantler-tech/ksail"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "DemonDamon/AgenticX",
+      "title": "DemonDamon/AgenticX",
+      "summary": "AgenticX is a unified, production-ready multi-agent platform — Python SDK + CLI (agx) + Studio server + Machi desktop app. Features Meta-Agent orchestration, 15+ LLM providers, MCP Hub, hierarchical memory, avatar & group chat, skill ecosystem, safety sandbox, and IM gateway (Feishu/WeChat).",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-framework",
+        "agentic-workflows",
+        "ai-agent",
+        "ai-orchestration",
+        "chatbot"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T01:35:50Z",
+      "url": "https://github.com/DemonDamon/AgenticX"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "minipuft/claude-prompts",
+      "title": "minipuft/claude-prompts",
+      "summary": "MCP prompt template server: hot-reload, thinking frameworks, quality gates",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "ai-automation",
+        "ai-development",
+        "ai-workflows",
+        "claude",
+        "llm"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T01:30:55Z",
+      "url": "https://github.com/minipuft/claude-prompts"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "leancoderkavy/premiere-pro-mcp",
+      "title": "leancoderkavy/premiere-pro-mcp",
+      "summary": "Adobe Premiere Pro MCP server with 279 AI video editing tools, a production CEP bridge, and capability-aware UXP support.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "adobe",
+        "adobe-premiere-pro",
+        "ai",
+        "ai-video-editing",
+        "cep"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T01:23:34Z",
+      "url": "https://github.com/leancoderkavy/premiere-pro-mcp"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "zhuyansen/agent-skills-hub",
+      "title": "zhuyansen/agent-skills-hub",
+      "summary": "Discover and compare open-source Agent Skills, tools & MCP servers — with quality scoring, trending analysis, and automated GitHub sync",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "ai-security",
+        "claude",
+        "claude-code"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T01:10:36Z",
+      "url": "https://github.com/zhuyansen/agent-skills-hub"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "sammcj/mcp-devtools",
+      "title": "sammcj/mcp-devtools",
+      "summary": "A modular MCP server that provides commonly used developer tools for AI coding agents",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agentic",
+        "ai",
+        "cline",
+        "coding",
+        "devtools"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T01:05:54Z",
+      "url": "https://github.com/sammcj/mcp-devtools"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "livecontext-ai/livecontext-ce",
+      "title": "livecontext-ai/livecontext-ce",
+      "summary": "The AI automation platform, self-hosted. Describe the job in chat and LiveContext builds it: readable workflows, scoped AI agents, and small apps your team uses. Chat, Workflow, Agent and App on one canvas.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-framework",
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-automation"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T00:51:17Z",
+      "url": "https://github.com/livecontext-ai/livecontext-ce"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "dinglebear-ai/unraid",
+      "title": "dinglebear-ai/unraid",
+      "summary": "Query, monitor, and manage Unraid servers via GraphQL API through MCP tools. Supports system info, Docker, VMs, array/parity, notifications, plugins, rclone, and live telemetry.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "ai",
+        "claude-code",
+        "claude-code-plugins",
+        "codex",
+        "docker"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T00:36:52Z",
+      "url": "https://github.com/dinglebear-ai/unraid"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Lyellr88/marm-memory",
+      "title": "Lyellr88/marm-memory",
+      "summary": "Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, codebase indexing & concept graphs in SQLite. Enables zero-cloud, privacy-first context & instant recall, supports multi-agent swarms.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-memory",
+        "ai-agents",
+        "ai-memory",
+        "claude-code",
+        "codex-cli"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T00:15:48Z",
+      "url": "https://github.com/Lyellr88/marm-memory"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "takeshy/obsidian-gemini-helper",
+      "title": "takeshy/obsidian-gemini-helper",
+      "summary": "AI chat, workflow automation, semantic search (RAG), LLM Wiki (OKF)  powered by Google Gemini. Works on both desktop and mobile.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "gemini",
+        "llm",
+        "llm-wiki",
+        "obsidian",
+        "rag"
+      ],
+      "score": 60,
+      "published_at": "2026-08-01T22:33:41Z",
+      "url": "https://github.com/takeshy/obsidian-gemini-helper"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "tmseidel/ai-git-bot",
+      "title": "tmseidel/ai-git-bot",
+      "summary": "The self-hosted AI workflow automation platform for Git repositories.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "ai",
+        "ai-tools",
+        "anthropic",
+        "automation",
+        "bitbucket"
+      ],
+      "score": 60,
+      "published_at": "2026-08-01T14:51:36Z",
+      "url": "https://github.com/tmseidel/ai-git-bot"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "bagidea/bagidea-office",
+      "title": "bagidea/bagidea-office",
+      "summary": "A living AI-agent office on your desktop wallpaper — Claude Code agents that walk, work, delegate, learn & hold meetings. Per-agent swappable models (Claude/GLM/DeepSeek/Qwen/Kimi/OpenAI/Gemini/Groq/Ollama…), workflows, plugins, voice & Telegram/Discord/LINE. Open source.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-orchestration",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "automation"
+      ],
+      "score": 60,
+      "published_at": "2026-08-01T09:31:01Z",
+      "url": "https://github.com/bagidea/bagidea-office"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "flytohub/flyto-core",
+      "title": "flytohub/flyto-core",
+      "summary": "Flyto2 Core is the open-source execution kernel for automation and AI-agent workflows: 452 registry-backed modules, MCP-native transport, YAML recipes, evidence capture, replay, triggers, queue, versioning, and metering.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai-agents",
+        "ai-tools",
+        "atomic-modules",
+        "automation",
+        "browser-automation"
+      ],
+      "score": 60,
+      "published_at": "2026-08-01T06:55:14Z",
+      "url": "https://github.com/flytohub/flyto-core"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Pinvou/pinvou-agent",
+      "title": "Pinvou/pinvou-agent",
+      "summary": "Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai-agent",
+        "automation",
+        "desktop-app",
+        "llm",
+        "local-first"
+      ],
+      "score": 60,
+      "published_at": "2026-07-31T10:46:39Z",
+      "url": "https://github.com/Pinvou/pinvou-agent"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "kris-hansen/comanda",
+      "title": "kris-hansen/comanda",
+      "summary": "The CLI-native orchestrator for AI agent workflows. Run Claude Code, Codex, Gemini CLI & Kimi Code from declarative YAML. Because the terminal is where real work happens.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "automation"
+      ],
+      "score": 60,
+      "published_at": "2026-07-31T05:13:56Z",
+      "url": "https://github.com/kris-hansen/comanda"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "intelligencedev/manifold",
+      "title": "intelligencedev/manifold",
+      "summary": "Manifold is an experimental platform for enabling long horizon workflow automation using teams of AI assistants.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "agents",
+        "ai-agents",
+        "ai-assistant",
+        "ai-tools",
+        "artificial-intelligence"
+      ],
+      "score": 60,
+      "published_at": "2026-07-30T13:23:44Z",
+      "url": "https://github.com/intelligencedev/manifold"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "ohdearquant/lionagi",
+      "title": "ohdearquant/lionagi",
+      "summary": "An intelligence orchestra",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "agents",
+        "ai",
+        "automation",
+        "data",
+        "llm"
+      ],
+      "score": 45,
+      "published_at": "2026-08-02T01:42:12Z",
+      "url": "https://github.com/ohdearquant/lionagi"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "ImFeH2/flowent",
+      "title": "ImFeH2/flowent",
+      "summary": "Just say what you need. Flowent gets it done.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "agent",
+        "agent-runtime",
+        "agentic-workflows",
+        "ai",
+        "ai-agent"
+      ],
+      "score": 45,
+      "published_at": "2026-08-01T17:01:17Z",
+      "url": "https://github.com/ImFeH2/flowent"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "uptonking/note4yaoo",
+      "title": "uptonking/note4yaoo",
+      "summary": "daily notes",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "ai",
+        "automation",
+        "codemirror",
+        "collaboration",
+        "cs"
+      ],
+      "score": 45,
+      "published_at": "2026-07-31T21:57:21Z",
+      "url": "https://github.com/uptonking/note4yaoo"
+    }
+  ]
+}
