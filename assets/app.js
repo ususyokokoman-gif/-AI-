@@ -1,5 +1,13 @@
 const state={items:[],query:"",category:"",source:"",sort:"newest",highValue:false};
 const $=selector=>document.querySelector(selector);
+const SOURCE_META={
+  github:{label:"GitHub"},
+  x:{label:"X"},
+  official:{label:"公式"},
+  hacker_news:{label:"Hacker News"},
+  huggingface:{label:"Hugging Face"},
+  youtube:{label:"YouTube"}
+};
 const fmtDate=value=>{
   const date=new Date(value);
   return Number.isNaN(date.getTime())?"日付不明":new Intl.DateTimeFormat("ja-JP",{
@@ -16,7 +24,15 @@ const relativeDate=value=>{
   if(days<31)return `${Math.floor(days/7)}週間前`;
   return `${Math.floor(days/30)}か月前`;
 };
-const sourceGroup=item=>item.source_kind==="x"?"x":"github";
+const sourceGroup=item=>{
+  if(item.source_kind==="x")return "x";
+  if((item.source_kind||"").startsWith("github_"))return "github";
+  if(item.source_kind==="official_feed")return "official";
+  if(item.source_kind==="hacker_news")return "hacker_news";
+  if((item.source_kind||"").startsWith("huggingface_"))return "huggingface";
+  if(item.source_kind==="youtube")return "youtube";
+  return "official";
+};
 
 function render(){
   let items=state.items.filter(item=>{
@@ -40,7 +56,7 @@ function render(){
     const node=template.content.cloneNode(true);
     const group=sourceGroup(item);
     const source=node.querySelector(".badge--source");
-    source.textContent=group==="x"?"X":"GitHub";
+    source.textContent=SOURCE_META[group]?.label||group;
     source.dataset.source=group;
     node.querySelector(".badge--category").textContent=item.category||"その他";
     node.querySelector(".score strong").textContent=item.score;
@@ -56,7 +72,8 @@ function render(){
       tags.appendChild(span);
     });
     node.querySelector(".source-name").textContent=item.source_name;
-    node.querySelector(".relative-date").textContent=relativeDate(item.published_at);
+    const dateLabel=item.date_kind&&item.date_kind!=="公開日"?`${item.date_kind} · `:"";
+    node.querySelector(".relative-date").textContent=`${dateLabel}${relativeDate(item.published_at)}`;
     node.querySelector(".published-date").textContent=fmtDate(item.published_at);
     const link=node.querySelector("a");
     link.href=item.url;
@@ -81,18 +98,32 @@ function bind(){
   });
 }
 
+async function fetchRadarData(){
+  const candidates=["data/local-items.json","data/items.json"];
+  let lastError;
+  for(const path of candidates){
+    try{
+      const response=await fetch(`${path}?v=${Date.now()}`,{cache:"no-store"});
+      if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);
+      return {data:await response.json(),path};
+    }catch(error){
+      lastError=error;
+    }
+  }
+  throw lastError||new Error("データがありません");
+}
+
 async function init(){
   bind();
   try{
-    const response=await fetch(`data/items.json?v=${Date.now()}`);
-    if(!response.ok)throw new Error(`HTTP ${response.status}`);
-    const data=await response.json();
+    const {data,path}=await fetchRadarData();
     state.items=data.items||[];
     document.title=data.site?.title||"AI実務レーダー";
     $("#updatedAt").textContent=`最終更新 ${fmtDate(data.updated_at)}`;
     const ok=(data.sources||[]).filter(source=>source.ok).length;
     const profile=data.personalization?.profile_name?` · ${data.personalization.profile_name}`:"";
-    $("#sourceStatus").textContent=`${data.item_count||state.items.length}件 · ${ok}/${(data.sources||[]).length}系統から取得${profile}`;
+    const local=path.includes("local-items")?" · ローカル収集":"";
+    $("#sourceStatus").textContent=`${data.item_count||state.items.length}件 · ${ok}/${(data.sources||[]).length}系統成功${profile}${local}`;
     const categories=[...new Set(state.items.map(item=>item.category).filter(Boolean))].sort();
     for(const category of categories){
       const option=document.createElement("option");
