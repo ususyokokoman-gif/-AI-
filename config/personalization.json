@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "profile_name": "Zun実務優先プロファイル",
+  "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
+  "operating_principles": {
+    "free_or_existing_plan_first": true,
+    "local_and_private_preferred": true,
+    "evidence_over_hype": true,
+    "implementation_over_news": true,
+    "failure_reports_are_valuable": true,
+    "japanese_summary_required": true
+  },
+  "priority_themes": [
+    {"id":"agent_engineering","label":"AIエージェント実装","weight":5,"keywords":["agent","agentic","subagent","multi-agent","workflow","handoff","tool calling","mcp","memory","context engineering","orchestration"]},
+    {"id":"coding_agents","label":"Codex・Claude Code等の開発AI","weight":6,"keywords":["codex","claude code","gemini cli","coding agent","agents sdk","hook","skill","agents.md","claude.md"]},
+    {"id":"sme_consulting","label":"中小企業支援・コンサル商品化","weight":5,"keywords":["small business","smb","consulting","business process","back office","sales","accounting","customer support","roi","case study","業務改善","中小企業","導入事例"]},
+    {"id":"automation","label":"ブラウザ・業務自動化","weight":5,"keywords":["playwright","browser automation","computer use","n8n","dify","webhook","workflow automation","rpa","browser-use"]},
+    {"id":"quality_assurance","label":"検証・証拠・安全性","weight":6,"keywords":["eval","evaluation","benchmark","observability","audit","trace","provenance","reproducible","verification","sandbox","permission","security","prompt injection","failure","workaround","reliability"]},
+    {"id":"local_ai","label":"Mac・ローカルAI・機密保持","weight":4,"keywords":["ollama","mlx","local llm","on-device","apple silicon","mac","privacy","offline","quantization"]},
+    {"id":"transcription_knowledge","label":"文字起こし・文書整理・RAG","weight":4,"keywords":["whisper","transcription","diarization","meeting notes","document extraction","rag","retrieval","embedding","knowledge base"]}
+  ],
+  "active_projects": [
+    {"id":"garoon_karte","label":"Garoon・経営カルテ自動化","weight":5,"keywords":["garoon","cybozu","playwright","browser automation","form automation","ui automation","duplicate prevention","dry run"]},
+    {"id":"line_member_platform","label":"LINE会員プラットフォーム","weight":5,"keywords":["line messaging api","liff","cloudflare workers","notification preferences","webhook","member platform","disaster reporting"]},
+    {"id":"price_pass_through","label":"価格転嫁・経営判断支援","weight":4,"keywords":["price pass-through","cost increase","pricing","margin","bom","decision support","scenario analysis","原材料","価格転嫁"]},
+    {"id":"evidence_tooling","label":"作業証拠・AI監査","weight":6,"keywords":["audit trail","evidence","artifact","change log","hash","reproducibility","independent verification","test evidence"]},
+    {"id":"meeting_reporting","label":"会議文字起こし・報告書","weight":4,"keywords":["meeting transcription","speaker diarization","whisper","minutes","report generation","domain dictionary"]}
+  ],
+  "quality_signals": [
+    {"label":"コード・設定・手順","weight":3,"keywords":["code","setup","configuration","guide","tutorial","example","cookbook","step-by-step"]},
+    {"label":"数値・比較・検証","weight":3,"keywords":["benchmark","latency","accuracy","cost","saved hours","before and after","comparison","evaluation"]},
+    {"label":"失敗・回避策","weight":3,"keywords":["bug","failure","issue","limitation","workaround","postmortem","incident","security"]},
+    {"label":"一次情報","weight":2,"keywords":["release","changelog","official","documentation","repository"]}
+  ],
+  "penalties": [
+    {"label":"宣伝・煽り","weight":-8,"keywords":["giveaway","limited time","sponsored","airdrop","get rich","10x your income","無料配布","プレゼント"]},
+    {"label":"求人・イベント告知","weight":-5,"keywords":["hiring","job opening","register now","webinar","hackathon","採用","求人","セミナー募集"]},
+    {"label":"抽象論のみ","weight":-3,"keywords":["the future of ai","ai will change everything","革命","世界が変わる"]}
+  ],
+  "category_bonus": {
+    "AI開発エージェント": 4,
+    "AIエージェント": 4,
+    "実装例・ノウハウ": 4,
+    "業務自動化": 4,
+    "ブラウザ自動化": 4,
+    "MCP・外部連携": 3,
+    "ローカルAI": 3,
+    "AI業務アプリ": 3
+  },
+  "freshness": {"breaking_days":3,"normal_days":14,"deep_practice_days":90,"default_sort":"newest_then_personalized"},
+  "output_requirements": [
+    "日付を最上段に表示する",
+    "日本語で何が変わったかを書く",
+    "なぜ自分に関係するかを書く",
+    "次に試す最小実験を書く",
+    "公式発表と第三者検証を区別する",
+    "費用が発生する場合は無料代替の有無を明記する"
+  ]
+}
