@@ -314,6 +314,10 @@ def x_search(exe,query,max_results):
 
 
 def collect_x(profile,cfg):
+    if os.getenv("AI_RADAR_X_ENABLED") != "1":
+        return [],[{"name":"X / twitter-cli","kind":"x","ok":False,"skipped":True,"error":"専用Xアカウント設定が未完了"}]
+    if not os.getenv("TWITTER_BROWSER") or not os.getenv("TWITTER_CHROME_PROFILE"):
+        return [],[{"name":"X / twitter-cli","kind":"x","ok":False,"skipped":True,"error":"専用ブラウザ・プロファイル未指定"}]
     exe=shutil.which("twitter") or shutil.which("twitter-cli")
     if not exe:return [],[{"name":"X / twitter-cli","kind":"x","ok":False,"skipped":True,"error":"twitter-cli未導入"}]
     xcfg=load(X_PROFILE_PATH,{"profiles":[]}); accounts=load(X_ACCOUNTS_PATH,{})
