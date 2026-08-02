@@ -2,7 +2,7 @@
   "site": {
     "title": "AI実務レーダー"
   },
-  "updated_at": "2026-08-02T02:20:46.308783+00:00",
+  "updated_at": "2026-08-02T03:08:39.338778+00:00",
   "item_count": 57,
   "sources": [
     {
@@ -34,7 +34,7 @@
         "aiagents"
       ],
       "score": 85,
-      "published_at": "2026-08-02T02:19:09Z",
+      "published_at": "2026-08-02T03:07:54Z",
       "url": "https://github.com/simstudioai/sim"
     },
     {
@@ -52,8 +52,38 @@
         "ai"
       ],
       "score": 85,
-      "published_at": "2026-08-02T02:18:26Z",
+      "published_at": "2026-08-02T03:04:57Z",
       "url": "https://github.com/langgenius/dify"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Skyvern-AI/skyvern",
+      "title": "Skyvern-AI/skyvern",
+      "summary": "Automate browser based workflows with AI",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "ai",
+        "api",
+        "automation",
+        "browser",
+        "browser-automation"
+      ],
+      "score": 85,
+      "published_at": "2026-08-02T03:03:40Z",
+      "url": "https://github.com/Skyvern-AI/skyvern"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "vercel-labs/agent-browser",
+      "title": "vercel-labs/agent-browser",
+      "summary": "Browser automation CLI for AI agents",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [],
+      "score": 85,
+      "published_at": "2026-08-02T03:03:36Z",
+      "url": "https://github.com/vercel-labs/agent-browser"
     },
     {
       "source_kind": "github",
@@ -70,7 +100,7 @@
         "database-client"
       ],
       "score": 85,
-      "published_at": "2026-08-02T02:11:13Z",
+      "published_at": "2026-08-02T02:55:34Z",
       "url": "https://github.com/t8y2/dbx"
     },
     {
@@ -88,7 +118,7 @@
         "background-jobs"
       ],
       "score": 85,
-      "published_at": "2026-08-02T02:00:58Z",
+      "published_at": "2026-08-02T02:55:04Z",
       "url": "https://github.com/triggerdotdev/trigger.dev"
     },
     {
@@ -108,24 +138,6 @@
       "score": 85,
       "published_at": "2026-08-02T01:55:40Z",
       "url": "https://github.com/khoj-ai/khoj"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "Skyvern-AI/skyvern",
-      "title": "Skyvern-AI/skyvern",
-      "summary": "Automate browser based workflows with AI",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "業務自動化",
-      "tags": [
-        "ai",
-        "api",
-        "automation",
-        "browser",
-        "browser-automation"
-      ],
-      "score": 85,
-      "published_at": "2026-08-02T01:20:52Z",
-      "url": "https://github.com/Skyvern-AI/skyvern"
     },
     {
       "source_kind": "github",
@@ -160,7 +172,7 @@
         "bot-detection"
       ],
       "score": 76,
-      "published_at": "2026-08-02T01:27:37Z",
+      "published_at": "2026-08-02T02:46:51Z",
       "url": "https://github.com/jo-inc/camofox-browser"
     },
     {
@@ -178,7 +190,7 @@
         "automation"
       ],
       "score": 71,
-      "published_at": "2026-08-02T01:15:23Z",
+      "published_at": "2026-08-02T02:41:12Z",
       "url": "https://github.com/KunAgent/Kun"
     },
     {
@@ -309,6 +321,24 @@
     },
     {
       "source_kind": "github",
+      "source_name": "MCPJam/inspector",
+      "title": "MCPJam/inspector",
+      "summary": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "anthropic",
+        "chatgpt",
+        "cicd",
+        "debugger",
+        "evals"
+      ],
+      "score": 64,
+      "published_at": "2026-08-02T02:50:53Z",
+      "url": "https://github.com/MCPJam/inspector"
+    },
+    {
+      "source_kind": "github",
       "source_name": "chrisryugj/kordoc",
       "title": "chrisryugj/kordoc",
       "summary": "모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로. 양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 | Convert Korean documents (HWP, HWPX, PDF, Office) to Markdown — CLI and MCP server with form filling and diff",
@@ -345,21 +375,21 @@
     },
     {
       "source_kind": "github",
-      "source_name": "sceneview/sceneview",
-      "title": "sceneview/sceneview",
-      "summary": "3D & AR SDK for Android (Jetpack Compose + Filament), iOS (SwiftUI + RealityKit), and Web. AI-first: llms.txt, MCP server, Copilot/Cursor rules. The only Compose-native 3D library.",
+      "source_name": "hi-godot/godot-ai",
+      "title": "hi-godot/godot-ai",
+      "summary": "Production-grade MCP server and AI tools for the Godot engine. A Snap to install. Totally free and fun.",
       "reason": "更新が継続し、実装や検証に使える一次情報です。",
       "category": "業務自動化",
       "tags": [
-        "3d",
         "ai",
-        "android",
-        "ar",
-        "arcore"
+        "game-development",
+        "godot",
+        "godot-plugin",
+        "mcp"
       ],
       "score": 62,
-      "published_at": "2026-08-02T00:49:26Z",
-      "url": "https://github.com/sceneview/sceneview"
+      "published_at": "2026-08-02T01:34:34Z",
+      "url": "https://github.com/hi-godot/godot-ai"
     },
     {
       "source_kind": "github",
@@ -412,8 +442,26 @@
         "ai-agents"
       ],
       "score": 61,
-      "published_at": "2026-08-02T02:14:30Z",
+      "published_at": "2026-08-02T02:55:31Z",
       "url": "https://github.com/henrydaum/second-brain"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "agentic-community/mcp-gateway-registry",
+      "title": "agentic-community/mcp-gateway-registry",
+      "summary": "Enterprise-ready MCP Gateway & Registry that centralizes AI development tools with secure OAuth authentication, dynamic tool discovery, and unified access for both autonomous AI agents and AI coding assistants. Transform scattered MCP server chaos into governed, auditable tool access with Keycloak/Entra integration.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "a2a",
+        "agentic-ai",
+        "agents",
+        "ans",
+        "documentdb"
+      ],
+      "score": 61,
+      "published_at": "2026-08-02T02:45:35Z",
+      "url": "https://github.com/agentic-community/mcp-gateway-registry"
     },
     {
       "source_kind": "github",
@@ -489,42 +537,6 @@
     },
     {
       "source_kind": "github",
-      "source_name": "retentioneering/retentioneering-tools",
-      "title": "retentioneering/retentioneering-tools",
-      "summary": "Python toolkit, MCP server, and agent skills for reproducible, auditable clickstream and event log analytics. Helps AI agents, data scientists and analysts build, validate, and cross-check product analytics, quantitative UX, customer journeys, graph-based user flows, behavioral segmentation, A/B tests, process mining models, Markov chain simulation",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "agent-skills",
-        "analytics-mcp",
-        "behaviour-analysis",
-        "clickstream",
-        "clickstream-analysis"
-      ],
-      "score": 61,
-      "published_at": "2026-08-02T00:52:11Z",
-      "url": "https://github.com/retentioneering/retentioneering-tools"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "Cranot/roam-code",
-      "title": "Cranot/roam-code",
-      "summary": "Local codebase intelligence CLI + MCP server for AI coding agents: SQLite code graph, 28 languages, 281 commands, 244 MCP tools, change-safety gates, audit evidence, zero API keys.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "ai-agents",
-        "ai-coding",
-        "cli",
-        "code-analysis",
-        "code-graph"
-      ],
-      "score": 61,
-      "published_at": "2026-08-02T00:34:29Z",
-      "url": "https://github.com/Cranot/roam-code"
-    },
-    {
-      "source_kind": "github",
       "source_name": "egeominotti/bunqueue",
       "title": "egeominotti/bunqueue",
       "summary": "⚡ High-performance job queue for Bun. SQLite persistence, DLQ, cron jobs, S3 backups. Built for AI agents and automation  ",
@@ -579,24 +591,6 @@
     },
     {
       "source_kind": "github",
-      "source_name": "macOS26/Agent",
-      "title": "macOS26/Agent",
-      "summary": "Mac Agent for macOS 26: the agentic AI harness for your Mac Desktop. Computer use, automation, scripting, coding, and more. Powered by 18+ providers across local and cloud LLMs.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "accessibility",
-        "agentic-framework",
-        "agentic-workflow",
-        "ai",
-        "ai-agent"
-      ],
-      "score": 61,
-      "published_at": "2026-08-01T18:34:21Z",
-      "url": "https://github.com/macOS26/Agent"
-    },
-    {
-      "source_kind": "github",
       "source_name": "bytechefhq/bytechef",
       "title": "bytechefhq/bytechef",
       "summary": "Open-source platform that unifies AI agent orchestration and workflow automation — autonomy and precision in one platform.",
@@ -633,6 +627,87 @@
     },
     {
       "source_kind": "github",
+      "source_name": "artokun/comfyui-mcp",
+      "title": "artokun/comfyui-mcp",
+      "summary": "Local-first, agent-native control plane for ComfyUI — MCP server + sidebar agent that generates images, video & audio, authors and runs workflows, and edits your live graph in natural language on ANY LLM (Claude, ChatGPT, Gemini, offline Ollama, or any hosted model). 178 tools, 36 AI skills, 55 installer packs. Local, LAN, VPS, or Comfy Cloud.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "claude-code",
+        "claude-plugin",
+        "comfyui"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T03:08:00Z",
+      "url": "https://github.com/artokun/comfyui-mcp"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "natsukium/mcp-servers-nix",
+      "title": "natsukium/mcp-servers-nix",
+      "summary": "A Nix-based configuration framework for Model Control Protocol (MCP) servers with ready-to-use packages.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "mcp",
+        "nix"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T03:03:24Z",
+      "url": "https://github.com/natsukium/mcp-servers-nix"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "DemonDamon/AgenticX",
+      "title": "DemonDamon/AgenticX",
+      "summary": "AgenticX is a unified, production-ready multi-agent platform — Python SDK + CLI (agx) + Studio server + Machi desktop app. Features Meta-Agent orchestration, 15+ LLM providers, MCP Hub, hierarchical memory, avatar & group chat, skill ecosystem, safety sandbox, and IM gateway (Feishu/WeChat).",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-framework",
+        "agentic-workflows",
+        "ai-agent",
+        "ai-orchestration",
+        "chatbot"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T03:01:25Z",
+      "url": "https://github.com/DemonDamon/AgenticX"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "cr7258/elasticsearch-mcp-server",
+      "title": "cr7258/elasticsearch-mcp-server",
+      "summary": "A Model Context Protocol (MCP) server implementation that provides Elasticsearch and OpenSearch interaction.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [],
+      "score": 60,
+      "published_at": "2026-08-02T02:39:32Z",
+      "url": "https://github.com/cr7258/elasticsearch-mcp-server"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Dicklesworthstone/mcp_agent_mail_rust",
+      "title": "Dicklesworthstone/mcp_agent_mail_rust",
+      "summary": "Rust MCP server for multi-agent coordination: 34 tools, Git-backed archive, SQLite indexing, advisory file locks, and an interactive TUI console",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai-agents",
+        "coordination",
+        "mcp",
+        "rust",
+        "tui"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T02:30:53Z",
+      "url": "https://github.com/Dicklesworthstone/mcp_agent_mail_rust"
+    },
+    {
+      "source_kind": "github",
       "source_name": "livetennisapi/livetennisapi-mcp",
       "title": "livetennisapi/livetennisapi-mcp",
       "summary": "MCP server for the Live Tennis API — give Claude, Cursor and other LLM agents real-time tennis scores, odds and model win-probability",
@@ -646,7 +721,7 @@
         "mcp"
       ],
       "score": 60,
-      "published_at": "2026-08-02T02:20:38Z",
+      "published_at": "2026-08-02T02:24:53Z",
       "url": "https://github.com/livetennisapi/livetennisapi-mcp"
     },
     {
@@ -735,24 +810,6 @@
     },
     {
       "source_kind": "github",
-      "source_name": "DemonDamon/AgenticX",
-      "title": "DemonDamon/AgenticX",
-      "summary": "AgenticX is a unified, production-ready multi-agent platform — Python SDK + CLI (agx) + Studio server + Machi desktop app. Features Meta-Agent orchestration, 15+ LLM providers, MCP Hub, hierarchical memory, avatar & group chat, skill ecosystem, safety sandbox, and IM gateway (Feishu/WeChat).",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "agent-framework",
-        "agentic-workflows",
-        "ai-agent",
-        "ai-orchestration",
-        "chatbot"
-      ],
-      "score": 60,
-      "published_at": "2026-08-02T01:35:50Z",
-      "url": "https://github.com/DemonDamon/AgenticX"
-    },
-    {
-      "source_kind": "github",
       "source_name": "minipuft/claude-prompts",
       "title": "minipuft/claude-prompts",
       "summary": "MCP prompt template server: hot-reload, thinking frameworks, quality gates",
@@ -771,60 +828,6 @@
     },
     {
       "source_kind": "github",
-      "source_name": "leancoderkavy/premiere-pro-mcp",
-      "title": "leancoderkavy/premiere-pro-mcp",
-      "summary": "Adobe Premiere Pro MCP server with 279 AI video editing tools, a production CEP bridge, and capability-aware UXP support.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "業務自動化",
-      "tags": [
-        "adobe",
-        "adobe-premiere-pro",
-        "ai",
-        "ai-video-editing",
-        "cep"
-      ],
-      "score": 60,
-      "published_at": "2026-08-02T01:23:34Z",
-      "url": "https://github.com/leancoderkavy/premiere-pro-mcp"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "zhuyansen/agent-skills-hub",
-      "title": "zhuyansen/agent-skills-hub",
-      "summary": "Discover and compare open-source Agent Skills, tools & MCP servers — with quality scoring, trending analysis, and automated GitHub sync",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "agent-skills",
-        "ai-agents",
-        "ai-security",
-        "claude",
-        "claude-code"
-      ],
-      "score": 60,
-      "published_at": "2026-08-02T01:10:36Z",
-      "url": "https://github.com/zhuyansen/agent-skills-hub"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "sammcj/mcp-devtools",
-      "title": "sammcj/mcp-devtools",
-      "summary": "A modular MCP server that provides commonly used developer tools for AI coding agents",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "agentic",
-        "ai",
-        "cline",
-        "coding",
-        "devtools"
-      ],
-      "score": 60,
-      "published_at": "2026-08-02T01:05:54Z",
-      "url": "https://github.com/sammcj/mcp-devtools"
-    },
-    {
-      "source_kind": "github",
       "source_name": "livecontext-ai/livecontext-ce",
       "title": "livecontext-ai/livecontext-ce",
       "summary": "The AI automation platform, self-hosted. Describe the job in chat and LiveContext builds it: readable workflows, scoped AI agents, and small apps your team uses. Chat, Workflow, Agent and App on one canvas.",
@@ -840,24 +843,6 @@
       "score": 60,
       "published_at": "2026-08-02T00:51:17Z",
       "url": "https://github.com/livecontext-ai/livecontext-ce"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "dinglebear-ai/unraid",
-      "title": "dinglebear-ai/unraid",
-      "summary": "Query, monitor, and manage Unraid servers via GraphQL API through MCP tools. Supports system info, Docker, VMs, array/parity, notifications, plugins, rclone, and live telemetry.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "業務自動化",
-      "tags": [
-        "ai",
-        "claude-code",
-        "claude-code-plugins",
-        "codex",
-        "docker"
-      ],
-      "score": 60,
-      "published_at": "2026-08-02T00:36:52Z",
-      "url": "https://github.com/dinglebear-ai/unraid"
     },
     {
       "source_kind": "github",
