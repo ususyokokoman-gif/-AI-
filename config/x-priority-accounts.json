@@ -22,7 +22,13 @@
       "setup",
       "debug",
       "failure",
-      "security"
+      "security",
+      "observability",
+      "context engineering",
+      "browser",
+      "computer use",
+      "cron",
+      "memory"
     ],
     "exclude_terms": [
       "hiring",
@@ -46,13 +52,24 @@
   ],
   "secondary_accounts": [
     {"handle": "SigGravitas", "name": "Toran Bruce Richards", "weight": 82, "focus": ["AutoGPT", "自律エージェント"]},
-    {"handle": "AlexReibman", "name": "Alex Reibman", "weight": 88, "focus": ["AgentOps", "観測性", "評価", "信頼性"]},
-    {"handle": "levelsio", "name": "Pieter Levels", "weight": 80, "focus": ["個人開発", "自動化", "実運用"]},
-    {"handle": "DrJimFan", "name": "Jim Fan", "weight": 86, "focus": ["ロボット", "物理エージェント", "研究"]}
+    {"handle": "AlexReibman", "name": "Alex Reibman", "weight": 92, "focus": ["AgentOps", "観測性", "評価", "信頼性", "失敗分析"]},
+    {"handle": "levelsio", "name": "Pieter Levels", "weight": 92, "focus": ["個人開発", "SaaS自動化", "実運用", "収益化"]},
+    {"handle": "DrJimFan", "name": "Jim Fan", "weight": 86, "focus": ["ロボット", "物理エージェント", "研究"]},
+    {"handle": "Saboo_Shubham_", "name": "Shubham Saboo", "weight": 94, "focus": ["一人会社", "AIエージェントチーム", "Cron", "メモリ", "自己改善ループ"]},
+    {"handle": "jxnlco", "name": "Jason Liu", "weight": 96, "focus": ["信頼性", "構造化出力", "プロンプト", "評価", "本番運用"]},
+    {"handle": "tom_doerr", "name": "Tom Doerr", "weight": 88, "focus": ["GitHub発掘", "ローカルエージェント", "ツール自作", "実験"]},
+    {"handle": "joaomdmoura", "name": "João Moura", "weight": 93, "focus": ["CrewAI", "マルチエージェント", "オーケストレーション", "本番運用"]},
+    {"handle": "RLanceMartin", "name": "Lance Martin", "weight": 96, "focus": ["コンテキストエンジニアリング", "長期エージェント", "LangGraph", "実装パターン"]},
+    {"handle": "divgarg", "name": "Div Garg", "weight": 91, "focus": ["ブラウザ操作", "コンピュータ操作", "実世界エージェント", "自動化"]},
+    {"handle": "trq212", "name": "trq212", "weight": 88, "focus": ["エージェントループ", "ツール呼び出し", "実装詳細", "デバッグ"]},
+    {"handle": "sharbel", "name": "Sharbel", "weight": 84, "focus": ["高速プロトタイピング", "エージェント構築", "実践"]},
+    {"handle": "bcherny", "name": "Boris Cherny", "weight": 95, "focus": ["Claude Code", "開発エージェント", "実装", "ワークフロー"]}
   ],
   "generated_queries": [
     "(from:karpathy OR from:steipete OR from:mattshumer_ OR from:svpino OR from:simonw) (agent OR agentic OR workflow OR eval OR benchmark OR implementation OR production OR MCP OR automation) exclude:retweets",
     "(from:swyx OR from:yoheinakajima OR from:hwchase17 OR from:vasuman OR from:jerryjliu0) (agent OR agentic OR workflow OR eval OR benchmark OR implementation OR production OR MCP OR RAG OR LangGraph) exclude:retweets",
-    "(from:SigGravitas OR from:AlexReibman OR from:levelsio OR from:DrJimFan) (agent OR agentic OR automation OR eval OR observability OR production OR robotics) exclude:retweets"
+    "(from:levelsio OR from:Saboo_Shubham_ OR from:jxnlco OR from:tom_doerr) (agent OR automation OR workflow OR cron OR memory OR eval OR production OR code OR GitHub) exclude:retweets",
+    "(from:joaomdmoura OR from:RLanceMartin OR from:divgarg OR from:AlexReibman) (agent OR multi-agent OR orchestration OR context OR observability OR browser OR computer-use OR production) exclude:retweets",
+    "(from:trq212 OR from:sharbel OR from:bcherny OR from:SigGravitas OR from:DrJimFan) (agent OR loop OR tool OR Claude-Code OR AutoGPT OR robotics OR implementation OR debug) exclude:retweets"
   ]
 }
