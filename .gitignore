@@ -1,4 +1,6 @@
 data/local-items.json
 .ai-radar-server.pid
+.ai-radar-env
+.venv-twitter-cli/
 __pycache__/
 *.pyc
