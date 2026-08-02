@@ -1,0 +1,58 @@
+{
+  "description": "AIエージェントの実践的な使い方を追う重点監視アカウント。一般検索とは別枠で取得し、実装・検証・失敗・評価・ワークフローに関する投稿を優先する。",
+  "policy": {
+    "keep_days": 14,
+    "exclude_reposts": true,
+    "exclude_replies": false,
+    "require_any_signal": [
+      "agent",
+      "agentic",
+      "workflow",
+      "prompt",
+      "eval",
+      "benchmark",
+      "implementation",
+      "production",
+      "tool",
+      "MCP",
+      "LangGraph",
+      "RAG",
+      "automation",
+      "code",
+      "setup",
+      "debug",
+      "failure",
+      "security"
+    ],
+    "exclude_terms": [
+      "hiring",
+      "job opening",
+      "giveaway",
+      "airdrop",
+      "sponsored"
+    ]
+  },
+  "priority_accounts": [
+    {"rank": 1, "handle": "karpathy", "name": "Andrej Karpathy", "weight": 100, "focus": ["LLM理解", "エージェント設計", "コード", "教育"]},
+    {"rank": 2, "handle": "steipete", "name": "Peter Steinberger", "weight": 100, "focus": ["個人AI", "ローカル実行", "自動化", "実運用"]},
+    {"rank": 3, "handle": "mattshumer_", "name": "Matt Shumer", "weight": 95, "focus": ["自己改善エージェント", "プロダクト実験", "ワークフロー"]},
+    {"rank": 4, "handle": "svpino", "name": "Santiago", "weight": 92, "focus": ["AIエンジニアリング", "構築ガイド", "ユースケース"]},
+    {"rank": 5, "handle": "simonw", "name": "Simon Willison", "weight": 100, "focus": ["実用LLM", "検証", "ツール", "失敗例"]},
+    {"rank": 6, "handle": "swyx", "name": "swyx", "weight": 90, "focus": ["AIエンジニアリング", "コミュニティ動向", "実装パターン"]},
+    {"rank": 7, "handle": "yoheinakajima", "name": "Yohei Nakajima", "weight": 92, "focus": ["BabyAGI", "タスク駆動", "グラフ型エージェント"]},
+    {"rank": 8, "handle": "hwchase17", "name": "Harrison Chase", "weight": 100, "focus": ["LangChain", "LangGraph", "評価", "本番運用"]},
+    {"rank": 9, "handle": "vasuman", "name": "Vasu Man", "weight": 85, "focus": ["企業向けエージェント", "実装", "本番運用"]},
+    {"rank": 10, "handle": "jerryjliu0", "name": "Jerry Liu", "weight": 95, "focus": ["LlamaIndex", "RAG", "エージェント", "本番活用"]}
+  ],
+  "secondary_accounts": [
+    {"handle": "SigGravitas", "name": "Toran Bruce Richards", "weight": 82, "focus": ["AutoGPT", "自律エージェント"]},
+    {"handle": "AlexReibman", "name": "Alex Reibman", "weight": 88, "focus": ["AgentOps", "観測性", "評価", "信頼性"]},
+    {"handle": "levelsio", "name": "Pieter Levels", "weight": 80, "focus": ["個人開発", "自動化", "実運用"]},
+    {"handle": "DrJimFan", "name": "Jim Fan", "weight": 86, "focus": ["ロボット", "物理エージェント", "研究"]}
+  ],
+  "generated_queries": [
+    "(from:karpathy OR from:steipete OR from:mattshumer_ OR from:svpino OR from:simonw) (agent OR agentic OR workflow OR eval OR benchmark OR implementation OR production OR MCP OR automation) exclude:retweets",
+    "(from:swyx OR from:yoheinakajima OR from:hwchase17 OR from:vasuman OR from:jerryjliu0) (agent OR agentic OR workflow OR eval OR benchmark OR implementation OR production OR MCP OR RAG OR LangGraph) exclude:retweets",
+    "(from:SigGravitas OR from:AlexReibman OR from:levelsio OR from:DrJimFan) (agent OR agentic OR automation OR eval OR observability OR production OR robotics) exclude:retweets"
+  ]
+}
