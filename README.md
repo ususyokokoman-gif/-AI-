@@ -1,43 +1,39 @@
-# AI実務レーダー
+# AI実務レーダー（非公開運用）
 
-XとGitHubの一次情報から、AIエージェント、MCP、業務自動化、開発ツール、ローカルAIなどの**実務で使える情報**を自動収集し、GitHub Pagesで公開する静的サイトです。
+GitHubの一次情報から、AIエージェント、MCP、業務自動化、開発ツール、ローカルAIなどの**実務で使える情報**を自動収集する、個人用の非公開レーダーです。
 
-## 仕組み
+## 運用方針
 
-- GitHub Actionsが6時間ごとに実行
-- GitHub公式APIからリリース、更新リポジトリ、反応の多いIssueを収集
-- X公式APIのRecent Searchから指定条件の投稿を収集（トークン設定時のみ）
-- 鮮度、具体性、実務キーワード、反応量、一次情報性を100点で採点
-- 低価値情報を除外し、`data/items.json`を更新
-- GitHub Pagesへ自動デプロイ
+- リポジトリは非公開のまま使用する
+- GitHub Pagesや外部ホスティングには公開しない
+- GitHub Actionsが6時間ごとに情報収集する
+- 収集結果は非公開リポジトリ内の `data/items.json` に保存する
+- 閲覧画面は自分のパソコン上だけで開く
 
-## X収集を有効にする
+## 自分のMacで見る方法
 
-X APIは従量課金です。GitHubのリポジトリ設定で次を登録してください。
+リポジトリをMacへ取得した後、そのフォルダで次を実行します。
 
-1. `Settings` → `Secrets and variables` → `Actions`
-2. `New repository secret`
-3. Name: `X_BEARER_TOKEN`
-4. Secret: X Developer Consoleで発行したBearer Token
+```bash
+python3 -m http.server 8000
+```
 
-トークンがない場合もGitHub情報だけで正常に更新されます。非公式スクレイピングは行いません。
+ブラウザで次を開きます。
 
-## GitHub Pagesを有効にする
+```text
+http://localhost:8000
+```
 
-1. `Settings` → `Pages`
-2. `Build and deployment` の Source を `GitHub Actions` にする
-3. `Actions` → `Update AI Practice Radar` → `Run workflow`
+この方法では、自分のMac内だけでサイトを表示します。
 
-## 収集条件の変更
+## 現在の自動収集
 
-`config/sources.json`を編集します。
+- GitHub公式APIによるAI関連リポジトリ検索
+- 6時間ごとの更新
+- 鮮度、具体性、実務キーワード、反応量による簡易採点
+- 収集結果を `data/items.json` へ保存
 
-- `github_repositories`: 追跡する公式・重要リポジトリ
-- `github_repository_queries`: 新しいツールを探す検索式
-- `github_issue_queries`: 実務上の課題や回避策を探す検索式
-- `x_queries`: XのRecent Search検索式
-- `minimum_score`: 掲載する最低点
-- `categories`: 自動分類ルール
+Xについては公式APIの契約とトークンが必要なため、現時点では接続していません。非公式スクレイピングは行いません。
 
 ## 判断上の注意
 
