@@ -1,0 +1,74 @@
+{
+  "official_feeds": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "category": "公式リリース",
+      "base_score": 88,
+      "tags": ["OpenAI", "公式", "新機能"],
+      "reason": "ChatGPT、API、Codex、エージェント機能への影響を確認し、現在の開発手順や支援商品へ反映する。",
+      "keywords": ["codex", "agent", "api", "developer", "model", "chatgpt"]
+    },
+    {
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news/rss.xml",
+      "category": "公式リリース",
+      "base_score": 88,
+      "tags": ["Anthropic", "Claude", "公式"],
+      "reason": "Claude Code、モデル、ツール利用、安全性の変更を確認し、Codexとの役割分担へ反映する。",
+      "keywords": ["claude", "agent", "model", "developer", "tool", "safety"]
+    },
+    {
+      "name": "Google AI",
+      "url": "https://blog.google/technology/ai/rss/",
+      "category": "公式リリース",
+      "base_score": 84,
+      "tags": ["Google AI", "Gemini", "公式"],
+      "reason": "Gemini、Google連携、モデル更新のうち、無料枠や既存Google環境で試せる内容を確認する。",
+      "keywords": ["gemini", "agent", "developer", "model", "ai"]
+    },
+    {
+      "name": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rss/",
+      "category": "公式リリース",
+      "base_score": 82,
+      "tags": ["Cloudflare", "Workers", "公式"],
+      "reason": "LINE会員基盤、Workers、AI Gateway、セキュリティへ影響する変更だけを確認する。",
+      "keywords": ["workers", "agents", "ai", "security", "durable objects", "workflow"]
+    },
+    {
+      "name": "n8n Blog",
+      "url": "https://blog.n8n.io/rss/",
+      "category": "業務自動化",
+      "base_score": 80,
+      "tags": ["n8n", "業務自動化", "実装例"],
+      "reason": "中小企業のメール、表計算、顧客対応、情報収集を自動化できる具体的フローを探す。",
+      "keywords": ["agent", "automation", "workflow", "ai", "rag", "business"]
+    }
+  ],
+  "hacker_news": {
+    "enabled": true,
+    "scan": 40,
+    "max_items": 4,
+    "keywords": ["agent", "codex", "claude", "mcp", "llm", "rag", "automation", "playwright", "ollama", "whisper", "langgraph", "n8n"]
+  },
+  "huggingface": {
+    "enabled": true,
+    "max_per_kind": 2,
+    "keywords": ["agent", "tool-use", "function-calling", "rag", "japanese", "whisper", "transcription", "diarization", "mlx", "gguf", "qwen", "computer-use"]
+  },
+  "youtube_keywords": ["agent", "codex", "claude code", "mcp", "langgraph", "automation", "n8n", "rag", "ollama", "whisper", "evaluation", "workflow"],
+  "youtube_channels": [
+    {"name": "OpenAI", "page_url": "https://www.youtube.com/@OpenAI", "base_score": 80},
+    {"name": "Anthropic", "page_url": "https://www.youtube.com/@AnthropicAI", "base_score": 80},
+    {"name": "LangChain", "page_url": "https://www.youtube.com/@LangChain", "base_score": 78},
+    {"name": "n8n", "page_url": "https://www.youtube.com/@n8n-io", "base_score": 76},
+    {"name": "Google for Developers", "page_url": "https://www.youtube.com/@GoogleDevelopers", "base_score": 76}
+  ],
+  "x": {
+    "max_profiles": 6,
+    "max_results_per_query": 12,
+    "max_items": 14,
+    "wait_seconds": 3
+  }
+}
