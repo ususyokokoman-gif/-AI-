@@ -1,0 +1,100 @@
+{
+  "policy": {
+    "description": "固定検索1本ではなく、目的別の検索を重ねて候補を集め、後段で重複排除・採点する。",
+    "default_keep_days": 7,
+    "exclude_terms": [
+      "求人",
+      "採用",
+      "無料配布",
+      "プレゼント",
+      "フォローしてください",
+      "今だけ",
+      "副業で稼ぐ",
+      "AI美女",
+      "仮想通貨"
+    ],
+    "quality_signals": [
+      "手順",
+      "コード",
+      "設定",
+      "検証",
+      "失敗",
+      "回避策",
+      "導入事例",
+      "削減時間",
+      "費用",
+      "比較",
+      "再現方法",
+      "GitHubリンク"
+    ]
+  },
+  "profiles": [
+    {
+      "id": "official_updates",
+      "label": "公式発表・重要更新",
+      "priority": 100,
+      "query": "(from:OpenAI OR from:AnthropicAI OR from:GoogleDeepMind OR from:GoogleAI OR from:github) (Codex OR Claude OR Gemini OR agent OR MCP OR API) exclude:retweets -filter:replies",
+      "purpose": "モデル、AIエージェント、開発ツールの公式発表を取りこぼさない"
+    },
+    {
+      "id": "coding_agents_ja",
+      "label": "開発AIの実践・日本語",
+      "priority": 95,
+      "query": "(\"Claude Code\" OR Codex OR \"Gemini CLI\" OR \"OpenAI Agents SDK\") (活用 OR 検証 OR 手順 OR 設定 OR バグ OR 回避策 OR 導入 OR 比較) lang:ja exclude:retweets -求人 -採用 -宣伝",
+      "purpose": "Codex・Claude Code等を実際に使った手順、失敗、改善例を拾う"
+    },
+    {
+      "id": "coding_agents_en",
+      "label": "開発AIの実践・英語",
+      "priority": 92,
+      "query": "(\"Claude Code\" OR Codex OR \"Gemini CLI\" OR \"OpenAI Agents SDK\") (workflow OR implementation OR setup OR benchmark OR bug OR workaround OR \"case study\") filter:links lang:en exclude:retweets -hiring -job",
+      "purpose": "海外の一次的な実装例、検証、回避策を拾い日本語化する"
+    },
+    {
+      "id": "agent_automation",
+      "label": "AIエージェント・業務自動化",
+      "priority": 90,
+      "query": "(MCP OR \"AI agent\" OR \"browser automation\" OR n8n OR Dify OR Playwright) (implementation OR production OR workflow OR automation OR \"saved hours\" OR case-study) filter:links exclude:retweets -course -hiring",
+      "purpose": "実運用されたエージェント、自動化フロー、削減効果を拾う"
+    },
+    {
+      "id": "smb_consulting_ja",
+      "label": "中小企業支援・業務改善",
+      "priority": 96,
+      "query": "(AI OR 生成AI OR LLM OR n8n OR Dify OR RPA) (中小企業 OR 業務改善 OR バックオフィス OR 顧客対応 OR 営業 OR 経理 OR 事例 OR 削減) lang:ja exclude:retweets -求人 -セミナー募集 -無料相談",
+      "purpose": "中小企業支援や独立コンサルの商品化に直結する事例を拾う"
+    },
+    {
+      "id": "local_ai_mac",
+      "label": "ローカルAI・Mac",
+      "priority": 86,
+      "query": "(Ollama OR MLX OR \"LM Studio\" OR Qwen OR \"local LLM\") (Mac OR Apple OR benchmark OR setup OR memory OR privacy OR Japanese) filter:links exclude:retweets",
+      "purpose": "Macで無料・ローカル運用できるモデル、速度、メモリ、実用性を拾う"
+    },
+    {
+      "id": "failures_security",
+      "label": "失敗・不具合・安全性",
+      "priority": 98,
+      "query": "(Codex OR \"Claude Code\" OR MCP OR \"AI agent\" OR n8n OR Dify) (失敗 OR 不具合 OR 障害 OR 回避策 OR セキュリティ OR 権限 OR 漏えい OR prompt-injection OR vulnerability) exclude:retweets",
+      "purpose": "成功談より重要な失敗、障害、権限事故、回避策を拾う"
+    },
+    {
+      "id": "emerging_tools",
+      "label": "新しい実用ツールの発掘",
+      "priority": 75,
+      "query": "(\"open source\" OR GitHub) (\"AI agent\" OR MCP OR automation OR \"local LLM\") (demo OR release OR repository OR workflow) filter:links min_faves:10 exclude:retweets -airdrop -crypto -course",
+      "purpose": "既知の公式アカウント外から、新しい実用ツールを発見する"
+    }
+  ],
+  "feedback_learning": {
+    "enabled": true,
+    "positive_actions": ["保存", "役に立った", "試す"],
+    "negative_actions": ["不要", "宣伝", "既知", "抽象的"],
+    "effects": [
+      "高評価した投稿者の重みを上げる",
+      "高評価投稿に多い語句を候補語へ追加する",
+      "低評価投稿に多い宣伝語・抽象語を除外語へ追加する",
+      "30日反応がない検索プロファイルは候補停止にする"
+    ]
+  }
+}
