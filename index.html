@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="AIエージェント、業務自動化、中小企業支援に役立つ一次情報をGitHubから自動収集する実務レーダー">
+  <meta name="description" content="GitHub、X、公式発表、Hacker News、Hugging Face、YouTubeから実務に役立つAI情報だけを収集する個人用レーダー">
   <title>AI実務レーダー</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
       <div>
         <p class="eyebrow">ZUN CONSULTING · INTELLIGENCE</p>
         <h1>AI実務レーダー</h1>
-        <p class="lead">話題性ではなく、明日から使えるか。信頼できる一次情報から、実務に関係する更新だけを自動選別します。</p>
+        <p class="lead">GitHub、X、公式発表、開発者評価、モデル、実演動画から、あなたの案件と独立準備に使える情報だけを選別します。</p>
       </div>
       <div class="hero__status">
         <span class="pulse" aria-hidden="true"></span>
@@ -27,17 +27,25 @@
 
   <main>
     <section class="decision-strip" aria-label="判断基準">
-      <div><span>01</span><strong>一次情報</strong><small>公式リリース・公式実装例</small></div>
-      <div><span>02</span><strong>実行可能性</strong><small>手順・コード・事例を重視</small></div>
+      <div><span>01</span><strong>一次情報</strong><small>公式・コード・原文を優先</small></div>
+      <div><span>02</span><strong>実装可能性</strong><small>手順・設定・失敗例を重視</small></div>
       <div><span>03</span><strong>鮮度</strong><small>公開日を最上段に表示</small></div>
-      <div><span>04</span><strong>実務価値</strong><small>使い道と次の行動を明示</small></div>
+      <div><span>04</span><strong>個人適合</strong><small>現在案件と独立商品へ接続</small></div>
     </section>
 
     <section class="toolbar" aria-label="絞り込み">
-      <label class="search"><span>検索</span><input id="searchInput" type="search" placeholder="例：MCP、Claude Code、業務自動化"></label>
+      <label class="search"><span>検索</span><input id="searchInput" type="search" placeholder="例：MCP、Claude Code、価格転嫁、文字起こし"></label>
       <label><span>カテゴリ</span><select id="categoryFilter"><option value="">すべて</option></select></label>
-      <label><span>情報源</span><select id="sourceFilter"><option value="">すべて</option><option value="github">GitHub</option><option value="x">X</option></select></label>
-      <label><span>並び順</span><select id="sortOrder"><option value="newest">新着順</option><option value="score">実務価値順</option></select></label>
+      <label><span>情報源</span><select id="sourceFilter">
+        <option value="">すべて</option>
+        <option value="github">GitHub</option>
+        <option value="x">X</option>
+        <option value="official">公式発表</option>
+        <option value="hacker_news">Hacker News</option>
+        <option value="huggingface">Hugging Face</option>
+        <option value="youtube">YouTube</option>
+      </select></label>
+      <label><span>並び順</span><select id="sortOrder"><option value="newest">新着順</option><option value="score">個人適合・実務価値順</option></select></label>
       <button id="highValueOnly" class="toggle" type="button" aria-pressed="false">高価値のみ</button>
     </section>
 
@@ -47,7 +55,7 @@
     </section>
 
     <section id="cards" class="cards" aria-live="polite"></section>
-    <div id="emptyState" class="empty" hidden><strong>該当する情報がありません</strong><span>条件を緩めるか、次回更新後に確認してください。</span></div>
+    <div id="emptyState" class="empty" hidden><strong>該当する情報がありません</strong><span>条件を緩めるか、収集結果を更新してください。</span></div>
   </main>
 
   <template id="cardTemplate">
