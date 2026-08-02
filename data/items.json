@@ -2,7 +2,7 @@
   "site": {
     "title": "AI実務レーダー"
   },
-  "updated_at": "2026-08-02T01:47:27.670738+00:00",
+  "updated_at": "2026-08-02T02:20:46.308783+00:00",
   "item_count": 57,
   "sources": [
     {
@@ -21,24 +21,6 @@
   "items": [
     {
       "source_kind": "github",
-      "source_name": "langgenius/dify",
-      "title": "langgenius/dify",
-      "summary": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "agent",
-        "agentic-ai",
-        "agentic-framework",
-        "agentic-workflow",
-        "ai"
-      ],
-      "score": 85,
-      "published_at": "2026-08-02T01:43:16Z",
-      "url": "https://github.com/langgenius/dify"
-    },
-    {
-      "source_kind": "github",
       "source_name": "simstudioai/sim",
       "title": "simstudioai/sim",
       "summary": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
@@ -52,8 +34,26 @@
         "aiagents"
       ],
       "score": 85,
-      "published_at": "2026-08-02T01:42:12Z",
+      "published_at": "2026-08-02T02:19:09Z",
       "url": "https://github.com/simstudioai/sim"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "langgenius/dify",
+      "title": "langgenius/dify",
+      "summary": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai"
+      ],
+      "score": 85,
+      "published_at": "2026-08-02T02:18:26Z",
+      "url": "https://github.com/langgenius/dify"
     },
     {
       "source_kind": "github",
@@ -70,8 +70,44 @@
         "database-client"
       ],
       "score": 85,
-      "published_at": "2026-08-02T01:33:11Z",
+      "published_at": "2026-08-02T02:11:13Z",
       "url": "https://github.com/t8y2/dbx"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "triggerdotdev/trigger.dev",
+      "title": "triggerdotdev/trigger.dev",
+      "summary": "Trigger.dev – build and deploy fully‑managed AI agents and workflows",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai",
+        "ai-agent-framework",
+        "ai-agents",
+        "automation",
+        "background-jobs"
+      ],
+      "score": 85,
+      "published_at": "2026-08-02T02:00:58Z",
+      "url": "https://github.com/triggerdotdev/trigger.dev"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "khoj-ai/khoj",
+      "title": "khoj-ai/khoj",
+      "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent",
+        "ai",
+        "assistant",
+        "chat",
+        "chatgpt"
+      ],
+      "score": 85,
+      "published_at": "2026-08-02T01:55:40Z",
+      "url": "https://github.com/khoj-ai/khoj"
     },
     {
       "source_kind": "github",
@@ -93,24 +129,6 @@
     },
     {
       "source_kind": "github",
-      "source_name": "khoj-ai/khoj",
-      "title": "khoj-ai/khoj",
-      "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "agent",
-        "ai",
-        "assistant",
-        "chat",
-        "chatgpt"
-      ],
-      "score": 85,
-      "published_at": "2026-08-02T00:21:57Z",
-      "url": "https://github.com/khoj-ai/khoj"
-    },
-    {
-      "source_kind": "github",
       "source_name": "activepieces/activepieces",
       "title": "activepieces/activepieces",
       "summary": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
@@ -126,36 +144,6 @@
       "score": 85,
       "published_at": "2026-08-02T00:12:04Z",
       "url": "https://github.com/activepieces/activepieces"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "triggerdotdev/trigger.dev",
-      "title": "triggerdotdev/trigger.dev",
-      "summary": "Trigger.dev – build and deploy fully‑managed AI agents and workflows",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "ai",
-        "ai-agent-framework",
-        "ai-agents",
-        "automation",
-        "background-jobs"
-      ],
-      "score": 85,
-      "published_at": "2026-08-01T19:54:08Z",
-      "url": "https://github.com/triggerdotdev/trigger.dev"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "modelcontextprotocol/inspector",
-      "title": "modelcontextprotocol/inspector",
-      "summary": "Visual testing tool for MCP servers",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "業務自動化",
-      "tags": [],
-      "score": 81,
-      "published_at": "2026-08-02T00:13:32Z",
-      "url": "https://github.com/modelcontextprotocol/inspector"
     },
     {
       "source_kind": "github",
@@ -192,24 +180,6 @@
       "score": 71,
       "published_at": "2026-08-02T01:15:23Z",
       "url": "https://github.com/KunAgent/Kun"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "baserow/baserow",
-      "title": "baserow/baserow",
-      "summary": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "airtable",
-        "airtable-alternative",
-        "airtable-replacement",
-        "application-builder",
-        "automations"
-      ],
-      "score": 70,
-      "published_at": "2026-08-01T17:49:59Z",
-      "url": "https://github.com/baserow/baserow"
     },
     {
       "source_kind": "github",
@@ -339,24 +309,6 @@
     },
     {
       "source_kind": "github",
-      "source_name": "MCPJam/inspector",
-      "title": "MCPJam/inspector",
-      "summary": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "業務自動化",
-      "tags": [
-        "anthropic",
-        "chatgpt",
-        "cicd",
-        "debugger",
-        "evals"
-      ],
-      "score": 64,
-      "published_at": "2026-08-02T01:45:46Z",
-      "url": "https://github.com/MCPJam/inspector"
-    },
-    {
-      "source_kind": "github",
       "source_name": "chrisryugj/kordoc",
       "title": "chrisryugj/kordoc",
       "summary": "모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로. 양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 | Convert Korean documents (HWP, HWPX, PDF, Office) to Markdown — CLI and MCP server with form filling and diff",
@@ -390,24 +342,6 @@
       "score": 63,
       "published_at": "2026-08-01T21:09:00Z",
       "url": "https://github.com/darkzOGx/youtube-automation-agent"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "hi-godot/godot-ai",
-      "title": "hi-godot/godot-ai",
-      "summary": "Production-grade MCP server and AI tools for the Godot engine. A Snap to install. Totally free and fun.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "業務自動化",
-      "tags": [
-        "ai",
-        "game-development",
-        "godot",
-        "godot-plugin",
-        "mcp"
-      ],
-      "score": 62,
-      "published_at": "2026-08-02T01:34:34Z",
-      "url": "https://github.com/hi-godot/godot-ai"
     },
     {
       "source_kind": "github",
@@ -465,6 +399,42 @@
     },
     {
       "source_kind": "github",
+      "source_name": "henrydaum/second-brain",
+      "title": "henrydaum/second-brain",
+      "summary": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agentic-ai",
+        "agentic-workflow",
+        "ai",
+        "ai-agent-tools",
+        "ai-agents"
+      ],
+      "score": 61,
+      "published_at": "2026-08-02T02:14:30Z",
+      "url": "https://github.com/henrydaum/second-brain"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Buoy-gg/buoy",
+      "title": "Buoy-gg/buoy",
+      "summary": "Devtools that live in your React Native app. And answer to your agent. 15 tools · desktop dashboard · MCP server for AI agents",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "android",
+        "debugging",
+        "developer-tools",
+        "devtools",
+        "expo"
+      ],
+      "score": 61,
+      "published_at": "2026-08-02T02:09:56Z",
+      "url": "https://github.com/Buoy-gg/buoy"
+    },
+    {
+      "source_kind": "github",
       "source_name": "bartolli/codanna",
       "title": "bartolli/codanna",
       "summary": "Local code intelligence MCP server and CLI for AI coding agents",
@@ -483,21 +453,21 @@
     },
     {
       "source_kind": "github",
-      "source_name": "henrydaum/second-brain",
-      "title": "henrydaum/second-brain",
-      "summary": "Second Brain is an agentic framework that acts as an operating system, using local file intelligence, workflow automation, and LLMs to complete tasks and communicate over multiple modalities and messaging platforms.",
+      "source_name": "0xPlaygrounds/rig",
+      "title": "0xPlaygrounds/rig",
+      "summary": "⚙️🦀 Build modular and scalable LLM Applications in Rust",
       "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
+      "category": "業務自動化",
       "tags": [
-        "agentic-ai",
-        "agentic-workflow",
+        "agent",
         "ai",
-        "ai-agent-tools",
-        "ai-agents"
+        "artificial-intelligence",
+        "automation",
+        "generative-ai"
       ],
       "score": 61,
-      "published_at": "2026-08-02T01:29:39Z",
-      "url": "https://github.com/henrydaum/second-brain"
+      "published_at": "2026-08-02T01:37:02Z",
+      "url": "https://github.com/0xPlaygrounds/rig"
     },
     {
       "source_kind": "github",
@@ -552,24 +522,6 @@
       "score": 61,
       "published_at": "2026-08-02T00:34:29Z",
       "url": "https://github.com/Cranot/roam-code"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "ai-boost/awesome-a2a",
-      "title": "ai-boost/awesome-a2a",
-      "summary": "Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one place.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "a2a",
-        "a2a-cli",
-        "a2a-mcp",
-        "a2a-protocol",
-        "a2a-server"
-      ],
-      "score": 61,
-      "published_at": "2026-08-02T00:34:26Z",
-      "url": "https://github.com/ai-boost/awesome-a2a"
     },
     {
       "source_kind": "github",
@@ -681,6 +633,96 @@
     },
     {
       "source_kind": "github",
+      "source_name": "livetennisapi/livetennisapi-mcp",
+      "title": "livetennisapi/livetennisapi-mcp",
+      "summary": "MCP server for the Live Tennis API — give Claude, Cursor and other LLM agents real-time tennis scores, odds and model win-probability",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "ai",
+        "claude",
+        "live-scores",
+        "llm",
+        "mcp"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T02:20:38Z",
+      "url": "https://github.com/livetennisapi/livetennisapi-mcp"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "Lyellr88/marm-memory",
+      "title": "Lyellr88/marm-memory",
+      "summary": "Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, codebase indexing & concept graphs in SQLite. Enables zero-cloud, privacy-first context & instant recall, supports multi-agent swarms.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "agent-memory",
+        "ai-agents",
+        "ai-memory",
+        "claude-code",
+        "codex-cli"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T02:17:09Z",
+      "url": "https://github.com/Lyellr88/marm-memory"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "RobThePCGuy/Claude-Patent-Creator",
+      "title": "RobThePCGuy/Claude-Patent-Creator",
+      "summary": "USPTO patent creation system with MCP server + Claude Code plugin. Hybrid RAG search over   MPEP/USC/CFR, BigQuery access to 76M+ patents, automated 35 USC 112 compliance checks, prior   art search, diagram generation. GPU-accelerated with skills and autonomous agents.",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "AIエージェント",
+      "tags": [
+        "bigquery",
+        "claude-code",
+        "claude-code-plugin",
+        "faiss",
+        "mcp-server"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T02:14:36Z",
+      "url": "https://github.com/RobThePCGuy/Claude-Patent-Creator"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "nirholas/pump-fun-sdk",
+      "title": "nirholas/pump-fun-sdk",
+      "summary": "Token creation launching, bonding curve trading, AMM migration, tiered fees, creator fee sharing, vanity keygen, MCP server, Telegram bot & live dashboards",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "bundle",
+        "crypto-bot",
+        "cryptocurrency",
+        "fun",
+        "meme"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T01:59:56Z",
+      "url": "https://github.com/nirholas/pump-fun-sdk"
+    },
+    {
+      "source_kind": "github",
+      "source_name": "dhapat3927/mcp-edd-analytics-vantage",
+      "title": "dhapat3927/mcp-edd-analytics-vantage",
+      "summary": "EDD MCP Server: Easy Digital Downloads API for Sales, Analytics & Products 2026",
+      "reason": "更新が継続し、実装や検証に使える一次情報です。",
+      "category": "業務自動化",
+      "tags": [
+        "easy-digital-downloads",
+        "ecommerce",
+        "edd",
+        "mcp",
+        "mcp-server"
+      ],
+      "score": 60,
+      "published_at": "2026-08-02T01:55:22Z",
+      "url": "https://github.com/dhapat3927/mcp-edd-analytics-vantage"
+    },
+    {
+      "source_kind": "github",
       "source_name": "JinHo-von-Choi/anchormind",
       "title": "JinHo-von-Choi/anchormind",
       "summary": "Fragment-Based Memory MCP Server — AI 중장기 기억 시스템 (구 Memento-mcp)",
@@ -688,26 +730,8 @@
       "category": "業務自動化",
       "tags": [],
       "score": 60,
-      "published_at": "2026-08-02T01:46:30Z",
+      "published_at": "2026-08-02T01:48:58Z",
       "url": "https://github.com/JinHo-von-Choi/anchormind"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "devantler-tech/ksail",
-      "title": "devantler-tech/ksail",
-      "summary": "All-in-one Kubernetes SDK: create, manage, and operate clusters across distributions (Kind, K3d, Talos, VCluster) with built-in GitOps, secrets, AI assistant, and MCP server. Only requires Docker or a Cloud Provider.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "業務自動化",
-      "tags": [
-        "argocd",
-        "chat",
-        "cli",
-        "cloud-native",
-        "developer-tool"
-      ],
-      "score": 60,
-      "published_at": "2026-08-02T01:45:52Z",
-      "url": "https://github.com/devantler-tech/ksail"
     },
     {
       "source_kind": "github",
@@ -834,24 +858,6 @@
       "score": 60,
       "published_at": "2026-08-02T00:36:52Z",
       "url": "https://github.com/dinglebear-ai/unraid"
-    },
-    {
-      "source_kind": "github",
-      "source_name": "Lyellr88/marm-memory",
-      "title": "Lyellr88/marm-memory",
-      "summary": "Local-first 3-in-1 AI memory layer & MCP server for Claude Code, Codex, Grok, Gemini, VS Code and Cursor. Fuses session history, codebase indexing & concept graphs in SQLite. Enables zero-cloud, privacy-first context & instant recall, supports multi-agent swarms.",
-      "reason": "更新が継続し、実装や検証に使える一次情報です。",
-      "category": "AIエージェント",
-      "tags": [
-        "agent-memory",
-        "ai-agents",
-        "ai-memory",
-        "claude-code",
-        "codex-cli"
-      ],
-      "score": 60,
-      "published_at": "2026-08-02T00:15:48Z",
-      "url": "https://github.com/Lyellr88/marm-memory"
     },
     {
       "source_kind": "github",
