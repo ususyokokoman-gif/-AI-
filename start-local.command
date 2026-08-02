@@ -8,7 +8,15 @@ if command -v git >/dev/null 2>&1 && git rev-parse --is-inside-work-tree >/dev/n
   git pull --ff-only || echo "GitHubからの更新に失敗したため、手元の版で続行します。"
 fi
 
-# 公開情報を再収集し、twitter-cliが使える場合だけXも追加する。
+# X収集は、setup-x.commandで専用アカウント設定が成功した場合だけ有効になる。
+if [[ -d ".venv-twitter-cli/bin" ]]; then
+  export PATH="$PWD/.venv-twitter-cli/bin:$PATH"
+fi
+if [[ -f ".ai-radar-env" ]]; then
+  source ".ai-radar-env"
+fi
+
+# 公開情報を再収集し、設定済みの場合だけXも追加する。
 # ローカル結果はgit管理外の data/local-items.json に保存する。
 echo "AI実務情報を更新しています…"
 if command -v python3 >/dev/null 2>&1; then
