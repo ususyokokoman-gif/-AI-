@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-03T15:16:45.425004+00:00",
+  "updated_at": "2026-08-03T19:57:59.650517+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,32 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 96,
+      "published_at": "2026-08-03T18:30:31Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/3291e01531b44bcf730ffe5ed62df60088087316",
+      "original_excerpt": "Add the dynamic workflows cookbook to the Agent SDK series (#806)",
+      "personalization_adjustment": 12,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
@@ -171,7 +197,7 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 89,
+      "score": 87,
       "published_at": "2026-07-30T19:19:47Z",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1",
       "original_excerpt": "Changes since checkpointsqlite==3.1.0 * release(checkpoint-sqlite): 3.1.1 (#8481) * fix(checkpoint-postgres,checkpoint-sqlite): scope namespace matching to segment boundaries (#8478) * chore(deps): bump the minor-and-patch group in /libs/checkpoint-sqlite with 4 updates (#8249) * chore(deps): bump l…",
@@ -375,31 +401,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "anthropics/anthropic-cookbook",
-      "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "Claude",
-        "実装例",
-        "公式",
-        "公式更新"
-      ],
-      "score": 87,
-      "published_at": "2026-07-23T17:31:03Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/6c63a145b7136a610092dbd2c3ef412b055e003b",
-      "original_excerpt": "Rewrite the crop-tool cookbook around a measured zoom tool",
-      "personalization_adjustment": 7,
-      "personalization_matches": [
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：コード・設定・手順",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
