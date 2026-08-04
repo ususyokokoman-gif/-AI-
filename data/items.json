@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-04T14:39:49.006147+00:00",
+  "updated_at": "2026-08-04T19:56:37.090061+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -360,7 +360,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 94,
+      "score": 92,
       "published_at": "2026-07-27T17:10:13Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.7",
       "original_excerpt": "Ships the latest version of the CLI, which includes bug fixes and better browser management. ## What's Changed * fix: dont send default params in gemini genconfig by @markmcd in https://github.com/browser-use/browser-use/pull/5173 * Fix tool name in flash prompts: replace_file_str -> replace_file by…",
