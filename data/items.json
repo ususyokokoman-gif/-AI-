@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-05T09:05:33.986347+00:00",
+  "updated_at": "2026-08-05T14:33:10.217079+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,6 +79,34 @@
   ],
   "items": [
     {
+      "source_kind": "github_commit",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：公式情報が更新",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "公式更新"
+      ],
+      "score": 98,
+      "published_at": "2026-08-05T14:20:59Z",
+      "url": "https://github.com/openai/codex/commit/c4f42d161ae44a8d696ee9fb595709661979d187",
+      "original_excerpt": "Use Luna for API-key Guardian reviews (#37103)",
+      "personalization_adjustment": 8,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
       "title": "n8n：stable",
@@ -103,34 +131,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "公式更新"
-      ],
-      "score": 98,
-      "published_at": "2026-08-05T08:04:15Z",
-      "url": "https://github.com/openai/codex/commit/757c151a0e920c6238801866a3d13e010dfeddb8",
-      "original_excerpt": "Add safer TUI defaults for cyber models (#37055)",
-      "personalization_adjustment": 8,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
