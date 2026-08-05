@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-05T03:32:54.505173+00:00",
+  "updated_at": "2026-08-05T09:05:33.986347+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,61 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-05T08:32:59Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.33.4](https://github.com/n8n-io/n8n/compare/n8n@2.33.3...n8n@2.33.4) (2026-08-05) ### Bug Fixes * **core:** Improve task broker resilience when a runner dies ([#35364](https://github.com/n8n-io/n8n/issues/35364)) ([fa797ca](https://github.com/n8n-io/n8n/commit/fa797cae07e83b317ad93bf13fbc0d671…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：公式情報が更新",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "公式更新"
+      ],
+      "score": 98,
+      "published_at": "2026-08-05T08:04:15Z",
+      "url": "https://github.com/openai/codex/commit/757c151a0e920c6238801866a3d13e010dfeddb8",
+      "original_excerpt": "Add safer TUI defaults for cyber models (#37055)",
+      "personalization_adjustment": 8,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "openai/openai-agents-python",
       "title": "OpenAI Agents SDK：v0.19.4",
       "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -102,34 +157,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、速度・メモリ・処理性能に関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "公式更新"
-      ],
-      "score": 98,
-      "published_at": "2026-08-05T01:24:35Z",
-      "url": "https://github.com/openai/codex/commit/5d89ab65dc9d4d0c55796c11df112b54157922b4",
-      "original_excerpt": "Keep shared skill caches fresh across plugin loads (#37000)",
-      "personalization_adjustment": 8,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -209,33 +236,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：n8n@1.123.68",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-03T07:47:55Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.68",
-      "original_excerpt": "## [1.123.68](https://github.com/n8n-io/n8n/compare/n8n@1.123.67...n8n@1.123.68) (2026-08-03) ### Bug Fixes * **Onfleet Trigger Node:** Fix content type issue (backport 1.x) ([#24878](https://github.com/n8n-io/n8n/issues/24878)) ([a71b153](https://github.com/n8n-io/n8n/commit/a71b153f7095d9aa144dd72…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
@@ -330,7 +330,7 @@
         "業務アプリ",
         "正式版"
       ],
-      "score": 96,
+      "score": 94,
       "published_at": "2026-07-28T03:43:51Z",
       "url": "https://github.com/langgenius/dify/releases/tag/1.16.1",
       "original_excerpt": "## What's Changed ### New Features **Tool Multi-Select Input** - Workflow tool nodes now support multi-select dropdown inputs, allowing users to choose multiple values from a predefined list when configuring tool parameters. (#39346) **Workflow Node Locator** - You can now click a node_id in workflo…",
@@ -344,7 +344,7 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG、失敗・回避策",
-      "verdict": "最優先"
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
