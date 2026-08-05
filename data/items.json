@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-04T19:56:37.090061+00:00",
+  "updated_at": "2026-08-05T03:32:54.505173+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -81,7 +81,7 @@
     {
       "source_kind": "github_release",
       "source_name": "openai/openai-agents-python",
-      "title": "OpenAI Agents SDK：v0.19.3",
+      "title": "OpenAI Agents SDK：v0.19.4",
       "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
       "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
       "category": "AIエージェント",
@@ -92,9 +92,9 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-08-04T07:17:48Z",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.3",
-      "original_excerpt": "## What's Changed * fix: resolve agent tool name collisions consistently by @seratch in https://github.com/openai/openai-agents-python/pull/4137 * fix: reconcile resumed tool name collisions by @seratch in https://github.com/openai/openai-agents-python/pull/4145 * fix: persist the max-turns handler …",
+      "published_at": "2026-08-05T02:58:35Z",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4",
+      "original_excerpt": "## What's Changed * fix: preserve completed tool guardrail results by @seratch in https://github.com/openai/openai-agents-python/pull/4180 * fix: redact invalid tool argument errors by @seratch in https://github.com/openai/openai-agents-python/pull/4182 * fix: defer non-stream session saves until ou…",
       "personalization_adjustment": 15,
       "personalization_matches": [
         "AIエージェント実装",
@@ -105,9 +105,37 @@
       "verdict": "最優先"
     },
     {
+      "source_kind": "github_commit",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：公式情報が更新",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、速度・メモリ・処理性能に関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "公式更新"
+      ],
+      "score": 98,
+      "published_at": "2026-08-05T01:24:35Z",
+      "url": "https://github.com/openai/codex/commit/5d89ab65dc9d4d0c55796c11df112b54157922b4",
+      "original_excerpt": "Keep shared skill caches fresh across plugin loads (#37000)",
+      "personalization_adjustment": 8,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.221",
+      "title": "Claude Code：v2.1.222",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
       "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
       "category": "AI開発エージェント",
@@ -118,17 +146,17 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-08-04T00:14:23Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
-      "original_excerpt": "## What's changed - [VSCode] Added Focus view: a chat-menu toggle that hides tool activity behind an expandable per-turn summary with a live running-tool indicator, toggled with `Ctrl+Alt+F` or the \"Claude Code: Toggle Focus view\" command - Added `mode: \"mask\"` for sandbox credential files on Linux …",
+      "published_at": "2026-08-04T22:39:55Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222",
+      "original_excerpt": "## What's changed - Fixed worktree-isolated sessions and their subagents being able to run destructive git commands against the main checkout; isolation now applies to file edits and Bash in every session type - Fixed PreToolUse auto-allow hooks bypassing tool restrictions in background agent tasks …",
       "personalization_adjustment": 15,
       "personalization_matches": [
+        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
-        "検証・証拠・安全性",
         "コード・設定・手順"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -287,35 +315,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、Garoon・経営カルテ自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.146.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-07-29T01:42:51Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0",
-      "original_excerpt": "## New Features - Name new sessions with `/new` or `/clear`, pin important threads, and switch between side conversations without closing them. (#34605, #34840, #35011) - Support Agent Plugins manifests, workspace plugin publishing, and additional plugin marketplaces for Amazon Bedrock and Claude Co…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
