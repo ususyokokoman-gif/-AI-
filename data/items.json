@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-05T14:33:10.217079+00:00",
+  "updated_at": "2026-08-05T19:55:17.120634+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,31 +79,62 @@
   ],
   "items": [
     {
-      "source_kind": "github_commit",
+      "source_kind": "github_release",
       "source_name": "openai/codex",
-      "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "title": "OpenAI Codex：0.146.1",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
         "Codex",
         "開発自動化",
         "公式",
-        "公式更新"
+        "正式版"
       ],
-      "score": 98,
-      "published_at": "2026-08-05T14:20:59Z",
-      "url": "https://github.com/openai/codex/commit/c4f42d161ae44a8d696ee9fb595709661979d187",
-      "original_excerpt": "Use Luna for API-key Guardian reviews (#37103)",
-      "personalization_adjustment": 8,
+      "score": 100,
+      "published_at": "2026-08-05T15:55:06Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.1",
+      "original_excerpt": "## Bug Fixes - Apply safer automatic-review defaults for cyber-capable models and explain permission changes in the terminal interface. (#37057) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.146.0...rust-v0.146.1 - #37057 [0.146] Backport safer cyber-model auto-review …",
+      "personalization_adjustment": 15,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
+        "検証・証拠・安全性",
+        "コード・設定・手順",
+        "失敗・回避策",
+        "一次情報"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 100,
+      "published_at": "2026-08-05T15:36:47Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/5645f6fb319b224c4853e643e6fecfee9d8886aa",
+      "original_excerpt": "Add an evidence-grounded AML Agents SDK example for Amazon Bedrock (#2896)",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "作業証拠・AI監査",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、作業証拠・AI監査、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -187,30 +218,29 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.32.6",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
       "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
       ],
-      "score": 99,
-      "published_at": "2026-08-03T22:45:13Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/0cc994f27512791587a9ea35f77edd5331961e66",
-      "original_excerpt": "Fix Codex CLI and deep research cookbook examples (#2913)",
-      "personalization_adjustment": 13,
+      "score": 94,
+      "published_at": "2026-08-04T18:49:20Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6",
+      "original_excerpt": "## What's Changed - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically - `/v1/chat/completions` streaming now matches OpenAI's wire format: `role` only on the first chunk, `finish_reason` on its own chunk, and usage in a separate chun…",
+      "personalization_adjustment": 7,
       "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
+        "Mac・ローカルAI・機密保持"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
+      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_commit",
@@ -371,33 +401,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、失敗・回避策",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.32.5",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 95,
-      "published_at": "2026-07-27T01:25:40Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
-      "original_excerpt": "## What's Changed * Fixed an MLX Metal bug that could reduce output quality for NVFP4 models, particularly Laguna. **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.4...v0.32.5",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "Mac・ローカルAI・機密保持",
-        "失敗・回避策",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持、失敗・回避策、一次情報",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
