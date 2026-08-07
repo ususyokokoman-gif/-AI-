@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-07T13:40:01.766837+00:00",
+  "updated_at": "2026-08-07T19:15:37.521201+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,10 +79,35 @@
   ],
   "items": [
     {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 91,
+      "published_at": "2026-08-07T17:13:36Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/f65eb122a51e9710d4db3f4893016879c65c77d6",
+      "original_excerpt": "Merge pull request #811 from anthropics/cj-ant/cma-budgets-advisor-cookbooks",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
+    },
+    {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
-      "title": "n8n：n8n@2.33.6",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、RAG・文書検索・知識活用、不具合修正・安定性に関する変更です。",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
       "category": "業務自動化",
       "tags": [
@@ -92,19 +117,17 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-08-07T07:56:30Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.6",
-      "original_excerpt": "## [2.33.6](https://github.com/n8n-io/n8n/compare/n8n@2.33.5...n8n@2.33.6) (2026-08-07) ### Bug Fixes * Send n8n version on backend posthog flag retrieval ([#35720](https://github.com/n8n-io/n8n/issues/35720)) ([b422237](https://github.com/n8n-io/n8n/commit/b422237ac99457df2819aae76ea8872b7bae4df5))…",
+      "published_at": "2026-08-07T16:52:19Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.33.7](https://github.com/n8n-io/n8n/compare/n8n@2.33.6...n8n@2.33.7) (2026-08-07) ### Bug Fixes * **core:** Fix task runner health check failing ([#35817](https://github.com/n8n-io/n8n/issues/35817)) ([e271104](https://github.com/n8n-io/n8n/commit/e2711041af6aa9bf7643b1461fa513a399aeb0ed)) * *…",
       "personalization_adjustment": 15,
       "personalization_matches": [
         "中小企業支援・コンサル商品化",
         "ブラウザ・業務自動化",
-        "検証・証拠・安全性",
-        "文字起こし・文書整理・RAG",
         "失敗・回避策"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG、失敗・回避策",
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
@@ -270,32 +293,6 @@
       "verdict": "読む価値あり"
     },
     {
-      "source_kind": "github_commit",
-      "source_name": "anthropics/anthropic-cookbook",
-      "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "Claude",
-        "実装例",
-        "公式",
-        "公式更新"
-      ],
-      "score": 96,
-      "published_at": "2026-08-03T18:30:31Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/3291e01531b44bcf730ffe5ed62df60088087316",
-      "original_excerpt": "Add the dynamic workflows cookbook to the Agent SDK series (#806)",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
       "source_kind": "github_release",
       "source_name": "langchain-ai/langgraph",
       "title": "LangGraph：langgraph-checkpoint-sqlite==3.1.1",
@@ -333,7 +330,7 @@
         "テスト",
         "正式版"
       ],
-      "score": 100,
+      "score": 98,
       "published_at": "2026-07-30T16:35:55Z",
       "url": "https://github.com/microsoft/playwright/releases/tag/v1.62.1",
       "original_excerpt": "### Bug Fixes - #41989 [Regression]: tsconfig \"extends\" bare specifier isn't resolved via node_modules walk-up like tsc (fatal since 1.62) - #41998 [Regression]: directory-form tsconfig project references (\"path\": \"../pkg\") fail to resolve (fatal since 1.62) - #41985 Accessibility snapshot drops but…",
