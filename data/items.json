@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-07T07:41:33.515057+00:00",
+  "updated_at": "2026-08-07T13:40:01.766837+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,35 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：n8n@2.33.6",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、RAG・文書検索・知識活用、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-07T07:56:30Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.6",
+      "original_excerpt": "## [2.33.6](https://github.com/n8n-io/n8n/compare/n8n@2.33.5...n8n@2.33.6) (2026-08-07) ### Bug Fixes * Send n8n version on backend posthog flag retrieval ([#35720](https://github.com/n8n-io/n8n/issues/35720)) ([b422237](https://github.com/n8n-io/n8n/commit/b422237ac99457df2819aae76ea8872b7bae4df5))…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "検証・証拠・安全性",
+        "文字起こし・文書整理・RAG",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG、失敗・回避策",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "google-gemini/gemini-cli",
@@ -159,33 +188,6 @@
         "求人・イベント告知"
       ],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-06T07:57:43Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.33.5](https://github.com/n8n-io/n8n/compare/n8n@2.33.4...n8n@2.33.5) (2026-08-06) ### Bug Fixes * **editor:** Focus Markdown editor input before toolbar ([#35606](https://github.com/n8n-io/n8n/issues/35606)) ([388e313](https://github.com/n8n-io/n8n/commit/388e3132e2623a59b53bec4bbe160c2c13e5a7…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
