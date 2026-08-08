@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-08T02:21:47.075699+00:00",
+  "updated_at": "2026-08-08T07:15:34.238564+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -81,8 +81,8 @@
     {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.225",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "title": "Claude Code：v2.1.226",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
       "category": "AI開発エージェント",
       "tags": [
@@ -92,17 +92,18 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-08-08T01:09:26Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
-      "original_excerpt": "## What's changed - Added gateway spend-limit support to Claude Code's usage warning; the limit-reached message now names the cap, its reset time, and the operator's message (requires the gateway on 2.1.225) - Added a workspace trust prompt to `claude agents` for untrusted directories, matching the …",
+      "published_at": "2026-08-08T02:48:05Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
+      "original_excerpt": "## What's changed - Bug fixes and reliability improvements",
       "personalization_adjustment": 15,
       "personalization_matches": [
-        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
+        "検証・証拠・安全性",
+        "コード・設定・手順",
+        "失敗・回避策"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
       "verdict": "最優先"
     },
     {
