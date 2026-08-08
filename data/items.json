@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-07T19:15:37.521201+00:00",
+  "updated_at": "2026-08-08T02:21:47.075699+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,58 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.225",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-08T01:09:26Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
+      "original_excerpt": "## What's changed - Added gateway spend-limit support to Claude Code's usage warning; the limit-reached message now names the cap, its reset time, and the operator's message (requires the gateway on 2.1.225) - Added a workspace trust prompt to `claude agents` for untrusted directories, matching the …",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph-checkpoint-postgres==3.1.2",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 89,
+      "published_at": "2026-08-07T20:40:16Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2",
+      "original_excerpt": "Changes since checkpointpostgres==3.1.1 * release(checkpoint-postgres): 3.1.2 (#8565) * release(checkpoint): 4.2.0 (#8563) * test(checkpoint-postgres,checkpoint-sqlite): run the conformance suite (#8537) * fix(checkpoint-postgres): find plain-value seeds when walking delta history (#8535) * chore: e…",
+      "personalization_adjustment": 6,
+      "personalization_matches": [
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：一次情報",
+      "verdict": "読む価値あり"
+    },
     {
       "source_kind": "github_commit",
       "source_name": "anthropics/anthropic-cookbook",
@@ -155,33 +207,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.224",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-07T04:00:59Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224",
-      "original_excerpt": "## What's changed - Added self-hosted environments: `claude self-hosted-runner` turns your own machines or containers into a place Claude Code web, mobile, and desktop sessions can run, on Team and Enterprise plans - Added `archive` plugin source: install plugins from a zip over HTTPS without git or…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "Mac・ローカルAI・機密保持",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、Mac・ローカルAI・機密保持、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -290,31 +315,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
-      "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph-checkpoint-sqlite==3.1.1",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 87,
-      "published_at": "2026-07-30T19:19:47Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1",
-      "original_excerpt": "Changes since checkpointsqlite==3.1.0 * release(checkpoint-sqlite): 3.1.1 (#8481) * fix(checkpoint-postgres,checkpoint-sqlite): scope namespace matching to segment boundaries (#8478) * chore(deps): bump the minor-and-patch group in /libs/checkpoint-sqlite with 4 updates (#8249) * chore(deps): bump l…",
-      "personalization_adjustment": 6,
-      "personalization_matches": [
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：一次情報",
       "verdict": "読む価値あり"
     },
     {
