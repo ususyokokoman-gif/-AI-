@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-08T13:12:47.539419+00:00",
+  "updated_at": "2026-08-08T18:58:19.007390+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -306,7 +306,7 @@
         "機密情報",
         "正式版"
       ],
-      "score": 94,
+      "score": 92,
       "published_at": "2026-08-04T18:49:20Z",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6",
       "original_excerpt": "## What's Changed - Qwen3.5 is faster on Apple GPUs: the MLX engine now uses the model's MTP head for speculative decoding automatically - `/v1/chat/completions` streaming now matches OpenAI's wire format: `role` only on the first chunk, `finish_reason` on its own chunk, and usage in a separate chun…",
