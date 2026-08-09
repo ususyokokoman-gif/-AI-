@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-09T13:15:53.603200+00:00",
+  "updated_at": "2026-08-09T19:01:08.804323+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -252,7 +252,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 100,
+      "score": 99,
       "published_at": "2026-08-05T15:36:47Z",
       "url": "https://github.com/openai/openai-cookbook/commit/5645f6fb319b224c4853e643e6fecfee9d8886aa",
       "original_excerpt": "Add an evidence-grounded AML Agents SDK example for Amazon Bedrock (#2896)",
