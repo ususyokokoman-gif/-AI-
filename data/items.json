@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-11T13:42:54.801826+00:00",
+  "updated_at": "2026-08-11T19:20:31.848673+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,32 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph==1.2.11",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 95,
+      "published_at": "2026-08-11T14:00:50Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.11",
+      "original_excerpt": "Changes since 1.2.10 * release(langgraph): 1.2.11 (#8595) * feat(langgraph): expose `trace_policy` on `add_node` (#8523) * chore(deps): bump the minor-and-patch group across 1 directory with 7 updates (#8533) * chore(deps): bump the minor-and-patch group across 1 directory with 5 updates (#8532) * r…",
+      "personalization_adjustment": 12,
+      "personalization_matches": [
+        "検証・証拠・安全性",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：検証・証拠・安全性、一次情報",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "ollama/ollama",
@@ -186,31 +212,6 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph-checkpoint-postgres==3.1.2",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 89,
-      "published_at": "2026-08-07T20:40:16Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2",
-      "original_excerpt": "Changes since checkpointpostgres==3.1.1 * release(checkpoint-postgres): 3.1.2 (#8565) * release(checkpoint): 4.2.0 (#8563) * test(checkpoint-postgres,checkpoint-sqlite): run the conformance suite (#8537) * fix(checkpoint-postgres): find plain-value seeds when walking delta history (#8535) * chore: e…",
-      "personalization_adjustment": 6,
-      "personalization_matches": [
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：一次情報",
-      "verdict": "読む価値あり"
-    },
-    {
       "source_kind": "github_commit",
       "source_name": "anthropics/anthropic-cookbook",
       "title": "Anthropic Cookbook：公式情報が更新",
@@ -223,7 +224,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 91,
+      "score": 89,
       "published_at": "2026-08-07T17:13:36Z",
       "url": "https://github.com/anthropics/claude-cookbooks/commit/f65eb122a51e9710d4db3f4893016879c65c77d6",
       "original_excerpt": "Merge pull request #811 from anthropics/cj-ant/cma-budgets-advisor-cookbooks",
@@ -388,7 +389,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 92,
+      "score": 91,
       "published_at": "2026-07-27T17:10:13Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.7",
       "original_excerpt": "Ships the latest version of the CLI, which includes bug fixes and better browser management. ## What's Changed * fix: dont send default params in gemini genconfig by @markmcd in https://github.com/browser-use/browser-use/pull/5173 * Fix tool name in flash prompts: replace_file_str -> replace_file by…",
