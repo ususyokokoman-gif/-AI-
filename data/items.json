@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-11T02:28:07.859082+00:00",
+  "updated_at": "2026-08-11T07:37:53.930008+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,61 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "openai/openai-agents-python",
+      "title": "OpenAI Agents SDK：v0.20.0",
+      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
+      "category": "AIエージェント",
+      "tags": [
+        "Agents SDK",
+        "エージェント設計",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-11T03:12:14Z",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.20.0",
+      "original_excerpt": "## Key Changes Version 0.20.0 is a minor release because it changes the implicit default model and includes a potentially breaking MCP dependency migration for applications with customized local HTTP transports. MCP v1 remains supported, and affected applications can migrate to `httpx2` or pin `mcp<…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.32.8",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-10T23:49:29Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.8",
+      "original_excerpt": "## Muse Glimmer Muse Glimmer is now available on all platforms. Muse Glimmer can power coding agent applications such as Claude Code, Codex, Pi and more, as well as long-running personal assistants such as OpenClaw and Hermes. Ollama's MLX engine provides state-of-the-art performance on Apple Silico…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "Mac・ローカルAI・機密保持",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、Mac・ローカルAI・機密保持、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.227",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能、不具合修正・安定性に関する変更です。",
@@ -104,31 +159,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.32.7",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 94,
-      "published_at": "2026-08-10T10:49:15Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.7",
-      "original_excerpt": "## Muse Glimmer > Note: Muse Glimmer is currently available via initial support via Ollama's MLX engine on Apple Silicon. Additional support and optimizations for Apple Silicon, NVIDIA, AMD, and other platforms will be available in the coming days. **Muse Glimmer**, Meta's newest open model and the …",
-      "personalization_adjustment": 7,
-      "personalization_matches": [
-        "Mac・ローカルAI・機密保持"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -289,32 +319,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、作業証拠・AI監査、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/openai-agents-python",
-      "title": "OpenAI Agents SDK：v0.19.4",
-      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
-      "category": "AIエージェント",
-      "tags": [
-        "Agents SDK",
-        "エージェント設計",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-05T02:58:35Z",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4",
-      "original_excerpt": "## What's Changed * fix: preserve completed tool guardrail results by @seratch in https://github.com/openai/openai-agents-python/pull/4180 * fix: redact invalid tool argument errors by @seratch in https://github.com/openai/openai-agents-python/pull/4182 * fix: defer non-stream session saves until ou…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI",
       "verdict": "最優先"
     },
     {
