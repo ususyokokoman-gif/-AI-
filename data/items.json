@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-12T07:52:22.442455+00:00",
+  "updated_at": "2026-08-12T13:47:48.718041+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,33 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：n8n@2.34.5",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-12T08:04:40Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.5",
+      "original_excerpt": "## [2.34.5](https://github.com/n8n-io/n8n/compare/n8n@2.34.4...n8n@2.34.5) (2026-08-12) ### Bug Fixes * **core:** Apply TLS options per hop when requests go through a proxy ([#36017](https://github.com/n8n-io/n8n/issues/36017)) ([01a52b4](https://github.com/n8n-io/n8n/commit/01a52b400cfe903b24a3cc08…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "google-gemini/gemini-cli",
@@ -184,33 +211,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-11T08:00:26Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.34.4](https://github.com/n8n-io/n8n/compare/n8n@2.34.3...n8n@2.34.4) (2026-08-07) ### Bug Fixes * **core:** Fix task runner health check failing ([#35816](https://github.com/n8n-io/n8n/issues/35816)) ([badd50e](https://github.com/n8n-io/n8n/commit/badd50ee79022c2137152ebe36141037a737c2d4)) * *…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
