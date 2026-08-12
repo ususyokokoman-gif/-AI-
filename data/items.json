@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-12T02:44:53.591410+00:00",
+  "updated_at": "2026-08-12T07:52:22.442455+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -362,7 +362,7 @@
         "業務アプリ",
         "正式版"
       ],
-      "score": 94,
+      "score": 93,
       "published_at": "2026-07-28T03:43:51Z",
       "url": "https://github.com/langgenius/dify/releases/tag/1.16.1",
       "original_excerpt": "## What's Changed ### New Features **Tool Multi-Select Input** - Workflow tool nodes now support multi-select dropdown inputs, allowing users to choose multiple values from a predefined list when configuring tool parameters. (#39346) **Workflow Node Locator** - You can now click a node_id in workflo…",
