@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-11T19:20:31.848673+00:00",
+  "updated_at": "2026-08-12T02:44:53.591410+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,62 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "google-gemini/gemini-cli",
+      "title": "Gemini CLI：Release v0.55.1",
+      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Gemini CLI",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-11T21:15:10Z",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.1",
+      "original_excerpt": "## What's Changed * fix/verify release npm ci ignore scripts by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/28116 * fix(ci): prevent workspace binary shadowing in release verification by @galdawave in https://github.com/google-gemini/gemini-cli/pull/28132 * Feat/tool registry…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性",
+        "Mac・ローカルAI・機密保持",
+        "コード・設定・手順",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、Mac・ローカルAI・機密保持、コード・設定・手順、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.228",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-11T19:50:59Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228",
+      "original_excerpt": "## What's changed - Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error - Fixed `git` / Git Bash not being found on Windows when Claude Code is launched from a parent folder of the git installation - Fixed `/tui` reverting…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "langchain-ai/langgraph",
@@ -185,33 +241,6 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.227",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-10T22:56:53Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
-      "original_excerpt": "## What's changed - Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users to enable usage credits for Fable - Fixed every Bash command failing under `claude-code-action` with `allowed_non…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "検証・証拠・安全性",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
       "source_kind": "github_commit",
       "source_name": "anthropics/anthropic-cookbook",
       "title": "Anthropic Cookbook：公式情報が更新",
@@ -235,33 +264,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：コード・設定・手順",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "google-gemini/gemini-cli",
-      "title": "Gemini CLI：Release v0.54.4",
-      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Gemini CLI",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-07T04:44:19Z",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.4",
-      "original_excerpt": "## What's Changed * fix(patch): cherry-pick 56f9688 to release/v0.54.0-pr-28700 to patch version v0.54.0 and create version 0.54.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28710 * chore: bump version to 0.54.2 by @DavidAPierce in https://github.com/google-gemini/gemin…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
