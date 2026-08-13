@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-13T07:53:32.256054+00:00",
+  "updated_at": "2026-08-13T13:48:33.231966+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -81,8 +81,8 @@
     {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.229",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "title": "Claude Code：v2.1.231",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、MCP・外部サービス連携、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
       "category": "AI開発エージェント",
       "tags": [
@@ -92,16 +92,43 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-08-12T20:56:22Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229",
-      "original_excerpt": "## What's changed - Documented `claude remote-control --continue` for resuming the most recent Remote Control session - Added server-supplied Claude Code hook support for self-hosted runner sessions, matching managed-environment behavior - Added SSE keepalive pings to gateway streaming responses dur…",
-      "personalization_adjustment": 13,
+      "published_at": "2026-08-13T08:38:50Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
+      "original_excerpt": "## What's changed - Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
+      "personalization_adjustment": 15,
       "personalization_matches": [
+        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
         "コード・設定・手順"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：n8n@1.123.71",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-08-13T08:06:46Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.71",
+      "original_excerpt": "## [1.123.71](https://github.com/n8n-io/n8n/compare/n8n@1.123.70...n8n@1.123.71) (2026-08-13) <!-- This is an auto-generated description by cubic. --> <a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36182?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture…",
+      "personalization_adjustment": 14,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化",
       "verdict": "最優先"
     },
     {
@@ -129,33 +156,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：コード・設定・手順、数値・比較・検証",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：n8n@2.34.5",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-12T08:04:40Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.5",
-      "original_excerpt": "## [2.34.5](https://github.com/n8n-io/n8n/compare/n8n@2.34.4...n8n@2.34.5) (2026-08-12) ### Bug Fixes * **core:** Apply TLS options per hop when requests go through a proxy ([#36017](https://github.com/n8n-io/n8n/issues/36017)) ([01a52b4](https://github.com/n8n-io/n8n/commit/01a52b400cfe903b24a3cc08…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
