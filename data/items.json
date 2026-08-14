@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-14T13:43:08.833811+00:00",
+  "updated_at": "2026-08-14T19:14:27.699750+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -82,7 +82,7 @@
       "source_kind": "github_commit",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、RAG・文書検索・知識活用に関する変更です。",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -91,20 +91,70 @@
         "公式",
         "公式更新"
       ],
-      "score": 100,
-      "published_at": "2026-08-14T13:40:35Z",
-      "url": "https://github.com/openai/codex/commit/42d842a91a9d77efbf7a164fc0dcd42637958031",
-      "original_excerpt": "Report thread storage changes after rollout migration (#38579)",
-      "personalization_adjustment": 12,
+      "score": 98,
+      "published_at": "2026-08-14T19:11:41Z",
+      "url": "https://github.com/openai/codex/commit/baab1705c60089f919accc11608aa0df02f634f7",
+      "original_excerpt": "Make Guardian v2 risk classification configurable (#38628)",
+      "personalization_adjustment": 8,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
-        "文字起こし・文書整理・RAG",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、文字起こし・文書整理・RAG、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 91,
+      "published_at": "2026-08-14T18:03:50Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/9148d36f5d1c3a8ec1a331a6b4ad63bb00789e45",
+      "original_excerpt": "Merge pull request #831 from anthropics/aravind-ant/content-moderation-cookbook",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.32.12",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 96,
+      "published_at": "2026-08-14T16:37:00Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
+      "original_excerpt": "<img width=\"600\" alt=\"ollama and qwen capybara\" src=\"https://github.com/user-attachments/assets/5fa5e93b-d48b-4a6a-b72a-25379ab9429c\" /> ## Qwen 3.8 - 27B model support This release adds the support of Qwen 3.8 27B. For Apple Silicon devices, Ollama has in particular optimized for maximum performanc…",
+      "personalization_adjustment": 9,
+      "personalization_matches": [
+        "Mac・ローカルAI・機密保持",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持、一次情報",
       "verdict": "最優先"
     },
     {
@@ -162,33 +212,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.32.11",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフローに関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-14T01:22:12Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
-      "original_excerpt": "## What's Changed * `ollama launch dsh` now supports DeepSeek Harness, [DeepSeek's open-source agent harness](https://deepseek.com/harness/en/) * `ollama launch muse` now supports [Muse Code](https://developer.meta.com/ai/products/muse-code/), Meta's agentic coding CLI * The OpenAI-compatible Respon…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Mac・ローカルAI・機密保持",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.232",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -213,32 +236,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "anthropics/anthropic-cookbook",
-      "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "Claude",
-        "実装例",
-        "公式",
-        "公式更新"
-      ],
-      "score": 94,
-      "published_at": "2026-08-12T18:58:31Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/e3f125bbfbc98e2d45e6d8ff638dcf69519ed7aa",
-      "original_excerpt": "docs(cost_optimization): shorten registry description",
-      "personalization_adjustment": 10,
-      "personalization_matches": [
-        "コード・設定・手順",
-        "数値・比較・検証"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：コード・設定・手順、数値・比較・検証",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -335,7 +332,7 @@
         "テスト",
         "正式版"
       ],
-      "score": 98,
+      "score": 97,
       "published_at": "2026-07-30T16:35:55Z",
       "url": "https://github.com/microsoft/playwright/releases/tag/v1.62.1",
       "original_excerpt": "### Bug Fixes - #41989 [Regression]: tsconfig \"extends\" bare specifier isn't resolved via node_modules walk-up like tsc (fatal since 1.62) - #41998 [Regression]: directory-form tsconfig project references (\"path\": \"../pkg\") fail to resolve (fatal since 1.62) - #41985 Accessibility snapshot drops but…",
