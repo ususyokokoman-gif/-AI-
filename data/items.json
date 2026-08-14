@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-14T02:46:15.252921+00:00",
+  "updated_at": "2026-08-14T07:51:01.861236+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -82,7 +82,7 @@
       "source_kind": "github_commit",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフローに関する変更です。",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -91,20 +91,46 @@
         "公式",
         "公式更新"
       ],
-      "score": 100,
-      "published_at": "2026-08-14T02:32:05Z",
-      "url": "https://github.com/openai/codex/commit/9d012ca4f54c5adc86e605a7bedbdd03ef63f516",
-      "original_excerpt": "Include agent names in turn metadata (#38483)",
-      "personalization_adjustment": 13,
+      "score": 98,
+      "published_at": "2026-08-14T05:49:33Z",
+      "url": "https://github.com/openai/codex/commit/86b1123ff6b5d089a146be4e603a324cf454223a",
+      "original_excerpt": "Enable parallel tool calls for all model prompts (#38499)",
+      "personalization_adjustment": 8,
       "personalization_matches": [
-        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.32.11",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフローに関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-14T01:22:12Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.11",
+      "original_excerpt": "## What's Changed * `ollama launch dsh` now supports DeepSeek Harness, [DeepSeek's open-source agent harness](https://deepseek.com/harness/en/) * `ollama launch muse` now supports [Muse Code](https://developer.meta.com/ai/products/muse-code/), Meta's agentic coding CLI * The OpenAI-compatible Respon…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Mac・ローカルAI・機密保持",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -239,32 +265,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：検証・証拠・安全性、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.32.9",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 99,
-      "published_at": "2026-08-11T13:23:33Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.9",
-      "original_excerpt": "## NVIDIA Nemotron 3.5 Lightning [NVIDIA Nemotron 3.5 Lightning](https://ollama.com/library/nemotron-3.5-lightning) is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses like OpenClaw and Hermes Agent …",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Mac・ローカルAI・機密保持"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持",
       "verdict": "最優先"
     },
     {
