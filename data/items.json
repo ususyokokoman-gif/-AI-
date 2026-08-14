@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-13T19:20:22.469176+00:00",
+  "updated_at": "2026-08-14T02:46:15.252921+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,10 +79,39 @@
   ],
   "items": [
     {
+      "source_kind": "github_commit",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：公式情報が更新",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフローに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "公式更新"
+      ],
+      "score": 100,
+      "published_at": "2026-08-14T02:32:05Z",
+      "url": "https://github.com/openai/codex/commit/9d012ca4f54c5adc86e605a7bedbdd03ef63f516",
+      "original_excerpt": "Include agent names in turn metadata (#38483)",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.231",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、MCP・外部サービス連携、不具合修正・安定性に関する変更です。",
+      "title": "Claude Code：v2.1.232",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
       "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
       "category": "AI開発エージェント",
       "tags": [
@@ -92,9 +121,9 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-08-13T08:38:50Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
-      "original_excerpt": "## What's changed - Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
+      "published_at": "2026-08-13T23:29:59Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
+      "original_excerpt": "## What's changed - Subagent forking is now on by default: a `subagent_type: \"fork\"` subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in the background by default - Type `@` in the prompt to mention another Claude session by name…",
       "personalization_adjustment": 15,
       "personalization_matches": [
         "AIエージェント実装",
@@ -263,35 +292,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.147.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-07T01:41:49Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0",
-      "original_excerpt": "## New Features - Install portable Agent Plugins and search across local, personal, workspace, and remote plugin catalogs. (#36544, #36409, #36919, #36796) - Organize conversations into persistent, manually ordered sections and browse long transcripts incrementally. (#35722, #36007, #36380, #36948, …",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
