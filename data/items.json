@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-15T06:58:13.268282+00:00",
+  "updated_at": "2026-08-15T12:58:48.576026+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -82,7 +82,7 @@
       "source_kind": "github_commit",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携に関する変更です。",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -91,20 +91,19 @@
         "公式",
         "公式更新"
       ],
-      "score": 100,
-      "published_at": "2026-08-15T05:53:54Z",
-      "url": "https://github.com/openai/codex/commit/85fc4def358b7df21883e72ae8dda43a0f572f32",
-      "original_excerpt": "Add MCP tool handler support to the hooks engine (#38705)",
-      "personalization_adjustment": 13,
+      "score": 98,
+      "published_at": "2026-08-15T11:01:30Z",
+      "url": "https://github.com/openai/codex/commit/a7edf37cb46b5fc4d50bd03df8e5999a86f602eb",
+      "original_excerpt": "Remove the TUI test dependency on `codex-cli` (#38746)",
+      "personalization_adjustment": 8,
       "personalization_matches": [
-        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
