@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-14T19:14:27.699750+00:00",
+  "updated_at": "2026-08-15T01:49:42.515110+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -92,9 +92,9 @@
         "公式更新"
       ],
       "score": 98,
-      "published_at": "2026-08-14T19:11:41Z",
-      "url": "https://github.com/openai/codex/commit/baab1705c60089f919accc11608aa0df02f634f7",
-      "original_excerpt": "Make Guardian v2 risk classification configurable (#38628)",
+      "published_at": "2026-08-15T01:39:04Z",
+      "url": "https://github.com/openai/codex/commit/2ca575026cef066a58c70f6bdee4feafa6e63d3a",
+      "original_excerpt": "Support pending environment attachment configuration (#38684)",
       "personalization_adjustment": 8,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
@@ -107,10 +107,37 @@
       "verdict": "最優先"
     },
     {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.233",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-14T22:20:57Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+      "original_excerpt": "## What's changed - Added GitLab merge request URL support to the `--worktree` flag and the `claude agents` view (where MRs display as `!N`) - Added an opt-in `forward_user_identity` apps gateway setting on Anthropic upstreams that sends the signed-in user's identity as headers, so a proxy behind th…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
       "source_kind": "github_commit",
       "source_name": "anthropics/anthropic-cookbook",
       "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
       "category": "実装例・ノウハウ",
       "tags": [
@@ -120,9 +147,34 @@
         "公式更新"
       ],
       "score": 91,
-      "published_at": "2026-08-14T18:03:50Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/9148d36f5d1c3a8ec1a331a6b4ad63bb00789e45",
-      "original_excerpt": "Merge pull request #831 from anthropics/aravind-ant/content-moderation-cookbook",
+      "published_at": "2026-08-14T20:50:15Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/35f2eec7e44897c537e44441b7dff2f0ecbfb804",
+      "original_excerpt": "Merge pull request #834 from anthropics/aravind-ant/fix-mdx-compile",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 93,
+      "published_at": "2026-08-14T20:24:44Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/e7c75a83a1045e7899a5d79e00afc25e996805d6",
+      "original_excerpt": "Archive two GitHub Cookbook examples (#2946)",
       "personalization_adjustment": 7,
       "personalization_matches": [
         "コード・設定・手順"
@@ -134,8 +186,8 @@
     {
       "source_kind": "github_release",
       "source_name": "ollama/ollama",
-      "title": "Ollama：v0.32.12",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能に関する変更です。",
+      "title": "Ollama：v0.32.13",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
       "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
       "category": "ローカルAI",
       "tags": [
@@ -145,9 +197,9 @@
         "正式版"
       ],
       "score": 96,
-      "published_at": "2026-08-14T16:37:00Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
-      "original_excerpt": "<img width=\"600\" alt=\"ollama and qwen capybara\" src=\"https://github.com/user-attachments/assets/5fa5e93b-d48b-4a6a-b72a-25379ab9429c\" /> ## Qwen 3.8 - 27B model support This release adds the support of Qwen 3.8 27B. For Apple Silicon devices, Ollama has in particular optimized for maximum performanc…",
+      "published_at": "2026-08-14T19:16:07Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.13",
+      "original_excerpt": "## What's Changed * qwen3.8: support developer instructions **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.12...v0.32.13",
       "personalization_adjustment": 9,
       "personalization_matches": [
         "Mac・ローカルAI・機密保持",
@@ -155,32 +207,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、エージェント実行・ツール連携・ワークフローに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 98,
-      "published_at": "2026-08-14T13:04:29Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/ff5456262f363fa7fdf310bc4f46825d60dc0054",
-      "original_excerpt": "Add controlled agentic commerce with AgentCore Payments (#2943)",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -208,33 +234,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.232",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-13T23:29:59Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
-      "original_excerpt": "## What's changed - Subagent forking is now on by default: a `subagent_type: \"fork\"` subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in the background by default - Type `@` in the prompt to mention another Claude session by name…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
