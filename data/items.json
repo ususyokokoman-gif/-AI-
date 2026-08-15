@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-15T01:49:42.515110+00:00",
+  "updated_at": "2026-08-15T06:58:13.268282+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -82,7 +82,7 @@
       "source_kind": "github_commit",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携に関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -91,19 +91,47 @@
         "公式",
         "公式更新"
       ],
-      "score": 98,
-      "published_at": "2026-08-15T01:39:04Z",
-      "url": "https://github.com/openai/codex/commit/2ca575026cef066a58c70f6bdee4feafa6e63d3a",
-      "original_excerpt": "Support pending environment attachment configuration (#38684)",
-      "personalization_adjustment": 8,
+      "score": 100,
+      "published_at": "2026-08-15T05:53:54Z",
+      "url": "https://github.com/openai/codex/commit/85fc4def358b7df21883e72ae8dda43a0f572f32",
+      "original_excerpt": "Add MCP tool handler support to the hooks engine (#38705)",
+      "personalization_adjustment": 13,
       "personalization_matches": [
+        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/openai-agents-python",
+      "title": "OpenAI Agents SDK：v0.21.0",
+      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
+      "category": "AIエージェント",
+      "tags": [
+        "Agents SDK",
+        "エージェント設計",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-15T02:49:37Z",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.0",
+      "original_excerpt": "## Key Changes This minor release does not introduce a known breaking SDK behavior change. The minor version bump is for the new provider-neutral testing APIs and the OpenAI Python v3 compatibility update. ### Highlights: - Added `agents.testing`, `agents.realtime.testing`, and `agents.voice.testing…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、一次情報",
       "verdict": "最優先"
     },
     {
@@ -289,33 +317,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：検証・証拠・安全性、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/openai-agents-python",
-      "title": "OpenAI Agents SDK：v0.20.0",
-      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
-      "category": "AIエージェント",
-      "tags": [
-        "Agents SDK",
-        "エージェント設計",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-11T03:12:14Z",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.20.0",
-      "original_excerpt": "## Key Changes Version 0.20.0 is a minor release because it changes the implicit default model and includes a potentially breaking MCP dependency migration for applications with customized local HTTP transports. MCP v1 remains supported, and affected applications can migrate to `httpx2` or pin `mcp<…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、一次情報",
       "verdict": "最優先"
     },
     {
