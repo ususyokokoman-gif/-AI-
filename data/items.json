@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-16T13:00:55.453452+00:00",
+  "updated_at": "2026-08-16T18:47:21.308722+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -105,6 +105,34 @@
         "求人・イベント告知"
       ],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、Mac・ローカルAI・機密保持、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.32.14",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-15T19:41:23Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14",
+      "original_excerpt": "## What's Changed * llm: transcode WebP images for llama-server * renderers/qwen: tolerate non-leading system messages **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.13...v0.32.14",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Mac・ローカルAI・機密保持",
+        "コード・設定・手順",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持、コード・設定・手順、一次情報",
       "verdict": "最優先"
     },
     {
@@ -210,32 +238,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：コード・設定・手順",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.32.13",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 96,
-      "published_at": "2026-08-14T19:16:07Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.13",
-      "original_excerpt": "## What's Changed * qwen3.8: support developer instructions **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.12...v0.32.13",
-      "personalization_adjustment": 9,
-      "personalization_matches": [
-        "Mac・ローカルAI・機密保持",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持、一次情報",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
