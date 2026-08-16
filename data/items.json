@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-16T01:57:31.320864+00:00",
+  "updated_at": "2026-08-16T06:59:27.741698+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -91,19 +91,20 @@
         "公式",
         "公式更新"
       ],
-      "score": 98,
-      "published_at": "2026-08-16T01:34:51Z",
-      "url": "https://github.com/openai/codex/commit/49db349ffdd888f5e3c91abf9b7519d8631e6e9a",
-      "original_excerpt": "Avoid allocating per character when decorating hyperlinks (#38823)",
-      "personalization_adjustment": 8,
+      "score": 100,
+      "published_at": "2026-08-16T06:48:59Z",
+      "url": "https://github.com/openai/codex/commit/9ded177ce7c1c0bd2047f902936c177612ab3434",
+      "original_excerpt": "Identify Mac mini hosts in remote control handshakes (#38840)",
+      "personalization_adjustment": 12,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
+        "Mac・ローカルAI・機密保持",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、Mac・ローカルAI・機密保持、コード・設定・手順",
       "verdict": "最優先"
     },
     {
