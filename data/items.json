@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-15T18:47:46.478137+00:00",
+  "updated_at": "2026-08-16T01:57:31.320864+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -92,9 +92,9 @@
         "公式更新"
       ],
       "score": 98,
-      "published_at": "2026-08-15T17:30:13Z",
-      "url": "https://github.com/openai/codex/commit/a95a6fe333c276623ef172f9f7825ac2790be184",
-      "original_excerpt": "Show resume and fork status during TUI startup (#38788)",
+      "published_at": "2026-08-16T01:34:51Z",
+      "url": "https://github.com/openai/codex/commit/49db349ffdd888f5e3c91abf9b7519d8631e6e9a",
+      "original_excerpt": "Avoid allocating per character when decorating hyperlinks (#38823)",
       "personalization_adjustment": 8,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
