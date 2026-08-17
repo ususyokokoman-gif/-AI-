@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-17T01:55:29.730809+00:00",
+  "updated_at": "2026-08-17T07:16:11.559423+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -92,9 +92,9 @@
         "公式更新"
       ],
       "score": 98,
-      "published_at": "2026-08-17T00:32:09Z",
-      "url": "https://github.com/openai/codex/commit/1f41cc5d92722748e45cae9cecc6d883a4e7cbb1",
-      "original_excerpt": "Compact successful command activity in the TUI (#38921)",
+      "published_at": "2026-08-17T05:52:32Z",
+      "url": "https://github.com/openai/codex/commit/c6058ccaa91ab17159cf805bf4d6d4edd87fe5fc",
+      "original_excerpt": "Stop loading legacy managed config on Windows (#38947)",
       "personalization_adjustment": 8,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
