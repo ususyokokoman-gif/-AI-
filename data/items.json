@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-17T07:16:11.559423+00:00",
+  "updated_at": "2026-08-17T13:06:09.813693+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -91,19 +91,47 @@
         "公式",
         "公式更新"
       ],
-      "score": 98,
-      "published_at": "2026-08-17T05:52:32Z",
-      "url": "https://github.com/openai/codex/commit/c6058ccaa91ab17159cf805bf4d6d4edd87fe5fc",
-      "original_excerpt": "Stop loading legacy managed config on Windows (#38947)",
-      "personalization_adjustment": 8,
+      "score": 100,
+      "published_at": "2026-08-17T12:45:50Z",
+      "url": "https://github.com/openai/codex/commit/4885eb6c52c4d9915698671395aaa327072afca9",
+      "original_excerpt": "Retry transient Guardian sampling failures (#38997)",
+      "personalization_adjustment": 15,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
+        "検証・証拠・安全性",
+        "コード・設定・手順",
+        "失敗・回避策"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：n8n@1.123.72",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-08-17T07:57:31Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.72",
+      "original_excerpt": "## [1.123.72](https://github.com/n8n-io/n8n/compare/n8n@1.123.71...n8n@1.123.72) (2026-08-17) <!-- This is an auto-generated description by cubic. --> <a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/36390?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture…",
+      "personalization_adjustment": 14,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化",
       "verdict": "最優先"
     },
     {
@@ -262,33 +290,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：コード・設定・手順",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-14T08:12:04Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.34.6](https://github.com/n8n-io/n8n/compare/n8n@2.34.5...n8n@2.34.6) (2026-08-14) ### Bug Fixes * **core:** Allow `details` field in `continueErrorOutput` mode ([#36229](https://github.com/n8n-io/n8n/issues/36229)) ([a5b4822](https://github.com/n8n-io/n8n/commit/a5b4822c43c39779bf063d6d6993247…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
