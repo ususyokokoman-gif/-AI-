@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-17T13:06:09.813693+00:00",
+  "updated_at": "2026-08-17T18:57:36.266974+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -91,22 +91,45 @@
         "公式",
         "公式更新"
       ],
-      "score": 100,
-      "published_at": "2026-08-17T12:45:50Z",
-      "url": "https://github.com/openai/codex/commit/4885eb6c52c4d9915698671395aaa327072afca9",
-      "original_excerpt": "Retry transient Guardian sampling failures (#38997)",
-      "personalization_adjustment": 15,
+      "score": 98,
+      "published_at": "2026-08-17T18:54:49Z",
+      "url": "https://github.com/openai/codex/commit/0c901fd141875f92c306ae699798946e516a5970",
+      "original_excerpt": "Skip plugin hook loading when hooks are disabled (#39047)",
+      "personalization_adjustment": 8,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
-        "検証・証拠・安全性",
-        "コード・設定・手順",
-        "失敗・回避策"
+        "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、対応モデル・コンテキスト・トークン、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 93,
+      "published_at": "2026-08-17T17:55:06Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/233f51c108f0d189ed72106537f917e81bf62a94",
+      "original_excerpt": "Archive outdated GPT Image generation cookbook (#2954)",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -258,31 +281,6 @@
       "published_at": "2026-08-14T20:50:15Z",
       "url": "https://github.com/anthropics/claude-cookbooks/commit/35f2eec7e44897c537e44441b7dff2f0ecbfb804",
       "original_excerpt": "Merge pull request #834 from anthropics/aravind-ant/fix-mdx-compile",
-      "personalization_adjustment": 7,
-      "personalization_matches": [
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：コード・設定・手順",
-      "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 93,
-      "published_at": "2026-08-14T20:24:44Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/e7c75a83a1045e7899a5d79e00afc25e996805d6",
-      "original_excerpt": "Archive two GitHub Cookbook examples (#2946)",
       "personalization_adjustment": 7,
       "personalization_matches": [
         "コード・設定・手順"
