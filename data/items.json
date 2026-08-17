@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-16T18:47:21.308722+00:00",
+  "updated_at": "2026-08-17T01:55:29.730809+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -91,21 +91,72 @@
         "公式",
         "公式更新"
       ],
-      "score": 100,
-      "published_at": "2026-08-16T06:48:59Z",
-      "url": "https://github.com/openai/codex/commit/9ded177ce7c1c0bd2047f902936c177612ab3434",
-      "original_excerpt": "Identify Mac mini hosts in remote control handshakes (#38840)",
-      "personalization_adjustment": 12,
+      "score": 98,
+      "published_at": "2026-08-17T00:32:09Z",
+      "url": "https://github.com/openai/codex/commit/1f41cc5d92722748e45cae9cecc6d883a4e7cbb1",
+      "original_excerpt": "Compact successful command activity in the TUI (#38921)",
+      "personalization_adjustment": 8,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
-        "Mac・ローカルAI・機密保持",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、Mac・ローカルAI・機密保持、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/openai-agents-python",
+      "title": "OpenAI Agents SDK：v0.21.1",
+      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
+      "category": "AIエージェント",
+      "tags": [
+        "Agents SDK",
+        "エージェント設計",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-16T22:28:55Z",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.1",
+      "original_excerpt": "## What's Changed * feat(core): add model call timeouts by @seratch in https://github.com/openai/openai-agents-python/pull/4428 * feat(sandbox): add run-scoped sandbox working directories by @seratch in https://github.com/openai/openai-agents-python/pull/4427 * feat(sandbox): allow Docker sandboxes …",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、検証・証拠・安全性",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "browser-use/browser-use",
+      "title": "Browser Use：0.13.8",
+      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "ブラウザ操作",
+        "AIエージェント",
+        "自動化",
+        "正式版"
+      ],
+      "score": 93,
+      "published_at": "2026-08-16T18:48:54Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.8",
+      "original_excerpt": "## What's Changed * Update Cerebras model IDs and default by @ryanl-cerebras in https://github.com/browser-use/browser-use/pull/5323 * Recover Anthropic tool arguments when the model serializes its call as text by @ElayGelbart in https://github.com/browser-use/browser-use/pull/5330 * docs: replace b…",
+      "personalization_adjustment": 9,
+      "personalization_matches": [
+        "ブラウザ・業務自動化"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化",
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -133,33 +184,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持、コード・設定・手順、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/openai-agents-python",
-      "title": "OpenAI Agents SDK：v0.21.0",
-      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
-      "category": "AIエージェント",
-      "tags": [
-        "Agents SDK",
-        "エージェント設計",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-15T02:49:37Z",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.0",
-      "original_excerpt": "## Key Changes This minor release does not introduce a known breaking SDK behavior change. The minor version bump is for the new provider-neutral testing APIs and the OpenAI Python v3 compatibility update. ### Highlights: - Added `agents.testing`, `agents.realtime.testing`, and `agents.voice.testing…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、一次情報",
       "verdict": "最優先"
     },
     {
@@ -375,32 +399,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG、失敗・回避策",
-      "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "browser-use/browser-use",
-      "title": "Browser Use：0.13.7",
-      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
-      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "ブラウザ操作",
-        "AIエージェント",
-        "自動化",
-        "正式版"
-      ],
-      "score": 91,
-      "published_at": "2026-07-27T17:10:13Z",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.7",
-      "original_excerpt": "Ships the latest version of the CLI, which includes bug fixes and better browser management. ## What's Changed * fix: dont send default params in gemini genconfig by @markmcd in https://github.com/browser-use/browser-use/pull/5173 * Fix tool name in flash prompts: replace_file_str -> replace_file by…",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、失敗・回避策",
       "verdict": "読む価値あり"
     },
     {
