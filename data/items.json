@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-18T07:04:21.930028+00:00",
+  "updated_at": "2026-08-18T13:07:36.742050+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -82,7 +82,7 @@
       "source_kind": "github_commit",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、MCP・外部サービス連携に関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -91,19 +91,20 @@
         "公式",
         "公式更新"
       ],
-      "score": 98,
-      "published_at": "2026-08-18T06:48:12Z",
-      "url": "https://github.com/openai/codex/commit/f5e9d66851a20311b8385204686990c6c5960014",
-      "original_excerpt": "Notify clients when Guardian requires strict review (#39157)",
-      "personalization_adjustment": 8,
+      "score": 100,
+      "published_at": "2026-08-18T12:37:41Z",
+      "url": "https://github.com/openai/codex/commit/a397079287e6638b39dda329835350d93222681f",
+      "original_excerpt": "Preserve MCP resource origins across compaction (#39192)",
+      "personalization_adjustment": 13,
       "personalization_matches": [
+        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
