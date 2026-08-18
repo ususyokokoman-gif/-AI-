@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-18T13:07:36.742050+00:00",
+  "updated_at": "2026-08-18T18:56:48.679246+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -82,7 +82,7 @@
       "source_kind": "github_commit",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、MCP・外部サービス連携に関する変更です。",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -91,27 +91,52 @@
         "公式",
         "公式更新"
       ],
-      "score": 100,
-      "published_at": "2026-08-18T12:37:41Z",
-      "url": "https://github.com/openai/codex/commit/a397079287e6638b39dda329835350d93222681f",
-      "original_excerpt": "Preserve MCP resource origins across compaction (#39192)",
-      "personalization_adjustment": 13,
+      "score": 98,
+      "published_at": "2026-08-18T18:50:58Z",
+      "url": "https://github.com/openai/codex/commit/785ecd7452f87c7eb731fbb73892185cbdd9d5f9",
+      "original_excerpt": "Stop TUI chats on misalignment policy violations (#39261)",
+      "personalization_adjustment": 8,
       "personalization_matches": [
-        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "modelcontextprotocol/servers",
+      "title": "MCP公式サーバー集：Release 2026.8.18",
+      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
+      "category": "MCP・外部連携",
+      "tags": [
+        "MCP",
+        "外部連携",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-18T16:16:12Z",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
+      "original_excerpt": "# Release : v2026.8.18 ## Updated packages - @modelcontextprotocol/server-everything@2026.8.18 - mcp-server-time@2026.8.18 - mcp-server-fetch@2026.8.18 - mcp-server-git@2026.8.18",
+      "personalization_adjustment": 10,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
       "verdict": "最優先"
     },
     {
       "source_kind": "github_commit",
       "source_name": "openai/openai-cookbook",
       "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
       "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
       "category": "実装例・ノウハウ",
       "tags": [
@@ -120,17 +145,19 @@
         "公式",
         "公式更新"
       ],
-      "score": 93,
-      "published_at": "2026-08-17T23:16:37Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/9a9d99e936c18e95ed5559cb0afa861710fa007b",
-      "original_excerpt": "Add a per-run spending controller for the Responses API (#2957)",
-      "personalization_adjustment": 7,
+      "score": 100,
+      "published_at": "2026-08-18T15:31:02Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/41fc688c711955530e8dcc832c22d97a5da6d679",
+      "original_excerpt": "Add Codex workflow iteration cookbook (#2915)",
+      "personalization_adjustment": 15,
       "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
         "コード・設定・手順"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：コード・設定・手順",
-      "verdict": "読む価値あり"
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -399,32 +426,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG、失敗・回避策",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "modelcontextprotocol/servers",
-      "title": "MCP公式サーバー集：Release 2026.7.10",
-      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
-      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
-      "category": "MCP・外部連携",
-      "tags": [
-        "MCP",
-        "外部連携",
-        "公式",
-        "正式版"
-      ],
-      "score": 98,
-      "published_at": "2026-07-10T03:39:07Z",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "original_excerpt": "# Release : v2026.7.10 ## Updated packages - @modelcontextprotocol/server-filesystem@2026.7.10 - mcp-server-time@2026.7.10 - mcp-server-fetch@2026.7.10 - mcp-server-git@2026.7.10",
-      "personalization_adjustment": 10,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
-      "verdict": "最優先"
     }
   ]
 }
