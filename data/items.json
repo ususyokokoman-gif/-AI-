@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-17T18:57:36.266974+00:00",
+  "updated_at": "2026-08-18T01:51:16.780703+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -82,7 +82,7 @@
       "source_kind": "github_commit",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性に関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -91,26 +91,27 @@
         "公式",
         "公式更新"
       ],
-      "score": 98,
-      "published_at": "2026-08-17T18:54:49Z",
-      "url": "https://github.com/openai/codex/commit/0c901fd141875f92c306ae699798946e516a5970",
-      "original_excerpt": "Skip plugin hook loading when hooks are disabled (#39047)",
-      "personalization_adjustment": 8,
+      "score": 100,
+      "published_at": "2026-08-18T01:00:48Z",
+      "url": "https://github.com/openai/codex/commit/ede5247893a50297a47c9aa5038e6ab28312ff50",
+      "original_excerpt": "Reject lossy legacy permission projections (#39117)",
+      "personalization_adjustment": 14,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
       "verdict": "最優先"
     },
     {
       "source_kind": "github_commit",
       "source_name": "openai/openai-cookbook",
       "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、対応モデル・コンテキスト・トークン、実装例・ガイド・ドキュメントに関する変更です。",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
       "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
       "category": "実装例・ノウハウ",
       "tags": [
@@ -120,9 +121,9 @@
         "公式更新"
       ],
       "score": 93,
-      "published_at": "2026-08-17T17:55:06Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/233f51c108f0d189ed72106537f917e81bf62a94",
-      "original_excerpt": "Archive outdated GPT Image generation cookbook (#2954)",
+      "published_at": "2026-08-17T23:16:37Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/9a9d99e936c18e95ed5559cb0afa861710fa007b",
+      "original_excerpt": "Add a per-run spending controller for the Responses API (#2957)",
       "personalization_adjustment": 7,
       "personalization_matches": [
         "コード・設定・手順"
@@ -130,6 +131,32 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：コード・設定・手順",
       "verdict": "読む価値あり"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.234",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-17T20:20:58Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
+      "original_excerpt": "## What's changed - Added the optional `CLAUDE_CODE_PROJECT_DIR_NAME` environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript directory - Added the `selection:clear` keybinding action, so a key can be bound to clear an in-app…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -235,33 +262,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持、コード・設定・手順、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.233",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-14T22:20:57Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
-      "original_excerpt": "## What's changed - Added GitLab merge request URL support to the `--worktree` flag and the `claude agents` view (where MRs display as `!N`) - Added an opt-in `forward_user_identity` apps gateway setting on Anthropic upstreams that sends the signed-in user's identity as headers, so a proxy behind th…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
