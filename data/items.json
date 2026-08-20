@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-20T13:11:19.424284+00:00",
+  "updated_at": "2026-08-20T18:59:18.081657+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -185,6 +185,34 @@
       "verdict": "読む価値あり"
     },
     {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.32.15",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-19T17:25:16Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
+      "original_excerpt": "## What's Changed * New desktop onboarding flow on first launch * Caches resolved model metadata between requests, cutting time-to-first-token by roughly half (TTFT dropped from ~995 ms to ~524 ms in benchmarks) * Fixes a bug where chat and generate could wedge after a mid-stream parser error * **Qw…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "検証・証拠・安全性",
+        "Mac・ローカルAI・機密保持",
+        "数値・比較・検証",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：検証・証拠・安全性、Mac・ローカルAI・機密保持、数値・比較・検証、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
       "source_kind": "github_commit",
       "source_name": "openai/openai-cookbook",
       "title": "OpenAI Cookbook：公式情報が更新",
@@ -304,7 +332,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 93,
+      "score": 91,
       "published_at": "2026-08-16T18:48:54Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.8",
       "original_excerpt": "## What's Changed * Update Cerebras model IDs and default by @ryanl-cerebras in https://github.com/browser-use/browser-use/pull/5323 * Recover Anthropic tool arguments when the model serializes its call as text by @ElayGelbart in https://github.com/browser-use/browser-use/pull/5330 * docs: replace b…",
@@ -315,34 +343,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：ブラウザ・業務自動化",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.32.14",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、MCP・外部サービス連携に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-15T19:41:23Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14",
-      "original_excerpt": "## What's Changed * llm: transcode WebP images for llama-server * renderers/qwen: tolerate non-leading system messages **Full Changelog**: https://github.com/ollama/ollama/compare/v0.32.13...v0.32.14",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Mac・ローカルAI・機密保持",
-        "コード・設定・手順",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持、コード・設定・手順、一次情報",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_commit",
