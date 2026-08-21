@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-21T07:07:41.161853+00:00",
+  "updated_at": "2026-08-21T13:10:50.256299+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,34 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-21T10:23:34Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.35.7](https://github.com/n8n-io/n8n/compare/n8n@2.35.6...n8n@2.35.7) (2026-08-21) ### Bug Fixes * **core:** Raise AI Assistant model verification token limit ([#36798](https://github.com/n8n-io/n8n/issues/36798)) ([f87affe](https://github.com/n8n-io/n8n/commit/f87affed36c476ab472b52e797ad1cf59…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "検証・証拠・安全性",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、検証・証拠・安全性、失敗・回避策",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "openai/codex",
@@ -157,33 +185,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：コード・設定・手順",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-20T08:21:56Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.35.5](https://github.com/n8n-io/n8n/compare/n8n@2.35.4...n8n@2.35.5) (2026-08-20) ### Bug Fixes * **core:** Avoid restarting task runners that are only slow ([#36610](https://github.com/n8n-io/n8n/issues/36610)) ([7ee5295](https://github.com/n8n-io/n8n/commit/7ee5295ed58ccf2b7921ac22a6fc89a315…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
