@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-23T13:02:19.367175+00:00",
+  "updated_at": "2026-08-23T18:48:42.030431+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -228,7 +228,7 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 94,
+      "score": 92,
       "published_at": "2026-08-19T18:05:32Z",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
       "original_excerpt": "Changes since sdk==0.4.2 * release(sdk-py): 0.4.3 (#8657) * feat(sdk-py): add decrypt replacement result (#8598) * release(langgraph): 1.2.11 (#8595) * chore(deps): bump the minor-and-patch group across 1 directory with 5 updates (#8532) * release(checkpoint): 4.2.0 (#8563) * chore: enforce PLC0415 …",
