@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-22T18:48:52.589225+00:00",
+  "updated_at": "2026-08-23T02:00:12.600859+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -81,7 +81,7 @@
     {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.240",
+      "title": "Claude Code：v2.1.241",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
       "category": "AI開発エージェント",
@@ -92,8 +92,8 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-08-22T14:45:30Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
+      "published_at": "2026-08-23T00:52:16Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
       "original_excerpt": "## What's changed - Bug fixes and reliability improvements",
       "personalization_adjustment": 15,
       "personalization_matches": [
@@ -361,7 +361,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 89,
+      "score": 87,
       "published_at": "2026-08-14T20:50:15Z",
       "url": "https://github.com/anthropics/claude-cookbooks/commit/35f2eec7e44897c537e44441b7dff2f0ecbfb804",
       "original_excerpt": "Merge pull request #834 from anthropics/aravind-ant/fix-mdx-compile",
