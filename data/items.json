@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-23T18:48:42.030431+00:00",
+  "updated_at": "2026-08-24T01:57:57.389188+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,35 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.149.1",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-24T00:28:28Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1",
+      "original_excerpt": "## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.149.0...rust-v0.149.1",
+      "personalization_adjustment": 10,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順",
+        "一次情報"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.241",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
@@ -132,35 +161,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、検証・証拠・安全性、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.149.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-20T21:04:55Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0",
-      "original_excerpt": "## New Features - Added an interactive `codex agents` dashboard for searching, starting, opening, renaming, and stopping tasks, with configurable shortcuts. (#39094, #39112, #39114, #39142) - Added `/cd`, `/pwd`, and `/cwd` commands for managing the working directory in TUI sessions. (#38894) - Adde…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
