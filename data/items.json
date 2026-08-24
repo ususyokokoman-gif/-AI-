@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-24T13:13:08.806965+00:00",
+  "updated_at": "2026-08-24T18:59:59.624925+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -336,7 +336,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 91,
+      "score": 89,
       "published_at": "2026-08-16T18:48:54Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.8",
       "original_excerpt": "## What's Changed * Update Cerebras model IDs and default by @ryanl-cerebras in https://github.com/browser-use/browser-use/pull/5323 * Recover Anthropic tool arguments when the model serializes its call as text by @ElayGelbart in https://github.com/browser-use/browser-use/pull/5330 * docs: replace b…",
