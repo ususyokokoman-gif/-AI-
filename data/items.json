@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-26T20:03:30.910295+00:00",
+  "updated_at": "2026-08-27T09:49:20.736377+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -81,8 +81,8 @@
     {
       "source_kind": "github_release",
       "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.150.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "title": "OpenAI Codex：0.150.1",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -92,19 +92,20 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-08-26T19:37:28Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0",
-      "original_excerpt": "## New Features - Reference other Codex tasks with `@` mentions, and ask agents to read, create, or message tasks from the terminal. (#40308, #40315) - `/copy` now offers a picker for full responses, individual code blocks, and blockquotes. (#39997) - Unnamed terminal tasks receive descriptive title…",
+      "published_at": "2026-08-27T01:56:54Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.150.1",
+      "original_excerpt": "## Bug Fixes - Remote compaction now counts retained images toward its token budget by default, trimming older images as needed. (#41003) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.150.0...rust-v0.150.1 - #41003 Backport retained-image compaction budgeting to 0.150 …",
       "personalization_adjustment": 13,
       "personalization_matches": [
-        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
+        "コード・設定・手順",
+        "失敗・回避策",
+        "一次情報"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、失敗・回避策、一次情報",
       "verdict": "最優先"
     },
     {
@@ -121,9 +122,9 @@
         "公式更新"
       ],
       "score": 93,
-      "published_at": "2026-08-26T03:24:14Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/a7c8782de788d6dcfd8b5fdb7ddca1317d751b31",
-      "original_excerpt": "Archive thirty-seven Cookbook guides and examples (#3027)",
+      "published_at": "2026-08-26T23:24:04Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/69438f60413f77b6c7aa64ffd46490f3e2e2a3dc",
+      "original_excerpt": "Archive seven Cookbook guides and examples (#3029)",
       "personalization_adjustment": 7,
       "personalization_matches": [
         "コード・設定・手順"
@@ -135,7 +136,7 @@
     {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.246",
+      "title": "Claude Code：v2.1.247",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
       "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
       "category": "AI開発エージェント",
@@ -146,17 +147,42 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-08-25T22:31:52Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
-      "original_excerpt": "## What's changed - Added a startup warning for Bash allow rules with a wildcard before the subcommand (e.g. `Bash(git * main)`), since they also match options inserted before the subcommand - Added an Auto mode tab to `/permissions` for viewing and editing auto mode classifier rules - Added the tur…",
-      "personalization_adjustment": 15,
+      "published_at": "2026-08-26T23:06:39Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
+      "original_excerpt": "## What's changed - Added the `SendFeedback` tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from `/feedback` (turn off with the `feedbackDrafts` setting) - Added `{id, text, cooldownSessions, priority}` entries, `tipsFile`, and `label` to …",
+      "personalization_adjustment": 13,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
-        "検証・証拠・安全性",
         "コード・設定・手順"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.33.1",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、RAG・文書検索・知識活用に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 98,
+      "published_at": "2026-08-26T18:09:57Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1",
+      "original_excerpt": "## What's Changed * MLX: Qwen3.8 Flash Next support * cmake: make external compat patches idempotent * MLX and llama.cpp update * mlxrunner: add structured output support * mlxrunner: avoid Metal GPU timeouts when loading models from slow storage ## New Contributors * @pd95 made their first contribu…",
+      "personalization_adjustment": 11,
+      "personalization_matches": [
+        "Mac・ローカルAI・機密保持",
+        "文字起こし・文書整理・RAG"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持、文字起こし・文書整理・RAG",
       "verdict": "最優先"
     },
     {
@@ -241,31 +267,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.33.0",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 92,
-      "published_at": "2026-08-21T22:52:46Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0",
-      "original_excerpt": "## What's Changed ### Claude Desktop Developers can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. <img width=\"1298\" height=\"780\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c02fd93b-f599-40a9-83c3-d0555c0ac182\" /> ### Improved c…",
-      "personalization_adjustment": 7,
-      "personalization_matches": [
-        "Mac・ローカルAI・機密保持"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
