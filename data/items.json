@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-27T22:16:14.177822+00:00",
+  "updated_at": "2026-08-28T11:23:47.565060+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,9 +80,36 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-28T08:00:31Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.36.8](https://github.com/n8n-io/n8n/compare/n8n@2.36.7...n8n@2.36.8) (2026-08-28) ### Bug Fixes * **core:** Allow a domain-restricted credential to work in its own node ([#37248](https://github.com/n8n-io/n8n/issues/37248)) ([1166741](https://github.com/n8n-io/n8n/commit/11667410b182250c39a5bd…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.248",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "title": "Claude Code：v2.1.250",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
       "category": "AI開発エージェント",
       "tags": [
@@ -92,17 +119,18 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-08-27T22:12:20Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
-      "original_excerpt": "## What's changed - Added `--restricted` (or `CLAUDE_CODE_RESTRICTED=1`): removes the built-in tools that run commands or code and `WebFetch` (unless named in `--tools`), keeps file tools inside the working directory, refuses `bypassPermissions`, and ignores user, project and local settings files - …",
+      "published_at": "2026-08-28T00:49:16Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
+      "original_excerpt": "## What's changed - Bug fixes and reliability improvements",
       "personalization_adjustment": 15,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
         "検証・証拠・安全性",
-        "コード・設定・手順"
+        "コード・設定・手順",
+        "失敗・回避策"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
       "verdict": "最優先"
     },
     {
@@ -238,33 +266,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-25T13:02:24Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.36.7](https://github.com/n8n-io/n8n/compare/n8n@2.36.6...n8n@2.36.7) (2026-08-25) ### Bug Fixes * **API:** Adapt binary data endpoint ([#36994](https://github.com/n8n-io/n8n/issues/36994)) ([f6f237c](https://github.com/n8n-io/n8n/commit/f6f237c58d4dd9620c7f5106f081724552e1ba8b)) * **API:** Req…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
