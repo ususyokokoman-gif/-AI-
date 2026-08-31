@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-08-31T13:51:26.413475+00:00",
+  "updated_at": "2026-08-31T22:50:52.068863+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,89 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "modelcontextprotocol/servers",
+      "title": "MCP公式サーバー集：Release 2026.8.31",
+      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携、速度・メモリ・処理性能に関する変更です。",
+      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
+      "category": "MCP・外部連携",
+      "tags": [
+        "MCP",
+        "外部連携",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-31T20:34:32Z",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
+      "original_excerpt": "# Release : v2026.8.31 ## Updated packages - @modelcontextprotocol/server-filesystem@2026.8.31 - @modelcontextprotocol/server-memory@2026.8.31 - @modelcontextprotocol/server-sequential-thinking@2026.8.31 - @modelcontextprotocol/server-everything@2026.8.31",
+      "personalization_adjustment": 10,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 100,
+      "published_at": "2026-08-31T20:01:25Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/41ce358173066d1eb15aa5106327133d5f13517e",
+      "original_excerpt": "Add cookbook: Combining security scanners with the Agents SDK (#2923)",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性",
+        "コード・設定・手順",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.252",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-08-31T19:46:55Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
+      "original_excerpt": "## What's changed - Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs - Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json yet - Fixed Remote Control sessions hosted by Claude Desktop or VS Code stalling for minutes…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "Mac・ローカルAI・機密保持",
+        "会議文字起こし・報告書",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、Mac・ローカルAI・機密保持、会議文字起こし・報告書、コード・設定・手順",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
@@ -164,59 +247,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.251",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-28T18:19:32Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
-      "original_excerpt": "## What's changed - Added `PreModelSwitch` and `PostModelSwitch` hook events (block, confirm, or annotate a model switch); `SessionStart` resume hooks now receive session staleness and the estimated re-cache cost - Added live streaming of a foreground subagent's tool calls and results to Remote Cont…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "数値・比較・検証"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順、数値・比較・検証",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、対応モデル・コンテキスト・トークン、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 93,
-      "published_at": "2026-08-28T17:13:10Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/86af94f494ee4680f883252d65fa256132d77c27",
-      "original_excerpt": "[chatgpt] Add SharePoint site allowlist Admin API example (#3032)",
-      "personalization_adjustment": 7,
-      "personalization_matches": [
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：コード・設定・手順",
-      "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "langchain-ai/langgraph",
       "title": "LangGraph：langgraph-sdk==0.4.4",
       "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
@@ -228,7 +258,7 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 95,
+      "score": 93,
       "published_at": "2026-08-27T21:25:36Z",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
       "original_excerpt": "Changes since sdk==0.4.3 * release(sdk-py): 0.4.4 (#8738) * Merge commit from fork * feat: route LangSmith traces from thread streams (#8723)",
@@ -239,7 +269,7 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：検証・証拠・安全性、一次情報",
-      "verdict": "最優先"
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -254,7 +284,7 @@
         "機密情報",
         "正式版"
       ],
-      "score": 94,
+      "score": 92,
       "published_at": "2026-08-27T20:31:47Z",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2",
       "original_excerpt": "## What's Changed * Ollama's app now follows the system appearance again, restoring dark mode support * Fixed the macOS app to properly hand off to an already-running instance instead of starting a second one * The Claude Desktop proxy no longer interrupts in-flight requests when the model catalog u…",
@@ -352,32 +382,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "modelcontextprotocol/servers",
-      "title": "MCP公式サーバー集：Release 2026.8.18",
-      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
-      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
-      "category": "MCP・外部連携",
-      "tags": [
-        "MCP",
-        "外部連携",
-        "公式",
-        "正式版"
-      ],
-      "score": 99,
-      "published_at": "2026-08-18T16:16:12Z",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
-      "original_excerpt": "# Release : v2026.8.18 ## Updated packages - @modelcontextprotocol/server-everything@2026.8.18 - mcp-server-time@2026.8.18 - mcp-server-fetch@2026.8.18 - mcp-server-git@2026.8.18",
-      "personalization_adjustment": 10,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "browser-use/browser-use",
       "title": "Browser Use：0.13.8",
       "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -389,7 +393,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 89,
+      "score": 88,
       "published_at": "2026-08-16T18:48:54Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.8",
       "original_excerpt": "## What's Changed * Update Cerebras model IDs and default by @ryanl-cerebras in https://github.com/browser-use/browser-use/pull/5323 * Recover Anthropic tool arguments when the model serializes its call as text by @ElayGelbart in https://github.com/browser-use/browser-use/pull/5330 * docs: replace b…",
