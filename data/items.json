@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-03T21:02:33.855583+00:00",
+  "updated_at": "2026-09-04T04:33:59.529226+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,116 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "browser-use/browser-use",
+      "title": "Browser Use：0.13.10",
+      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "ブラウザ操作",
+        "AIエージェント",
+        "自動化",
+        "正式版"
+      ],
+      "score": 98,
+      "published_at": "2026-09-04T03:28:53Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.10",
+      "original_excerpt": "## Browser Use 0.13.10 - Upgrade Browser Harness to 0.1.13. - Exact-pin all declared runtime, optional, development, and build dependencies. - Upgrade and migrate to MCP Python SDK 2.1.1. - Add pydantic-settings 2.15.0 as an explicit runtime dependency. - Pin Pydantic 2.13.5 and Hatchling 1.32.0. - …",
+      "personalization_adjustment": 14,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "ブラウザ・業務自動化"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.153.2",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-03T23:53:12Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.2",
+      "original_excerpt": "## Bug Fixes - Corrected the GPT-6-Astra Fast tier description to say “2x speed, increased usage” instead of “1.5x.” This changes only the displayed text, not how requests run. (#42632) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.153.1...rust-v0.153.2 - #42632 Fix GP…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順",
+        "失敗・回避策",
+        "一次情報"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、失敗・回避策、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.260",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-03T23:48:12Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
+      "original_excerpt": "## What's changed - Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with `/diff` - Added a likely cause for prompt-cache misses (e.g. tool definitions or system prompt changed, idle past the TTL) to `/cost` and th…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順",
+        "数値・比較・検証"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、数値・比較・検証",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフローに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 98,
+      "published_at": "2026-09-03T22:18:29Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5",
+      "original_excerpt": "feat(claude_agent_sdk): add scheduled repository reviewer recipe (#860)",
+      "personalization_adjustment": 14,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "コード・設定・手順",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
       "title": "n8n：stable",
       "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
@@ -103,88 +213,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.153.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-03T01:37:38Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0",
-      "original_excerpt": "## New Features - Vim mode now supports undo with `u` and redo with `Ctrl+R`, preserving complete drafts including pasted content and attachments. ([#41941](https://github.com/openai/codex/pull/41941), [#42140](https://github.com/openai/codex/pull/42140)) - The plugin CLI can list, install, and remo…",
-      "personalization_adjustment": 8,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.259",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-02T22:33:51Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
-      "original_excerpt": "## What's changed - Added `managedMcpServers` managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as `.mcp.json`); entries that name a command to run are skipped - Added `--permission-prompts none` for unattended headless hosts: anything that would prompt …",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "検証・証拠・安全性",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "anthropics/anthropic-cookbook",
-      "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、対応モデル・コンテキスト・トークン、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "Claude",
-        "実装例",
-        "公式",
-        "公式更新"
-      ],
-      "score": 97,
-      "published_at": "2026-09-02T13:40:24Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/26b5cdce81d357596f5df7f44f50908a80be40cf",
-      "original_excerpt": "Retire claude-opus-4-1 across cookbooks; align validator model mappings to CLAUDE.md; !pip -> %pip (#807)",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -377,31 +405,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "browser-use/browser-use",
-      "title": "Browser Use：0.13.8",
-      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "ブラウザ操作",
-        "AIエージェント",
-        "自動化",
-        "正式版"
-      ],
-      "score": 88,
-      "published_at": "2026-08-16T18:48:54Z",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.8",
-      "original_excerpt": "## What's Changed * Update Cerebras model IDs and default by @ryanl-cerebras in https://github.com/browser-use/browser-use/pull/5323 * Recover Anthropic tool arguments when the model serializes its call as text by @ElayGelbart in https://github.com/browser-use/browser-use/pull/5330 * docs: replace b…",
-      "personalization_adjustment": 9,
-      "personalization_matches": [
-        "ブラウザ・業務自動化"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
