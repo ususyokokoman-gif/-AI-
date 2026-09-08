@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-08T04:36:54.362125+00:00",
+  "updated_at": "2026-09-08T11:19:53.574889+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,9 +80,35 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "openai/openai-agents-python",
+      "title": "OpenAI Agents SDK：v0.22.1",
+      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
+      "category": "AIエージェント",
+      "tags": [
+        "Agents SDK",
+        "エージェント設計",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-08T09:18:00Z",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.1",
+      "original_excerpt": "## What's Changed * feat(core): support image results in web search tools by @seratch in https://github.com/openai/openai-agents-python/pull/4898 * feat(core): customize output guardrail blocked messages by @seratch in https://github.com/openai/openai-agents-python/pull/4594 * feat(mcp): add server-…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
       "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、不具合修正・安定性に関する変更です。",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
       "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
       "category": "業務自動化",
       "tags": [
@@ -92,18 +118,17 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-09-07T12:53:42Z",
+      "published_at": "2026-09-08T08:29:36Z",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.37.11](https://github.com/n8n-io/n8n/compare/n8n@2.37.10...n8n@2.37.11) (2026-09-07) ### Bug Fixes * **core:** Ensure running job cleanup when a workflow run rejects ([#37826](https://github.com/n8n-io/n8n/issues/37826)) ([257f0bb](https://github.com/n8n-io/n8n/commit/257f0bb616fe6013032513b7b…",
+      "original_excerpt": "# [2.38.1](https://github.com/n8n-io/n8n/compare/n8n@2.37.0...n8n@2.38.1) (2026-09-01) ### Bug Fixes * Add parameter binding for mongodb sort and projection ([#37335](https://github.com/n8n-io/n8n/issues/37335)) ([292f442](https://github.com/n8n-io/n8n/commit/292f442afa6015312e36c28d339030cdf90f1535…",
       "personalization_adjustment": 15,
       "personalization_matches": [
-        "AIエージェント実装",
         "中小企業支援・コンサル商品化",
         "ブラウザ・業務自動化",
         "失敗・回避策"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
@@ -405,34 +430,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/openai-agents-python",
-      "title": "OpenAI Agents SDK：v0.22.0",
-      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
-      "category": "AIエージェント",
-      "tags": [
-        "Agents SDK",
-        "エージェント設計",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-08-19T13:44:38Z",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.0",
-      "original_excerpt": "## Key Changes Version 0.22.0 is a minor release because it adds substantial runtime hardening and tightens an existing provider configuration contract. Applications that combine an explicit `openai_client` with `organization` or `project` must move those values to the `AsyncOpenAI` client. ### High…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
     }
   ]
 }
