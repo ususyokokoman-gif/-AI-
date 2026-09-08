@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-07T21:31:14.976710+00:00",
+  "updated_at": "2026-09-08T04:36:54.362125+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -203,7 +203,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 98,
+      "score": 96,
       "published_at": "2026-09-04T03:28:53Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.10",
       "original_excerpt": "## Browser Use 0.13.10 - Upgrade Browser Harness to 0.1.13. - Exact-pin all declared runtime, optional, development, and build dependencies. - Upgrade and migrate to MCP Python SDK 2.1.1. - Add pydantic-settings 2.15.0 as an explicit runtime dependency. - Pin Pydantic 2.13.5 and Hatchling 1.32.0. - …",
@@ -229,7 +229,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 98,
+      "score": 96,
       "published_at": "2026-09-03T22:18:29Z",
       "url": "https://github.com/anthropics/claude-cookbooks/commit/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5",
       "original_excerpt": "feat(claude_agent_sdk): add scheduled repository reviewer recipe (#860)",
