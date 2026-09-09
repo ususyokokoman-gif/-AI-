@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-09T16:39:31.125386+00:00",
+  "updated_at": "2026-09-09T20:56:35.457776+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,32 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.267",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-09T19:58:14Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+      "original_excerpt": "## What's changed - Added `maxEffortLevel` setting (top-level or per model under `modelSettings`): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level - Added `--system-prompt-snapshot off` to render the system prompt fresh on every requ…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "openai/openai-agents-python",
       "title": "OpenAI Agents SDK：v0.22.2",
       "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、RAG・文書検索・知識活用に関する変更です。",
@@ -131,33 +157,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.266",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、対応モデル・コンテキスト・トークン、RAG・文書検索・知識活用に関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-08T23:55:14Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
-      "original_excerpt": "## What's changed - Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented `CLAUDE_CODE_USE_GATEWAY` environment variable, previously ignored unless `ANTHROPIC_BASE_URL` and `ANTHROPIC_AUTH_TOKEN` were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, …",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "文字起こし・文書整理・RAG",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、文字起こし・文書整理・RAG、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -335,7 +334,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 99,
+      "score": 97,
       "published_at": "2026-09-01T20:30:33Z",
       "url": "https://github.com/openai/openai-cookbook/commit/a78f3f37bd23637aac2b3f1e8b1251cf5bb9e1a7",
       "original_excerpt": "Fix security cookbook comparison table layout (#3038)",
