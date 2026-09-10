@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-09T20:56:35.457776+00:00",
+  "updated_at": "2026-09-10T04:43:12.632793+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,34 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.154.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-09T22:35:38Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0",
+      "original_excerpt": "## New Features - GPT-6-Astra is now available in the model picker and Amazon Bedrock catalogs. (#42879, #42619) - Experimental worktree support lets you create isolated checkouts for new or forked sessions using `--worktree` or `/worktree`, then browse and resume them. (#42652, #43069, #43120, #432…",
+      "personalization_adjustment": 8,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
@@ -189,36 +217,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.153.4",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-04T23:25:48Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.4",
-      "original_excerpt": "## Bug Fixes - Fixed Astra’s visibility in the bundled model picker and made it the bundled default when no model is explicitly configured. (#42874) - Updated Astra’s guidance to use asynchronous questions only when the tool is available in the session. (#42878) ## Changelog Full Changelog: https://…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "失敗・回避策",
-        "一次情報"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、失敗・回避策、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "microsoft/playwright",
       "title": "Playwright：v1.63.0",
       "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
@@ -309,7 +307,7 @@
         "機密情報",
         "正式版"
       ],
-      "score": 92,
+      "score": 90,
       "published_at": "2026-09-02T00:11:33Z",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3",
       "original_excerpt": "## What's Changed * gemma4 now supports images and audio on MLX engine * Report cached prompt tokens * Honor GGUF model defined default parameters * MLX, MLX-C, llama.cpp update ## New Contributors * @marcelpetrick made their first contribution in https://github.com/ollama/ollama/pull/17579 **Full C…",
