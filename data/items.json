@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-10T04:43:12.632793+00:00",
+  "updated_at": "2026-09-10T11:20:06.560599+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,61 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "langgenius/dify",
+      "title": "Dify：v1.17.1 - Bug Fixes and Improvements",
+      "summary": "RAG、チャットボット、エージェント型業務アプリを構築するDifyの更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：社内文書検索、相談受付、補助金候補整理などの試作を短期間で作れます。次にすること：機密情報を入れず、公開資料だけで小規模な業務試作を行う。",
+      "category": "AI業務アプリ",
+      "tags": [
+        "Dify",
+        "RAG",
+        "業務アプリ",
+        "正式版"
+      ],
+      "score": 98,
+      "published_at": "2026-09-10T10:04:06Z",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.17.1",
+      "original_excerpt": "> [!WARNING] > **Self-hosted deployments using the bundled Weaviate must complete a manual, staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2` — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently and perma…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "ブラウザ・業務自動化",
+        "文字起こし・文書整理・RAG",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、文字起こし・文書整理・RAG、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、速度・メモリ・処理性能に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-10T08:08:05Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.38.6](https://github.com/n8n-io/n8n/compare/n8n@2.38.5...n8n@2.38.6) (2026-09-10) ### Performance Improvements * **core:** Bound peak memory during source control push ([#37975](https://github.com/n8n-io/n8n/issues/37975)) ([b3c32da](https://github.com/n8n-io/n8n/commit/b3c32da290a0ebbb8db66a0…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "openai/codex",
@@ -162,33 +217,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-09T12:03:59Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.38.5](https://github.com/n8n-io/n8n/compare/n8n@2.38.4...n8n@2.38.5) (2026-09-09) ### Bug Fixes * **core:** Keep reporting the original job error when the job key is gone ([#38028](https://github.com/n8n-io/n8n/issues/38028)) ([cfc385f](https://github.com/n8n-io/n8n/commit/cfc385f49f2b19846422…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "google-gemini/gemini-cli",
       "title": "Gemini CLI：Release v0.59.0",
       "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、権限・認証・サンドボックスなど安全性、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
@@ -213,6 +241,33 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.34.0",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-05T23:49:00Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
+      "original_excerpt": "## Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. <img width=\"1374\" height=\"1300\" alt=\"CleanShot 2026-09-08 at 11 04 07 AM@2x\" src=\"http…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Mac・ローカルAI・機密保持",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -295,31 +350,6 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.33.3",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 90,
-      "published_at": "2026-09-02T00:11:33Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3",
-      "original_excerpt": "## What's Changed * gemma4 now supports images and audio on MLX engine * Report cached prompt tokens * Honor GGUF model defined default parameters * MLX, MLX-C, llama.cpp update ## New Contributors * @marcelpetrick made their first contribution in https://github.com/ollama/ollama/pull/17579 **Full C…",
-      "personalization_adjustment": 7,
-      "personalization_matches": [
-        "Mac・ローカルAI・機密保持"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
-      "verdict": "読む価値あり"
-    },
-    {
       "source_kind": "github_commit",
       "source_name": "openai/openai-cookbook",
       "title": "OpenAI Cookbook：公式情報が更新",
@@ -397,35 +427,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：検証・証拠・安全性、一次情報",
-      "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langgenius/dify",
-      "title": "Dify：v1.17.0",
-      "summary": "RAG、チャットボット、エージェント型業務アプリを構築するDifyの更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：社内文書検索、相談受付、補助金候補整理などの試作を短期間で作れます。次にすること：機密情報を入れず、公開資料だけで小規模な業務試作を行う。",
-      "category": "AI業務アプリ",
-      "tags": [
-        "Dify",
-        "RAG",
-        "業務アプリ",
-        "正式版"
-      ],
-      "score": 93,
-      "published_at": "2026-08-25T11:28:25Z",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.17.0",
-      "original_excerpt": "## New Features **Agent: E2B Sandbox, Home Snapshots, and Skill Management** - **E2B sandbox backend**: agent shell/code execution can now run on [E2B](https://e2b.dev) cloud sandboxes in addition to the local sandbox. Select the backend with `DIFY_AGENT_RUNTIME_BACKEND`; a new `docker-compose.e2b.y…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "ブラウザ・業務自動化",
-        "検証・証拠・安全性",
-        "文字起こし・文書整理・RAG"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG",
       "verdict": "読む価値あり"
     }
   ]
