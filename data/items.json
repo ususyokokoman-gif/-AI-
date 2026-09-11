@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-10T20:52:18.961272+00:00",
+  "updated_at": "2026-09-11T04:41:03.200331+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,6 +79,32 @@
   ],
   "items": [
     {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、エージェント実行・ツール連携・ワークフローに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 98,
+      "published_at": "2026-09-11T00:09:02Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/ec3512cdd21a824052982400a34bcbc542d4989d",
+      "original_excerpt": "Update Agents API apps (#3082)",
+      "personalization_adjustment": 12,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.268",
@@ -104,33 +130,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、価格転嫁・経営判断支援、コード・設定・手順、数値・比較・検証",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 100,
-      "published_at": "2026-09-10T20:13:36Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/82cb1f5e0ebe243489b15de6471ce9e55cb8367d",
-      "original_excerpt": "Update Agents API examples for the official Python SDK (#3081)",
-      "personalization_adjustment": 14,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "コード・設定・手順",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順、一次情報",
       "verdict": "最優先"
     },
     {
