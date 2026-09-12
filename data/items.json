@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-11T20:58:18.238409+00:00",
+  "updated_at": "2026-09-12T04:34:43.417344+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,6 +79,31 @@
   ],
   "items": [
     {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、対応モデル・コンテキスト・トークン、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 93,
+      "published_at": "2026-09-11T21:19:30Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/5a94565ddd5acc24d02c2c0979151d711b6583eb",
+      "original_excerpt": "docs: archive the GPT Image models prompting guide (#3084)",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
+    },
+    {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.269",
@@ -103,32 +128,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 98,
-      "published_at": "2026-09-11T17:04:42Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/3326f7e8648b6e929cdf06bb39e78e13f7f1710c",
-      "original_excerpt": "Update Agents API examples (#3083)",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -337,7 +336,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 96,
+      "score": 94,
       "published_at": "2026-09-04T03:28:53Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.10",
       "original_excerpt": "## Browser Use 0.13.10 - Upgrade Browser Harness to 0.1.13. - Exact-pin all declared runtime, optional, development, and build dependencies. - Upgrade and migrate to MCP Python SDK 2.1.1. - Add pydantic-settings 2.15.0 as an explicit runtime dependency. - Pin Pydantic 2.13.5 and Hatchling 1.32.0. - …",
@@ -348,7 +347,7 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化",
-      "verdict": "最優先"
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_commit",
@@ -363,7 +362,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 96,
+      "score": 94,
       "published_at": "2026-09-03T22:18:29Z",
       "url": "https://github.com/anthropics/claude-cookbooks/commit/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5",
       "original_excerpt": "feat(claude_agent_sdk): add scheduled repository reviewer recipe (#860)",
@@ -375,7 +374,7 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順、一次情報",
-      "verdict": "最優先"
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -416,7 +415,7 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 91,
+      "score": 90,
       "published_at": "2026-08-27T21:25:36Z",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
       "original_excerpt": "Changes since sdk==0.4.3 * release(sdk-py): 0.4.4 (#8738) * Merge commit from fork * feat: route LangSmith traces from thread streams (#8723)",
