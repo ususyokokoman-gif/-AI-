@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-13T20:50:23.645303+00:00",
+  "updated_at": "2026-09-14T04:57:23.788295+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -285,7 +285,7 @@
         "機密情報",
         "正式版"
       ],
-      "score": 100,
+      "score": 98,
       "published_at": "2026-09-05T23:49:00Z",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0",
       "original_excerpt": "## Use Ollama models in ChatGPT Desktop Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS. <img width=\"1374\" height=\"1300\" alt=\"CleanShot 2026-09-08 at 11 04 07 AM@2x\" src=\"http…",
