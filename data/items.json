@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-14T04:57:23.788295+00:00",
+  "updated_at": "2026-09-14T12:47:52.072812+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -202,7 +202,7 @@
         "業務アプリ",
         "正式版"
       ],
-      "score": 98,
+      "score": 96,
       "published_at": "2026-09-10T10:04:06Z",
       "url": "https://github.com/langgenius/dify/releases/tag/1.17.1",
       "original_excerpt": "> [!WARNING] > **Self-hosted deployments using the bundled Weaviate must complete a manual, staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2` — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently and perma…",
