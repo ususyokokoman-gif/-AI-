@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-17T16:59:58.869300+00:00",
+  "updated_at": "2026-09-17T21:22:42.028851+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -82,7 +82,7 @@
       "source_kind": "github_commit",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、RAG・文書検索・知識活用、速度・メモリ・処理性能に関する変更です。",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -92,19 +92,19 @@
         "公式更新"
       ],
       "score": 100,
-      "published_at": "2026-09-17T16:06:11Z",
-      "url": "https://github.com/openai/codex/commit/fcf05456bb27e6c3d5677550f54011db6a2a0817",
-      "original_excerpt": "Publish Guardian cached scores and coverage atomically (#46245)",
-      "personalization_adjustment": 12,
+      "published_at": "2026-09-17T21:15:36Z",
+      "url": "https://github.com/openai/codex/commit/7a3c5a83e4724bf7a7b5178f6b1f87f76a19703b",
+      "original_excerpt": "Serialize release asset uploads to avoid secondary rate limits (#46303)",
+      "personalization_adjustment": 10,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
-        "文字起こし・文書整理・RAG",
-        "コード・設定・手順"
+        "コード・設定・手順",
+        "一次情報"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、文字起こし・文書整理・RAG、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
       "verdict": "最優先"
     },
     {
