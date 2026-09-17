@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-17T11:41:51.832400+00:00",
+  "updated_at": "2026-09-17T16:59:58.869300+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -82,7 +82,7 @@
       "source_kind": "github_commit",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、RAG・文書検索・知識活用、速度・メモリ・処理性能に関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -91,20 +91,46 @@
         "公式",
         "公式更新"
       ],
-      "score": 98,
-      "published_at": "2026-09-17T10:02:38Z",
-      "url": "https://github.com/openai/codex/commit/e269f2164cbb9f499e4f22301c393500e2a831f3",
-      "original_excerpt": "Include sender user messages in Guardian delegation reviews (#46179)",
-      "personalization_adjustment": 8,
+      "score": 100,
+      "published_at": "2026-09-17T16:06:11Z",
+      "url": "https://github.com/openai/codex/commit/fcf05456bb27e6c3d5677550f54011db6a2a0817",
+      "original_excerpt": "Publish Guardian cached scores and coverage atomically (#46245)",
+      "personalization_adjustment": 12,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
+        "文字起こし・文書整理・RAG",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、文字起こし・文書整理・RAG、コード・設定・手順",
       "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 93,
+      "published_at": "2026-09-17T15:40:59Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/02bf6c21a7f9307aa56e9d09816da857cf3f252b",
+      "original_excerpt": "docs: Format literal quotes in the prompt migration guide (#3108)",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -158,32 +184,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、エージェント実行・ツール連携・ワークフローに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 98,
-      "published_at": "2026-09-16T21:34:58Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/9a8e9f07dd8b90e67e6ea11d9c90f8e7dc4bfa35",
-      "original_excerpt": "Add Agents API application walkthroughs (#3106)",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順",
       "verdict": "最優先"
     },
     {
