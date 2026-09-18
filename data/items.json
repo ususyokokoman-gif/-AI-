@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-18T16:24:22.340095+00:00",
+  "updated_at": "2026-09-18T20:54:53.042714+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,114 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.155.1",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-18T20:03:04Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.155.1",
+      "original_excerpt": "## Bug Fixes - New local TUI sessions now leave reasoning summaries disabled by default, fixing request rejection by providers that do not support them. Explicit reasoning-summary settings remain respected. (#46467) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.155.0..…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順",
+        "失敗・回避策",
+        "一次情報"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、失敗・回避策、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 91,
+      "published_at": "2026-09-18T19:07:32Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/6b671ef60ada2a8d3b0c07cadb424172da5135f5",
+      "original_excerpt": "feat(misc): add Admin API organization management cookbook (#881)",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.277",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-18T18:06:32Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "original_excerpt": "## What's changed - Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in `/config` (not yet on Bedrock, Vertex or Foundry) - Added `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1` for Claude apps gateways whose only egress…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 99,
+      "published_at": "2026-09-18T17:22:33Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/263b2d5b7b63836c4ea30ee9709e65b7a50cbf6f",
+      "original_excerpt": "Update Skills API Cookbook for Astra and restore its listing (#3112)",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
       "title": "n8n：stable",
       "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、不具合修正・安定性に関する変更です。",
@@ -106,86 +214,6 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、権限・認証・サンドボックスなど安全性に関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 99,
-      "published_at": "2026-09-18T05:16:06Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/0493fe8ca45f5cc17b12c04a0e5220a373091582",
-      "original_excerpt": "Improve prior authorization prompts and regression evals (#2937)",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "検証・証拠・安全性",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：検証・証拠・安全性、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.276",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-18T02:12:26Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
-      "original_excerpt": "## What's changed - Fixed every request failing with `400 … Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway (2.1.275 regression)",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.155.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-17T23:14:43Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0",
-      "original_excerpt": "## New Features - Added experimental `/voice` conversations with live transcripts and microphone controls on supported builds, enabled through `/experimental`. (#43581, #43651, #44331) - The TUI now shows live reasoning summaries in the status row and completion timestamps after successful turns. (#…",
-      "personalization_adjustment": 8,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
       "source_kind": "github_release",
       "source_name": "openai/openai-agents-python",
       "title": "OpenAI Agents SDK：v0.22.3",
@@ -209,32 +237,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "anthropics/anthropic-cookbook",
-      "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "Claude",
-        "実装例",
-        "公式",
-        "公式更新"
-      ],
-      "score": 96,
-      "published_at": "2026-09-16T16:44:30Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/b18fd7f01197976a622ec6a99d3176cd15740bb8",
-      "original_excerpt": "docs(managed_agents): move the Slack and Sentry apps to claude-quickstarts",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順",
       "verdict": "最優先"
     },
     {
