@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-19T20:40:50.830676+00:00",
+  "updated_at": "2026-09-20T04:54:17.164228+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -335,7 +335,7 @@
         "テスト",
         "正式版"
       ],
-      "score": 97,
+      "score": 96,
       "published_at": "2026-09-04T22:40:31Z",
       "url": "https://github.com/microsoft/playwright/releases/tag/v1.63.0",
       "original_excerpt": "## 🔒 Test locks Tests that access a shared resource — an external service, a global account setting — can now declare a named `lock`. Tests that share a lock name never run concurrently, across files, workers and [projects](https://playwright.dev/docs/test-projects), while everything else keeps runn…",
