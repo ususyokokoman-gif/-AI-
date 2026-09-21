@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-21T12:49:02.925041+00:00",
+  "updated_at": "2026-09-21T21:58:53.504720+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,10 +79,89 @@
   ],
   "items": [
     {
+      "source_kind": "github_commit",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：公式情報が更新",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "公式更新"
+      ],
+      "score": 98,
+      "published_at": "2026-09-21T21:22:01Z",
+      "url": "https://github.com/openai/codex/commit/23ae65bb064f4e304e1c9848fce6853c34580e83",
+      "original_excerpt": "Persist thread creator identity in rollouts and SQLite (#47113)",
+      "personalization_adjustment": 8,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 96,
+      "published_at": "2026-09-21T14:58:24Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/daac2acb91544767804e42cf720df07c232fd5b6",
+      "original_excerpt": "docs(managed_agents): move the Linear, road trip planner, and MCP server apps to claude-quickstarts (#884)",
+      "personalization_adjustment": 12,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph==1.2.12",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 89,
+      "published_at": "2026-09-21T14:43:40Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.12",
+      "original_excerpt": "Changes since 1.2.11 * release(langgraph): 1.2.12 (#8987) * chore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/langgraph (#8958) * feat(langgraph): add response_schema to interrupt() (#8886) * fix(langgraph): type undeclared v3 stream projections (#8596) * chore(langgraph): bump mistune to 3.3.4…",
+      "personalization_adjustment": 6,
+      "personalization_matches": [
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：一次情報",
+      "verdict": "読む価値あり"
+    },
+    {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
       "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、不具合修正・安定性に関する変更です。",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
       "category": "業務自動化",
       "tags": [
@@ -92,9 +171,9 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-09-21T07:41:34Z",
+      "published_at": "2026-09-21T14:07:28Z",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.39.9](https://github.com/n8n-io/n8n/compare/n8n@2.39.8...n8n@2.39.9) (2026-09-21) ### Bug Fixes * **API:** Resolve HTTP 405 error on PATCH /credentials/{credentialId} public API endpoint ([#38982](https://github.com/n8n-io/n8n/issues/38982)) ([48dccc2](https://github.com/n8n-io/n8n/commit/48dc…",
+      "original_excerpt": "## [2.39.10](https://github.com/n8n-io/n8n/compare/n8n@2.39.9...n8n@2.39.10) (2026-09-21) ### Bug Fixes * Limit declarative routing during base URL ownership checks ([#39146](https://github.com/n8n-io/n8n/issues/39146)) ([164b3f3](https://github.com/n8n-io/n8n/commit/164b3f3d8ea08ba5111d2e04cbe17921…",
       "personalization_adjustment": 15,
       "personalization_matches": [
         "中小企業支援・コンサル商品化",
@@ -131,61 +210,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.155.1",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-18T20:03:04Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.155.1",
-      "original_excerpt": "## Bug Fixes - New local TUI sessions now leave reasoning summaries disabled by default, fixing request rejection by providers that do not support them. Explicit reasoning-summary settings remain respected. (#46467) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.155.0..…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "失敗・回避策",
-        "一次情報"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、失敗・回避策、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "anthropics/anthropic-cookbook",
-      "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "Claude",
-        "実装例",
-        "公式",
-        "公式更新"
-      ],
-      "score": 91,
-      "published_at": "2026-09-18T19:07:32Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/6b671ef60ada2a8d3b0c07cadb424172da5135f5",
-      "original_excerpt": "feat(misc): add Admin API organization management cookbook (#881)",
-      "personalization_adjustment": 7,
-      "personalization_matches": [
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：コード・設定・手順",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_commit",
@@ -399,32 +423,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph-sdk==0.4.4",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 90,
-      "published_at": "2026-08-27T21:25:36Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
-      "original_excerpt": "Changes since sdk==0.4.3 * release(sdk-py): 0.4.4 (#8738) * Merge commit from fork * feat: route LangSmith traces from thread streams (#8723)",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "検証・証拠・安全性",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：検証・証拠・安全性、一次情報",
-      "verdict": "読む価値あり"
     }
   ]
 }
