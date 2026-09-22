@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-21T21:58:53.504720+00:00",
+  "updated_at": "2026-09-22T04:56:56.054143+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -92,9 +92,9 @@
         "公式更新"
       ],
       "score": 98,
-      "published_at": "2026-09-21T21:22:01Z",
-      "url": "https://github.com/openai/codex/commit/23ae65bb064f4e304e1c9848fce6853c34580e83",
-      "original_excerpt": "Persist thread creator identity in rollouts and SQLite (#47113)",
+      "published_at": "2026-09-22T04:33:58Z",
+      "url": "https://github.com/openai/codex/commit/639d2478cc2e16d6ca715952d2e726a3aecc024e",
+      "original_excerpt": "Render aligned equations and optimization notation in TUI math (#47191)",
       "personalization_adjustment": 8,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
