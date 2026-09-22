@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-22T16:57:47.231804+00:00",
+  "updated_at": "2026-09-22T21:19:33.532471+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,61 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.156.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-22T19:51:01Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0",
+      "original_excerpt": "## New Features - Choose an optional fullscreen UI with `/tui` for your next launch, including transcript search, mouse selection, and right-click copying. (#46732, #46734, #46883, #46895) - Voice conversations are enabled by default, with an F8 toggle, a `/voice settings` picker, and bundled audio …",
+      "personalization_adjustment": 8,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、速度・メモリ・処理性能、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 99,
+      "published_at": "2026-09-22T17:28:03Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/a4b0d89061bc65769fea7947c080b3b11d938515",
+      "original_excerpt": "feat(patterns): add multi-agent teams under latency pressure and budgets cookbook (#885)",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "コード・設定・手順",
+        "数値・比較・検証"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順、数値・比較・検証",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.280",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -101,34 +156,6 @@
         "コード・設定・手順"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "公式更新"
-      ],
-      "score": 98,
-      "published_at": "2026-09-22T16:35:30Z",
-      "url": "https://github.com/openai/codex/commit/286d4ecf44b4e9daba0a9fdd229a4047b770a71a",
-      "original_excerpt": "Persist resume metadata in compaction checkpoints (#47323)",
-      "personalization_adjustment": 8,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
@@ -160,32 +187,6 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_commit",
-      "source_name": "anthropics/anthropic-cookbook",
-      "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "Claude",
-        "実装例",
-        "公式",
-        "公式更新"
-      ],
-      "score": 96,
-      "published_at": "2026-09-21T14:58:24Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/daac2acb91544767804e42cf720df07c232fd5b6",
-      "original_excerpt": "docs(managed_agents): move the Linear, road trip planner, and MCP server apps to claude-quickstarts (#884)",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
       "source_kind": "github_release",
       "source_name": "langchain-ai/langgraph",
       "title": "LangGraph：langgraph==1.2.12",
@@ -211,6 +212,31 @@
       "verdict": "読む価値あり"
     },
     {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.34.3",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 94,
+      "published_at": "2026-09-19T00:02:57Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
+      "original_excerpt": "## What's Changed `GET /api/show` now advertises each model's thinking controls and default: Available in the CLI with: ``` ollama show gemma4 ``` ``` thinking levels false, true default true ``` Available in the API with: ```sh curl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud…",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "Mac・ローカルAI・機密保持"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
+      "verdict": "読む価値あり"
+    },
+    {
       "source_kind": "github_commit",
       "source_name": "openai/openai-cookbook",
       "title": "OpenAI Cookbook：公式情報が更新",
@@ -223,7 +249,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 99,
+      "score": 97,
       "published_at": "2026-09-18T17:22:33Z",
       "url": "https://github.com/openai/openai-cookbook/commit/263b2d5b7b63836c4ea30ee9709e65b7a50cbf6f",
       "original_excerpt": "Update Skills API Cookbook for Astra and restore its listing (#3112)",
@@ -260,33 +286,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.34.2",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、速度・メモリ・処理性能、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-15T21:21:07Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
-      "original_excerpt": "## What's Changed - Added first-run setup when running `ollama`, with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows. - Added `ollama://apps` to open the desktop app’s Apps page directly on macOS and Windows. - Fixed excessive memory grow…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Mac・ローカルAI・機密保持",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持、コード・設定・手順",
       "verdict": "最優先"
     },
     {
