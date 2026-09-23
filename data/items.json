@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-23T16:59:20.103923+00:00",
+  "updated_at": "2026-09-23T21:30:25.071069+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,6 +79,85 @@
   ],
   "items": [
     {
+      "source_kind": "github_commit",
+      "source_name": "google-gemini/gemini-cli",
+      "title": "Gemini CLI：公式情報が更新",
+      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Gemini CLI",
+        "開発自動化",
+        "公式",
+        "公式更新"
+      ],
+      "score": 99,
+      "published_at": "2026-09-23T20:38:30Z",
+      "url": "https://github.com/google-gemini/gemini-cli/commit/f50ba8608e489cc94b44b209e0920a9d072020ad",
+      "original_excerpt": "Check for vsc integration test presence when attempting to run. (#29462)",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.281",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-23T19:19:15Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+      "original_excerpt": "## What's changed - Added Claude apps gateway support for newer Claude Desktop keys in `desktop` policy blocks, including `blockReadsOutsideWorkingDirectories` and `disableBypassPermissionsMode` - Added `assume_role` on Claude apps gateway Bedrock upstreams: the gateway calls Bedrock as an IAM role …",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph-cli==0.4.32",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、ブラウザ操作・自動テスト、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 92,
+      "published_at": "2026-09-23T18:02:46Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32",
+      "original_excerpt": "Changes since cli==0.4.31 * feat(cli): place self-hosted deployments on a listener (#9056) * feat(cli): clarify agent flags and support env defaults (#9063) * feat(cli): Update langgraph deploy command to use agent_id and environment args (#9055) * feat(cli): add --image-uri flag for self-hosted dep…",
+      "personalization_adjustment": 9,
+      "personalization_matches": [
+        "AIエージェント実装"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装",
+      "verdict": "読む価値あり"
+    },
+    {
       "source_kind": "github_release",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：0.156.1",
@@ -138,32 +217,6 @@
     },
     {
       "source_kind": "github_commit",
-      "source_name": "google-gemini/gemini-cli",
-      "title": "Gemini CLI：公式情報が更新",
-      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Gemini CLI",
-        "開発自動化",
-        "公式",
-        "公式更新"
-      ],
-      "score": 97,
-      "published_at": "2026-09-22T21:52:46Z",
-      "url": "https://github.com/google-gemini/gemini-cli/commit/62364cb2000795537a6895261b37ec668e4cf527",
-      "original_excerpt": "Feat/gemini 3.8 flash 3.5 flash lite (#29443)",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
       "source_name": "anthropics/anthropic-cookbook",
       "title": "Anthropic Cookbook：公式情報が更新",
       "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、速度・メモリ・処理性能、実装例・ガイド・ドキュメントに関する変更です。",
@@ -187,32 +240,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順、数値・比較・検証",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.280",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-22T16:38:14Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
-      "original_excerpt": "## What's changed - Added Claude Opus 5.5 (`claude-opus-5-5`), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads - Added mouse support to more lists in fullscreen mode: the wheel scrolls the `/skills` list, and a skill's state options in `/plugin` can be clicked - …",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -241,31 +268,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph==1.2.12",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 89,
-      "published_at": "2026-09-21T14:43:40Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.12",
-      "original_excerpt": "Changes since 1.2.11 * release(langgraph): 1.2.12 (#8987) * chore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/langgraph (#8958) * feat(langgraph): add response_schema to interrupt() (#8886) * fix(langgraph): type undeclared v3 stream projections (#8596) * chore(langgraph): bump mistune to 3.3.4…",
-      "personalization_adjustment": 6,
-      "personalization_matches": [
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：一次情報",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
