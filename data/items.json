@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-22T21:19:33.532471+00:00",
+  "updated_at": "2026-09-23T04:45:31.364161+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -81,8 +81,8 @@
     {
       "source_kind": "github_release",
       "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.156.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "title": "OpenAI Codex：0.156.1",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -92,17 +92,73 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-09-22T19:51:01Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0",
-      "original_excerpt": "## New Features - Choose an optional fullscreen UI with `/tui` for your next launch, including transcript search, mouse selection, and right-click copying. (#46732, #46734, #46883, #46895) - Voice conversations are enabled by default, with an F8 toggle, a `/voice settings` picker, and bundled audio …",
-      "personalization_adjustment": 8,
+      "published_at": "2026-09-23T02:41:36Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.1",
+      "original_excerpt": "## New Features - Choose GPT-6 Sol or GPT-6 Luna from the model picker. The rate-limit switch prompt now recommends GPT-6 Luna. (#47405) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.156.0...rust-v0.156.1 - #47405 [hotfix 0.156.0] Add GPT-6 Sol and Luna to the model ca…",
+      "personalization_adjustment": 10,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
+        "コード・設定・手順",
+        "一次情報"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 100,
+      "published_at": "2026-09-23T01:36:30Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/5986832a554169dc87285b1b0b396941f235a62e",
+      "original_excerpt": "Add Runloop webhook-managed sandbox example (#3127)",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "ブラウザ・業務自動化",
+        "検証・証拠・安全性",
+        "LINE会員プラットフォーム",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、ブラウザ・業務自動化、検証・証拠・安全性、LINE会員プラットフォーム、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "google-gemini/gemini-cli",
+      "title": "Gemini CLI：公式情報が更新",
+      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Gemini CLI",
+        "開発自動化",
+        "公式",
+        "公式更新"
+      ],
+      "score": 97,
+      "published_at": "2026-09-22T21:52:46Z",
+      "url": "https://github.com/google-gemini/gemini-cli/commit/62364cb2000795537a6895261b37ec668e4cf527",
+      "original_excerpt": "Feat/gemini 3.8 flash 3.5 flash lite (#29443)",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
@@ -224,7 +280,7 @@
         "機密情報",
         "正式版"
       ],
-      "score": 94,
+      "score": 92,
       "published_at": "2026-09-19T00:02:57Z",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
       "original_excerpt": "## What's Changed `GET /api/show` now advertises each model's thinking controls and default: Available in the CLI with: ``` ollama show gemma4 ``` ``` thinking levels false, true default true ``` Available in the API with: ```sh curl http://localhost:11434/api/show -d '{\"model\": \"glm-5.3-flash:cloud…",
@@ -235,32 +291,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 97,
-      "published_at": "2026-09-18T17:22:33Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/263b2d5b7b63836c4ea30ee9709e65b7a50cbf6f",
-      "original_excerpt": "Update Skills API Cookbook for Astra and restore its listing (#3112)",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -286,35 +316,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "google-gemini/gemini-cli",
-      "title": "Gemini CLI：Release v0.60.0",
-      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Gemini CLI",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-15T20:31:02Z",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0",
-      "original_excerpt": "## What's Changed * fix(core): improve destination validation and connection routing in web fetch utilities by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29120 * fix(core): enforce RFC 9207 issuer identification in MCP OAuth flow by @jvargassanchez-dot in https://github.com/g…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "失敗・回避策",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順、失敗・回避策、一次情報",
       "verdict": "最優先"
     },
     {
