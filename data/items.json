@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-24T04:51:42.693610+00:00",
+  "updated_at": "2026-09-24T11:46:37.867744+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,33 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-24T07:31:51Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.40.6](https://github.com/n8n-io/n8n/compare/n8n@2.40.5...n8n@2.40.6) (2026-09-24) ### Bug Fixes * **core:** Keep OpenTelemetry export working after a restart when Sentry is enabled ([#39368](https://github.com/n8n-io/n8n/issues/39368)) ([7720a02](https://github.com/n8n-io/n8n/commit/7720a02599…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "google-gemini/gemini-cli",
@@ -265,33 +292,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順、数値・比較・検証",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-22T07:41:27Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.40.5](https://github.com/n8n-io/n8n/compare/n8n@2.40.4...n8n@2.40.5) (2026-09-21) ### Bug Fixes * Limit declarative routing during base URL ownership checks ([#39147](https://github.com/n8n-io/n8n/issues/39147)) ([ebe5a73](https://github.com/n8n-io/n8n/commit/ebe5a73bdeea371d7ca2b10fcf228980a3…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
