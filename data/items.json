@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-24T11:46:37.867744+00:00",
+  "updated_at": "2026-09-24T17:11:44.458394+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,31 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 91,
+      "published_at": "2026-09-24T17:05:05Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/c5ff1dc523e28d9b8fbd5c6ecd63204e20b8a0ed",
+      "original_excerpt": "docs(fable_5_fallback_billing): update billing text for pre-stream refusal billing (#890)",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
+    },
     {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
@@ -265,33 +290,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、ブラウザ・業務自動化、検証・証拠・安全性、LINE会員プラットフォーム、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "anthropics/anthropic-cookbook",
-      "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、速度・メモリ・処理性能、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "Claude",
-        "実装例",
-        "公式",
-        "公式更新"
-      ],
-      "score": 99,
-      "published_at": "2026-09-22T17:28:03Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/a4b0d89061bc65769fea7947c080b3b11d938515",
-      "original_excerpt": "feat(patterns): add multi-agent teams under latency pressure and budgets cookbook (#885)",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "コード・設定・手順",
-        "数値・比較・検証"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順、数値・比較・検証",
       "verdict": "最優先"
     },
     {
