@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-27T16:58:32.076388+00:00",
+  "updated_at": "2026-09-27T21:21:29.502938+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,33 +79,32 @@
   ],
   "items": [
     {
-      "source_kind": "github_release",
+      "source_kind": "github_commit",
       "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.157.1",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "title": "OpenAI Codex：公式情報が更新",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、MCP・外部サービス連携に関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
         "Codex",
         "開発自動化",
         "公式",
-        "正式版"
+        "公式更新"
       ],
       "score": 100,
-      "published_at": "2026-09-26T01:02:31Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.157.1",
-      "original_excerpt": "## Chores - Release highlights could not be determined: the supplied PR index is empty, and the GitHub tag comparison returned 404. ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.157.0...rust-v0.157.1",
+      "published_at": "2026-09-27T21:07:54Z",
+      "url": "https://github.com/openai/codex/commit/ea647275560ffbcd4cf240d048eab44aa66ba9ae",
+      "original_excerpt": "Add single-server MCP status discovery with thread connection reuse (#48783)",
       "personalization_adjustment": 13,
       "personalization_matches": [
+        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "数値・比較・検証",
-        "一次情報"
+        "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、数値・比較・検証、一次情報",
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
