@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-27T21:21:29.502938+00:00",
+  "updated_at": "2026-09-28T05:24:40.235121+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,22 +79,22 @@
   ],
   "items": [
     {
-      "source_kind": "github_commit",
+      "source_kind": "github_release",
       "source_name": "openai/codex",
-      "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、MCP・外部サービス連携に関する変更です。",
+      "title": "OpenAI Codex：0.158.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
         "Codex",
         "開発自動化",
         "公式",
-        "公式更新"
+        "正式版"
       ],
       "score": 100,
-      "published_at": "2026-09-27T21:07:54Z",
-      "url": "https://github.com/openai/codex/commit/ea647275560ffbcd4cf240d048eab44aa66ba9ae",
-      "original_excerpt": "Add single-server MCP status discovery with thread connection reuse (#48783)",
+      "published_at": "2026-09-28T05:07:23Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0",
+      "original_excerpt": "## New Features - Configure copy-on-select and right-click paste in the fullscreen TUI. Copied transcript selections now preserve Markdown formatting. (#47639, #47896, #48118) - Connect to MCP servers that require pre-registered OAuth client secrets, including through `codex mcp add --oauth-client-s…",
       "personalization_adjustment": 13,
       "personalization_matches": [
         "AIエージェント実装",
@@ -253,7 +253,7 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 87,
+      "score": 85,
       "published_at": "2026-09-23T23:26:51Z",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32.dev0",
       "original_excerpt": "Changes since cli==0.4.32",
@@ -261,7 +261,7 @@
       "personalization_matches": [],
       "personalization_penalties": [],
       "personalization_reason": "直接一致は弱いため、公式更新として必要時に確認",
-      "verdict": "読む価値あり"
+      "verdict": "必要時に確認"
     },
     {
       "source_kind": "github_release",
