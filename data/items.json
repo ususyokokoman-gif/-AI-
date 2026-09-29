@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-29T12:53:45.749824+00:00",
+  "updated_at": "2026-09-29T22:15:41.309016+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,9 +80,36 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "google-gemini/gemini-cli",
+      "title": "Gemini CLI：Release v0.62.0",
+      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Gemini CLI",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-29T21:17:07Z",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0",
+      "original_excerpt": "## What's Changed * fix(a2a-server): add early return on unsupported store in tasks metadata endpoint by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29334 * Changelog for v0.61.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29344 * Chan…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.159.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "title": "OpenAI Codex：0.159.1",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、対応モデル・コンテキスト・トークンに関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
@@ -92,18 +119,72 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-09-29T08:05:42Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0",
-      "original_excerpt": "## New Features - Opt-in `instant_interrupt` lets new input steer Codex during model responses or long-running code-mode calls. (#48135, #48141) - New sessions get a compact welcome screen and consistent headers, with occasional tips during and after turns. (#48513, #48562, #48352) - The warnings vi…",
-      "personalization_adjustment": 8,
+      "published_at": "2026-09-29T20:32:34Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.159.1",
+      "original_excerpt": "## New Features - Added GPT-6.1 Sol as the default model in the bundled catalog and Amazon Bedrock Mantle and Runtime catalogs. (#49323, #49342) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.159.0...rust-v0.159.1 - #49323 [0.159] Prepare 0.159.1 release backports @andr…",
+      "personalization_adjustment": 10,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
+        "コード・設定・手順",
+        "一次情報"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.285",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-29T19:27:30Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+      "original_excerpt": "## What's changed - Added `CLAUDE_CODE_DISABLE_WEB_FETCH` environment variable to turn off the WebFetch tool - Added `claude --desktop` to open the Claude desktop app on the current directory, or on a session with `--continue` / `--resume <id>` - Added `claude plugin configure <plugin>` to show a pl…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 100,
+      "published_at": "2026-09-29T17:45:14Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/86ff2cc0c4b2417feb36bc76ff0f24c5c4e785be",
+      "original_excerpt": "Add AWS Lambda MicroVM sandbox examples for Agents API (#3140)",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "検証・証拠・安全性",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、検証・証拠・安全性、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -134,32 +215,6 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.284",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-28T18:02:03Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
-      "original_excerpt": "## What's changed - Added Claude Sonnet 5.5 (`claude-sonnet-5-5`), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads - Added a \"Yes, but ask again next time\" answer to auto mode's prompt before a read outside the working directories, so you c…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
       "source_kind": "github_commit",
       "source_name": "anthropics/anthropic-cookbook",
       "title": "Anthropic Cookbook：公式情報が更新",
@@ -184,60 +239,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：コード・設定・手順、数値・比較・検証",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 100,
-      "published_at": "2026-09-26T00:02:08Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/6dc6324fb9ed780b32b787f23fad336e9f1eff15",
-      "original_excerpt": "Organize Agents API sandbox examples by provider (#3134)",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "検証・証拠・安全性",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、検証・証拠・安全性、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "google-gemini/gemini-cli",
-      "title": "Gemini CLI：Release v0.61.0",
-      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Gemini CLI",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-23T23:59:15Z",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0",
-      "original_excerpt": "## What's Changed * Changelog for v0.60.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29251 * chore(release): bump version to 0.61.0-nightly.20260908.gc647533d6 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29254 * Changelog for v0.59…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
