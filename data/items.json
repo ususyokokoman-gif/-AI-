@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-29T05:44:32.691164+00:00",
+  "updated_at": "2026-09-29T12:53:45.749824+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,61 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.159.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-29T08:05:42Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.159.0",
+      "original_excerpt": "## New Features - Opt-in `instant_interrupt` lets new input steer Codex during model responses or long-running code-mode calls. (#48135, #48141) - New sessions get a compact welcome screen and consistent headers, with occasional tips during and after turns. (#48513, #48562, #48352) - The warnings vi…",
+      "personalization_adjustment": 8,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-29T07:31:55Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.41.3](https://github.com/n8n-io/n8n/compare/n8n@2.41.2...n8n@2.41.3) (2026-09-25) ### Bug Fixes * **core:** Propagate project span attributes to node spans ([#39456](https://github.com/n8n-io/n8n/issues/39456)) ([29afe51](https://github.com/n8n-io/n8n/commit/29afe517b3a6954a6070c13e26dde9e9d64…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.284",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -131,35 +186,6 @@
       "verdict": "読む価値あり"
     },
     {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.158.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-28T05:07:23Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.158.0",
-      "original_excerpt": "## New Features - Configure copy-on-select and right-click paste in the fullscreen TUI. Copied transcript selections now preserve Markdown formatting. (#47639, #47896, #48118) - Connect to MCP servers that require pre-registered OAuth client secrets, including through `codex mcp add --oauth-client-s…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
       "source_kind": "github_commit",
       "source_name": "openai/openai-cookbook",
       "title": "OpenAI Cookbook：公式情報が更新",
@@ -184,33 +210,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、検証・証拠・安全性、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-25T07:51:24Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.40.7](https://github.com/n8n-io/n8n/compare/n8n@2.40.6...n8n@2.40.7) (2026-09-25) ### Bug Fixes * **core:** Propagate project span attributes to node spans ([#39457](https://github.com/n8n-io/n8n/issues/39457)) ([59fccb6](https://github.com/n8n-io/n8n/commit/59fccb645b0ff5f9933251f24ccb3046a53…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
