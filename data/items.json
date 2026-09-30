@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-09-29T22:15:41.309016+00:00",
+  "updated_at": "2026-09-30T05:32:59.144781+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,37 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.159.2",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-09-29T23:57:16Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.159.2",
+      "original_excerpt": "## Bug Fixes - Suppressed console windows flashing on Windows when Codex launches background processes and sandboxed commands. (#49385) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.159.1...rust-v0.159.2 - #49385 [0.159] Backport Windows console suppression for 0.159.2…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性",
+        "コード・設定・手順",
+        "失敗・回避策",
+        "一次情報"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "google-gemini/gemini-cli",
       "title": "Gemini CLI：Release v0.62.0",
       "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -102,35 +133,6 @@
         "一次情報"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.159.1",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-29T20:32:34Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.159.1",
-      "original_excerpt": "## New Features - Added GPT-6.1 Sol as the default model in the bundled catalog and Amazon Bedrock Mantle and Runtime catalogs. (#49323, #49342) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.159.0...rust-v0.159.1 - #49323 [0.159] Prepare 0.159.1 release backports @andr…",
-      "personalization_adjustment": 10,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "一次情報"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
       "verdict": "最優先"
     },
@@ -215,6 +217,31 @@
       "verdict": "最優先"
     },
     {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.35.0",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 94,
+      "published_at": "2026-09-28T21:23:22Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0",
+      "original_excerpt": "## Decision models Ollama now supports decision models through `/v1/systemone`, based on [TypeSafe’s Jev API](https://typesafe.ai). Decision models return choices, probabilities, and scores instead of text. Use them for tasks such as ticket triage, model routing, and content classification. Availabl…",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "Mac・ローカルAI・機密保持"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
+      "verdict": "読む価値あり"
+    },
+    {
       "source_kind": "github_commit",
       "source_name": "anthropics/anthropic-cookbook",
       "title": "Anthropic Cookbook：公式情報が更新",
@@ -262,33 +289,6 @@
       "personalization_penalties": [],
       "personalization_reason": "直接一致は弱いため、公式更新として必要時に確認",
       "verdict": "必要時に確認"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.34.4",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-23T02:24:43Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
-      "original_excerpt": "## What's Changed - Structured outputs on thinking models now apply in a single pass, making them faster and more reliable. - Fixed intermittent \"model not found\" errors with a large local library - Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running. - Qwen 3.8 pr…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "Mac・ローカルAI・機密保持",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、Mac・ローカルAI・機密保持、コード・設定・手順",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
