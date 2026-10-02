@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-01T22:41:37.792649+00:00",
+  "updated_at": "2026-10-02T05:37:47.704533+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,59 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/openai-agents-python",
+      "title": "OpenAI Agents SDK：v0.23.0",
+      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
+      "category": "AIエージェント",
+      "tags": [
+        "Agents SDK",
+        "エージェント設計",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-02T01:08:23Z",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.0",
+      "original_excerpt": "## [0.23.0](https://github.com/openai/openai-agents-python/compare/v0.22.3...v0.23.0) (2026-10-01) ### Features * **mcp:** add configurable MCP listing page limits ([#5133](https://github.com/openai/openai-agents-python/issues/5133)) ([9a21ab1](https://github.com/openai/openai-agents-python/commit/9…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 95,
+      "published_at": "2026-10-01T23:08:00Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/0eac1447d4e24d06e47c459ca5e98f248b9413cf",
+      "original_excerpt": "Add scheduled ChatGPT usage-budget releases (#3123)",
+      "personalization_adjustment": 9,
+      "personalization_matches": [
+        "コード・設定・手順",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順、一次情報",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "openai/codex",
@@ -189,33 +242,6 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 100,
-      "published_at": "2026-09-29T17:45:14Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/86ff2cc0c4b2417feb36bc76ff0f24c5c4e785be",
-      "original_excerpt": "Add AWS Lambda MicroVM sandbox examples for Agents API (#3140)",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "検証・証拠・安全性",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、検証・証拠・安全性、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
       "source_kind": "github_release",
       "source_name": "ollama/ollama",
       "title": "Ollama：v0.35.0",
@@ -279,7 +305,7 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 85,
+      "score": 83,
       "published_at": "2026-09-23T23:26:51Z",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32.dev0",
       "original_excerpt": "Changes since cli==0.4.32",
@@ -288,32 +314,6 @@
       "personalization_penalties": [],
       "personalization_reason": "直接一致は弱いため、公式更新として必要時に確認",
       "verdict": "必要時に確認"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/openai-agents-python",
-      "title": "OpenAI Agents SDK：v0.22.3",
-      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携に関する変更です。",
-      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
-      "category": "AIエージェント",
-      "tags": [
-        "Agents SDK",
-        "エージェント設計",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-09-17T22:19:05Z",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.3",
-      "original_excerpt": "## What's Changed * fix(core): align conditional approvals with validated tool arguments by @seratch in https://github.com/openai/openai-agents-python/pull/5066 * fix(core): deliver tool-not-found output on server-managed resume by @hyeonsang010716 in https://github.com/openai/openai-agents-python/p…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
