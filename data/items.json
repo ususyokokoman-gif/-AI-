@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-02T12:35:37.972372+00:00",
+  "updated_at": "2026-10-02T22:14:33.703146+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,60 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.288",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-02T20:19:57Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+      "original_excerpt": "## What's changed - Added `$.ui.selection()` for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row - Added a built-in `gh api` to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/openai-agents-python",
+      "title": "OpenAI Agents SDK：v0.23.1",
+      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
+      "category": "AIエージェント",
+      "tags": [
+        "Agents SDK",
+        "エージェント設計",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-02T15:19:29Z",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.1",
+      "original_excerpt": "## [0.23.1](https://github.com/openai/openai-agents-python/compare/v0.23.0...v0.23.1) (2026-10-02) ### Bug Fixes * restore release tests and refresh required readiness check ([#5278](https://github.com/openai/openai-agents-python/issues/5278)) ([730deb4](https://github.com/openai/openai-agents-pytho…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "失敗・回避策",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、失敗・回避策、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
       "title": "n8n：stable",
       "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性に関する変更です。",
@@ -103,33 +157,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/openai-agents-python",
-      "title": "OpenAI Agents SDK：v0.23.0",
-      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
-      "category": "AIエージェント",
-      "tags": [
-        "Agents SDK",
-        "エージェント設計",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-02T01:08:23Z",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.0",
-      "original_excerpt": "## [0.23.0](https://github.com/openai/openai-agents-python/compare/v0.22.3...v0.23.0) (2026-10-01) ### Features * **mcp:** add configurable MCP listing page limits ([#5133](https://github.com/openai/openai-agents-python/issues/5133)) ([9a21ab1](https://github.com/openai/openai-agents-python/commit/9…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、失敗・回避策",
       "verdict": "最優先"
     },
     {
@@ -189,34 +216,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.287",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-01T18:00:22Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
-      "original_excerpt": "## What's changed - Added Claude Mods: plugins may now modify deeper behavior - Added You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss. Turn it on with `/plugin enable cc-plugin-you-should-know@builtin` (for first-party sessions with tele…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "ブラウザ・業務自動化",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、ブラウザ・業務自動化、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "google-gemini/gemini-cli",
       "title": "Gemini CLI：Release v0.62.0",
       "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -245,8 +244,8 @@
     {
       "source_kind": "github_release",
       "source_name": "ollama/ollama",
-      "title": "Ollama：v0.35.0",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "title": "Ollama：v0.35.1",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
       "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
       "category": "ローカルAI",
       "tags": [
@@ -256,9 +255,9 @@
         "正式版"
       ],
       "score": 94,
-      "published_at": "2026-09-28T21:23:22Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0",
-      "original_excerpt": "## Decision models Ollama now supports decision models through `/v1/systemone`, based on [TypeSafe’s Jev API](https://typesafe.ai). Decision models return choices, probabilities, and scores instead of text. Use them for tasks such as ticket triage, model routing, and content classification. Availabl…",
+      "published_at": "2026-09-29T20:14:22Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
+      "original_excerpt": "## Clef decision models Ollama now supports [Clef](https://ollama.com/library/clef) and [Clef Flash](https://ollama.com/library/clef), Cloudflare's new open-source decision models, through `/v1/systemone`. Clef (27B) and Clef Flash (9B) are multimodal: requests can now include images alongside the t…",
       "personalization_adjustment": 7,
       "personalization_matches": [
         "Mac・ローカルAI・機密保持"
@@ -280,7 +279,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 94,
+      "score": 92,
       "published_at": "2026-09-28T16:47:00Z",
       "url": "https://github.com/anthropics/claude-cookbooks/commit/bf24d45f2b5facc35f60452ac1ad5c0b054ea680",
       "original_excerpt": "docs(cost_optimization): add model-agnostic caveats for preserved thinking, cache reads and effort",
