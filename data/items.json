@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-03T21:14:45.879275+00:00",
+  "updated_at": "2026-10-04T05:53:35.259467+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -92,9 +92,9 @@
         "公式更新"
       ],
       "score": 98,
-      "published_at": "2026-10-03T19:10:17Z",
-      "url": "https://github.com/openai/codex/commit/b172810921f89847cd310ecc496f9c901760e933",
-      "original_excerpt": "Let the transport create the Windows remote-control socket directory (#50700)",
+      "published_at": "2026-10-04T04:33:42Z",
+      "url": "https://github.com/openai/codex/commit/b8dceb0d4f29e49e73daa08f57fcf5181186f354",
+      "original_excerpt": "Open slash commands from empty drafts in Vim Normal mode (#50788)",
       "personalization_adjustment": 8,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
@@ -109,8 +109,8 @@
     {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.288",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "title": "Claude Code：v2.1.289",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携に関する変更です。",
       "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
       "category": "AI開発エージェント",
       "tags": [
@@ -120,16 +120,18 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-10-02T20:19:57Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
-      "original_excerpt": "## What's changed - Added `$.ui.selection()` for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row - Added a built-in `gh api` to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters…",
-      "personalization_adjustment": 13,
+      "published_at": "2026-10-03T23:07:17Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+      "original_excerpt": "## What's changed - Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed mod's approval on managed machines - Fixed the terminal freezing on short code blocks with many unclosed `<script>` tags or deeply nested `${` substitutions - Fixed `Read` deny…",
+      "personalization_adjustment": 15,
       "personalization_matches": [
+        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
+        "Mac・ローカルAI・機密保持",
         "コード・設定・手順"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、Mac・ローカルAI・機密保持、コード・設定・手順",
       "verdict": "最優先"
     },
     {
