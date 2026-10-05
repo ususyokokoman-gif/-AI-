@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-04T21:25:44.594292+00:00",
+  "updated_at": "2026-10-05T05:40:58.064323+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -92,9 +92,9 @@
         "公式更新"
       ],
       "score": 98,
-      "published_at": "2026-10-04T21:19:05Z",
-      "url": "https://github.com/openai/codex/commit/4ad985e2caaf877b96dafd8138dae2def467e01e",
-      "original_excerpt": "Track inference tool changes in turn analytics (#50964)",
+      "published_at": "2026-10-04T23:07:12Z",
+      "url": "https://github.com/openai/codex/commit/7f892275e31002f0422477c6219189284560e689",
+      "original_excerpt": "Isolate tracing in the strict third-party tool deferral test (#50977)",
       "personalization_adjustment": 8,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
