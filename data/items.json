@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-06T00:03:40.027764+00:00",
+  "updated_at": "2026-10-06T06:21:24.806940+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -81,8 +81,8 @@
     {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.290",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "title": "Claude Code：v2.1.291",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
       "category": "AI開発エージェント",
       "tags": [
@@ -92,18 +92,17 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-10-05T23:33:17Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
-      "original_excerpt": "## What's changed - Added `serverToolUses` to the result of a mod's `turn.step` hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end - Added `agentId` to the `tool.check` event of plugin hooks, so a hook can tell a subagent's permission check from the m…",
+      "published_at": "2026-10-06T03:55:19Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+      "original_excerpt": "## What's changed - Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts - Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
       "personalization_adjustment": 15,
       "personalization_matches": [
-        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
         "検証・証拠・安全性",
         "コード・設定・手順"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
       "verdict": "最優先"
     },
     {
