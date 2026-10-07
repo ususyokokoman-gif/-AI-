@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-07T13:24:14.317056+00:00",
+  "updated_at": "2026-10-07T23:05:27.513217+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,114 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "microsoft/playwright",
+      "title": "Playwright：v1.64.0",
+      "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：Garoonや各種Webサービスの操作検証、自動テスト、画面取得の安定性向上に使えます。次にすること：AI任せにする前に、固定手順をPlaywrightで再現可能にする。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "Playwright",
+        "ブラウザ自動化",
+        "テスト",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-07T20:40:43Z",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.0",
+      "original_excerpt": "## 🧰 WebMCP New [page.webmcp](https://playwright.dev/docs/api/class-page#page-webmcp) and [frame.webmcp](https://playwright.dev/docs/api/class-frame#frame-webmcp) give access to the tools that a page registers through the experimental [WebMCP](https://playwright.dev/docs/api/class-webmcp) browser AP…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "ブラウザ・業務自動化",
+        "Garoon・経営カルテ自動化"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、Garoon・経営カルテ自動化",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.293",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-07T18:10:20Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "original_excerpt": "## What's changed - Added Claude Haiku 5.5 (`claude-haiku-5-5`), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) - Added `agentType` to the `subagentStatusLine` payload, so scripts can tell custom subagent types apart - Added `i…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.161.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-07T15:58:45Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0",
+      "original_excerpt": "## New Features - GPT-6.1 Sol is now the default model in the bundled and Amazon Bedrock catalogs. (#49318, #49339) - Amazon Bedrock supports multi-agent V2 and Ultra reasoning on compatible models; Bedrock Mantle also accepts AWS GovCloud regions. (#49345, #49813) - Sign in to MCP servers from an a…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph-cli==0.4.33",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 89,
+      "published_at": "2026-10-07T13:38:46Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
+      "original_excerpt": "Changes since cli==0.4.32 * release(cli): 0.4.33 (#9227) * feat(cli): add --image-uri to deploy an already-pushed image (#9222) * feat(cli): add 'langgraph deploy listeners list' (#9221) * chore(deps): bump virtualenv from 21.7.12 to 21.7.13 in /libs/cli (#9167) * chore(deps): bump virtualenv from 2…",
+      "personalization_adjustment": 6,
+      "personalization_matches": [
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：一次情報",
+      "verdict": "読む価値あり"
+    },
     {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
@@ -155,89 +263,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.292",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-06T18:59:30Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
-      "original_excerpt": "## What's changed - Added `--marketplace <source>` to `claude plugin install`: adds the marketplace if needed, under the same policy checks as `claude plugin marketplace add`, then installs the plugin from it - Added an `effort` parameter to the Agent tool, so Claude runs a sub-agent at the effort l…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph==1.2.14",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 89,
-      "published_at": "2026-10-06T14:41:37Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.14",
-      "original_excerpt": "Changes since 1.2.13 * release(langgraph): 1.2.14 (#9215)",
-      "personalization_adjustment": 6,
-      "personalization_matches": [
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：一次情報",
-      "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.160.1",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、MCP・外部サービス連携、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-05T18:29:37Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.160.1",
-      "original_excerpt": "## Bug Fixes - Preserve `SYSTEMROOT`, `TEMP`, and `TMP` when launching remote stdio MCP servers with explicitly configured remote environment variables, allowing Unix hosts to retain the Windows executor's startup environment. ## Changelog - [#51121](https://github.com/openai/codex/pull/51121): Back…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "失敗・回避策",
-        "一次情報"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順、失敗・回避策、一次情報",
       "verdict": "最優先"
     },
     {
@@ -373,32 +398,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、文字起こし・文書整理・RAG、失敗・回避策",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "microsoft/playwright",
-      "title": "Playwright：v1.63.0",
-      "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
-      "reason": "あなたへの使い道：Garoonや各種Webサービスの操作検証、自動テスト、画面取得の安定性向上に使えます。次にすること：AI任せにする前に、固定手順をPlaywrightで再現可能にする。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "Playwright",
-        "ブラウザ自動化",
-        "テスト",
-        "正式版"
-      ],
-      "score": 96,
-      "published_at": "2026-09-04T22:40:31Z",
-      "url": "https://github.com/microsoft/playwright/releases/tag/v1.63.0",
-      "original_excerpt": "## 🔒 Test locks Tests that access a shared resource — an external service, a global account setting — can now declare a named `lock`. Tests that share a lock name never run concurrently, across files, workers and [projects](https://playwright.dev/docs/test-projects), while everything else keeps runn…",
-      "personalization_adjustment": 14,
-      "personalization_matches": [
-        "ブラウザ・業務自動化",
-        "Garoon・経営カルテ自動化"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、Garoon・経営カルテ自動化",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
