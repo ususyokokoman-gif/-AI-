@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-07T23:05:27.513217+00:00",
+  "updated_at": "2026-10-08T06:04:37.840693+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,59 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.294",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-08T05:03:54Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+      "original_excerpt": "## What's changed - Fixed `prompt` and `agent` hooks written as instructions (such as \"Block commands that...\") allowing what they should block - Improved how `prompt` hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less lik…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.40.1",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、MCP・外部サービス連携、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-10-07T23:22:59Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1",
+      "original_excerpt": "## What's Changed * server: proxy cloud usage and balance APIs by @drifkin in https://github.com/ollama/ollama/pull/18829 * llama: fix clef head reads past 2GiB on windows by @Gigrise in https://github.com/ollama/ollama/pull/18777 * cmd: remove account step from CLI onboarding by @hoyyeva in https:/…",
+      "personalization_adjustment": 12,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Mac・ローカルAI・機密保持"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "microsoft/playwright",
       "title": "Playwright：v1.64.0",
       "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
@@ -103,33 +156,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、Garoon・経営カルテ自動化",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.293",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-07T18:10:20Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-      "original_excerpt": "## What's changed - Added Claude Haiku 5.5 (`claude-haiku-5-5`), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) - Added `agentType` to the `subagentStatusLine` payload, so scripts can tell custom subagent types apart - Added `i…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -344,33 +370,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：コード・設定・手順、数値・比較・検証",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.40.0",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、RAG・文書検索・知識活用に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 96,
-      "published_at": "2026-09-25T03:31:52Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
-      "original_excerpt": "## What's Changed **Models run on MLX on Apple Silicon by default** In this release, on Apple Silicon devices, model architectures supported by the MLX runtime will automatically run on MLX. ``` ollama pull qwen3.8 ollama run qwen3.8 ``` Additional models include [gemma4](https://ollama.com/library/…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Mac・ローカルAI・機密保持",
-        "文字起こし・文書整理・RAG",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持、文字起こし・文書整理・RAG、一次情報",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
