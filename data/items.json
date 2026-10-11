@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-10T21:44:49.339518+00:00",
+  "updated_at": "2026-10-11T05:47:09.056851+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,32 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "modelcontextprotocol/servers",
+      "title": "MCP公式サーバー集：v1.0.0",
+      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
+      "category": "MCP・外部連携",
+      "tags": [
+        "MCP",
+        "外部連携",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-11T02:40:29Z",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+      "original_excerpt": "## Packages | Package | Version | Registry | In this release | | --- | --- | --- | --- | | `@modelcontextprotocol/server-everything` | `1.0.0` | npm | **published** | | `@modelcontextprotocol/server-filesystem` | `1.0.0` | npm | **published** | | `@modelcontextprotocol/server-memory` | `1.0.0` | npm…",
+      "personalization_adjustment": 10,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_commit",
       "source_name": "anthropics/anthropic-cookbook",
@@ -309,7 +335,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 95,
+      "score": 93,
       "published_at": "2026-10-07T04:23:18Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.11",
       "original_excerpt": "This release includes Browser Use toolsets for Claude, available at `browser_use.integrations.toolsets_for_claude`. The integration requires an Anthropic SDK release containing `anthropic.tools.browser`; the current public Anthropic SDK does not yet include it. Documentation: https://docs.browser-us…",
@@ -320,7 +346,7 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、一次情報",
-      "verdict": "最優先"
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -403,32 +429,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、文字起こし・文書整理・RAG、失敗・回避策",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "modelcontextprotocol/servers",
-      "title": "MCP公式サーバー集：Release 2026.8.31",
-      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携、速度・メモリ・処理性能に関する変更です。",
-      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
-      "category": "MCP・外部連携",
-      "tags": [
-        "MCP",
-        "外部連携",
-        "公式",
-        "正式版"
-      ],
-      "score": 98,
-      "published_at": "2026-08-31T20:34:32Z",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
-      "original_excerpt": "# Release : v2026.8.31 ## Updated packages - @modelcontextprotocol/server-filesystem@2026.8.31 - @modelcontextprotocol/server-memory@2026.8.31 - @modelcontextprotocol/server-sequential-thinking@2026.8.31 - @modelcontextprotocol/server-everything@2026.8.31",
-      "personalization_adjustment": 10,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
-      "verdict": "最優先"
     }
   ]
 }
