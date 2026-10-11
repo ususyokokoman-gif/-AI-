@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-11T12:50:45.601863+00:00",
+  "updated_at": "2026-10-11T21:58:40.267688+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -312,7 +312,7 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 89,
+      "score": 87,
       "published_at": "2026-10-07T13:38:46Z",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
       "original_excerpt": "Changes since cli==0.4.32 * release(cli): 0.4.33 (#9227) * feat(cli): add --image-uri to deploy an already-pushed image (#9222) * feat(cli): add 'langgraph deploy listeners list' (#9221) * chore(deps): bump virtualenv from 21.7.12 to 21.7.13 in /libs/cli (#9167) * chore(deps): bump virtualenv from 2…",
