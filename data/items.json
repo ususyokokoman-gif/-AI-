@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-14T17:10:56.762627+00:00",
+  "updated_at": "2026-10-14T21:41:23.617396+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,58 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.300",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-14T18:24:25Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "original_excerpt": "## What's changed - Added `virtualText` to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt - Added `cache_creation_5m_tokens` and `cache_creation_1h_tokens` to the OpenTelemetry `api_request` event, splitting cache writes by lifetime - Add…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 97,
+      "published_at": "2026-10-14T17:15:24Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/b2b0aa1ff7d8980b005b225d3802969c87bedad5",
+      "original_excerpt": "feat(observability): add OpenTelemetry tracing cookbook (#922)",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "検証・証拠・安全性",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：検証・証拠・安全性、コード・設定・手順",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "langchain-ai/langgraph",
@@ -159,33 +211,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.299",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-14T02:49:42Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
-      "original_excerpt": "## What's changed - Added `CLAUDE_CODE_DISABLE_FILE_MENTIONS` environment variable: Claude gets the paths of `@` file mentions to read with its file tools, not the files' contents - Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before i…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "会議文字起こし・報告書",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、会議文字起こし・報告書、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "google-gemini/gemini-cli",
       "title": "Gemini CLI：Release v0.64.0",
       "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
@@ -263,33 +288,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "anthropics/anthropic-cookbook",
-      "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "Claude",
-        "実装例",
-        "公式",
-        "公式更新"
-      ],
-      "score": 97,
-      "published_at": "2026-10-10T09:24:54Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/9c1e493ddd2b82df399d2a61b9c806c539e18be6",
-      "original_excerpt": "docs(managed_agents): move the self-hosted sandbox variants to claude-quickstarts (#888)",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "検証・証拠・安全性",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、検証・証拠・安全性、コード・設定・手順",
       "verdict": "最優先"
     },
     {
