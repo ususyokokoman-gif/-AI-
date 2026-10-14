@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-13T22:45:11.332853+00:00",
+  "updated_at": "2026-10-14T04:54:10.581918+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,33 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.299",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-14T02:49:42Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+      "original_excerpt": "## What's changed - Added `CLAUDE_CODE_DISABLE_FILE_MENTIONS` environment variable: Claude gets the paths of `@` file mentions to read with its file tools, not the files' contents - Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before i…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "会議文字起こし・報告書",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、会議文字起こし・報告書、コード・設定・手順",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "langchain-ai/langgraph",
@@ -160,6 +187,33 @@
     },
     {
       "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.40.4",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携、RAG・文書検索・知識活用に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-12T19:00:12Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4",
+      "original_excerpt": "## Decision models in the CLI Decision models can now be used directly from the terminal with `ollama run` — ask yes/no questions, classify text into labels, or score against a rubric: `ollama run nimble --ask \"Is a refund being requested?\" < ticket.txt` ## What's Changed * Kev decision models are n…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Mac・ローカルAI・機密保持",
+        "文字起こし・文書整理・RAG"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持、文字起こし・文書整理・RAG",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "modelcontextprotocol/servers",
       "title": "MCP公式サーバー集：v1.0.0",
       "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -182,34 +236,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.40.3",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-11T01:39:04Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3",
-      "original_excerpt": "## What's Changed * `ollama launch claude` no longer shows a warning about Claude connectors by @hoyyeva in https://github.com/ollama/ollama/pull/18878 * `ollama launch codex` no longer warns about service tiers by @hoyyeva in https://github.com/ollama/ollama/pull/18879 * Paused background model upg…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "Mac・ローカルAI・機密保持",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、Mac・ローカルAI・機密保持、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -295,33 +321,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：検証・証拠・安全性、コード・設定・手順、数値・比較・検証",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.296",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-09T19:28:59Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
-      "original_excerpt": "## What's changed - Added a `code` key to the Claude apps gateway's `managed.policies[]`: the same settings as `cli`, also applied in Claude Desktop's Code tab; beside `desktop`, it turns on Claude Desktop's gateway mode - Added `autoCompactWindow` to subagent frontmatter and `--agents` definitions,…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
     },
     {
