@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-14T04:54:10.581918+00:00",
+  "updated_at": "2026-10-14T11:52:41.466955+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,60 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "microsoft/playwright",
+      "title": "Playwright：v1.64.1",
+      "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、ブラウザ操作・自動テスト、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Garoonや各種Webサービスの操作検証、自動テスト、画面取得の安定性向上に使えます。次にすること：AI任せにする前に、固定手順をPlaywrightで再現可能にする。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "Playwright",
+        "ブラウザ自動化",
+        "テスト",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-14T11:51:33Z",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.1",
+      "original_excerpt": "### Bug Fixes - #43247 [Bug]: _electron.launch intermittently loses a packaged app's first window since 1.64.0 - #43242 [Regression]: Chromium 155+ aborts a preflighted cross-origin redirect whenever any route is registered (net::ERR_ABORTED)",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "ブラウザ・業務自動化",
+        "Garoon・経営カルテ自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、Garoon・経営カルテ自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-14T08:15:53Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.43.5](https://github.com/n8n-io/n8n/compare/n8n@2.43.4...n8n@2.43.5) (2026-10-14) ### Bug Fixes * **core:** Validate the size argument of the chunk() expression extension ([#40911](https://github.com/n8n-io/n8n/issues/40911)) ([4bf0ece](https://github.com/n8n-io/n8n/commit/4bf0ece7ae665034b3bd…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
@@ -160,33 +214,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-13T07:53:30Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.43.4](https://github.com/n8n-io/n8n/compare/n8n@2.43.3...n8n@2.43.4) (2026-10-12) ### Bug Fixes * **core:** Handle each Chat Hub segment once in queue mode ([#40816](https://github.com/n8n-io/n8n/issues/40816)) ([dc77062](https://github.com/n8n-io/n8n/commit/dc770620e5e3830e7e41b5b840028f937de…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "ollama/ollama",
       "title": "Ollama：v0.40.4",
       "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携、RAG・文書検索・知識活用に関する変更です。",
@@ -251,7 +278,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 99,
+      "score": 97,
       "published_at": "2026-10-10T09:24:54Z",
       "url": "https://github.com/anthropics/claude-cookbooks/commit/9c1e493ddd2b82df399d2a61b9c806c539e18be6",
       "original_excerpt": "docs(managed_agents): move the self-hosted sandbox variants to claude-quickstarts (#888)",
@@ -321,33 +348,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：検証・証拠・安全性、コード・設定・手順、数値・比較・検証",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "microsoft/playwright",
-      "title": "Playwright：v1.64.0",
-      "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
-      "reason": "あなたへの使い道：Garoonや各種Webサービスの操作検証、自動テスト、画面取得の安定性向上に使えます。次にすること：AI任せにする前に、固定手順をPlaywrightで再現可能にする。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "Playwright",
-        "ブラウザ自動化",
-        "テスト",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-07T20:40:43Z",
-      "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.0",
-      "original_excerpt": "## 🧰 WebMCP New [page.webmcp](https://playwright.dev/docs/api/class-page#page-webmcp) and [frame.webmcp](https://playwright.dev/docs/api/class-frame#frame-webmcp) give access to the tools that a page registers through the experimental [WebMCP](https://playwright.dev/docs/api/class-webmcp) browser AP…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "ブラウザ・業務自動化",
-        "Garoon・経営カルテ自動化"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、Garoon・経営カルテ自動化",
       "verdict": "最優先"
     },
     {
