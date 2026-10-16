@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-15T21:23:12.787710+00:00",
+  "updated_at": "2026-10-16T04:32:23.750814+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,62 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "browser-use/browser-use",
+      "title": "Browser Use：0.13.13: OpenAI browser tools and Cloud fixes",
+      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、ブラウザ操作・自動テストに関する変更です。",
+      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "ブラウザ操作",
+        "AIエージェント",
+        "自動化",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-10-15T23:50:45Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.13",
+      "original_excerpt": "This release includes the OpenAI browser-tool driver and fixes two integration issues. - Handle temporary empty Cloud tab URLs during navigation. - Keep screenshots, crops, and pointer coordinates aligned on scaled displays. - Provide 18 default browser tools and six optional actions through Browser…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "ブラウザ・業務自動化",
+        "失敗・回避策",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、失敗・回避策、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.163.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-15T21:30:38Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+      "original_excerpt": "## New Features - Open `/config` to search preferences across categories, change supported settings immediately, and see which changes require a restart. (#52990, #53429) - Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and t…",
+      "personalization_adjustment": 8,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
@@ -319,37 +375,6 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.162.1",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-09T19:44:51Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1",
-      "original_excerpt": "## Bug Fixes - Fixed a TUI crash when asynchronous questions contain multiple lines, preserving line breaks and complete hyperlink destinations. (#51866) - Fixed startup failures caused by differences between a running background server's feature settings and CLI defaults. Compatibility checks now a…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "検証・証拠・安全性",
-        "コード・設定・手順",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
       "source_kind": "github_commit",
       "source_name": "openai/openai-cookbook",
       "title": "OpenAI Cookbook：公式情報が更新",
@@ -375,32 +400,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：検証・証拠・安全性、コード・設定・手順、数値・比較・検証",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "browser-use/browser-use",
-      "title": "Browser Use：0.13.11",
-      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "ブラウザ操作",
-        "AIエージェント",
-        "自動化",
-        "正式版"
-      ],
-      "score": 91,
-      "published_at": "2026-10-07T04:23:18Z",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.11",
-      "original_excerpt": "This release includes Browser Use toolsets for Claude, available at `browser_use.integrations.toolsets_for_claude`. The integration requires an Anthropic SDK release containing `anthropic.tools.browser`; the current public Anthropic SDK does not yet include it. Documentation: https://docs.browser-us…",
-      "personalization_adjustment": 11,
-      "personalization_matches": [
-        "ブラウザ・業務自動化",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、一次情報",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
