@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-16T21:09:01.567243+00:00",
+  "updated_at": "2026-10-17T04:26:46.367223+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,6 +79,59 @@
   ],
   "items": [
     {
+      "source_kind": "github_commit",
+      "source_name": "anthropics/anthropic-cookbook",
+      "title": "Anthropic Cookbook：公式情報が更新",
+      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "Claude",
+        "実装例",
+        "公式",
+        "公式更新"
+      ],
+      "score": 99,
+      "published_at": "2026-10-17T00:28:08Z",
+      "url": "https://github.com/anthropics/claude-cookbooks/commit/a162e0184e71b60290808a43961a6cbc8060123c",
+      "original_excerpt": "feat(managed_agents): add agent security review cookbook (#926)",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "検証・証拠・安全性",
+        "コード・設定・手順",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph==1.2.16",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 89,
+      "published_at": "2026-10-16T22:11:28Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16",
+      "original_excerpt": "Changes since 1.2.15 * release(langgraph): 1.2.16 (#9334) * fix(langgraph): let other tasks finish when a resume value is invalid (#9265) * fix(langgraph): apply a resumed Command's update once (#9322) * fix(langgraph): stop a subgraph from rerunning its finished tasks on resume (#9315) * fix(langgr…",
+      "personalization_adjustment": 6,
+      "personalization_matches": [
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：一次情報",
+      "verdict": "読む価値あり"
+    },
+    {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.302",
@@ -103,32 +156,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph-cli==0.4.36",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、対応モデル・コンテキスト・トークン、MCP・外部サービス連携、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 94,
-      "published_at": "2026-10-16T16:39:14Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36",
-      "original_excerpt": "Changes since cli==0.4.35 * release(cli): 0.4.36 (#9330) * fix(cli): accept serverless and dedicated deployment aliases (#9325) * fix(cli): push through the active Docker context in langgraph deploy (#9321)",
-      "personalization_adjustment": 11,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -264,32 +291,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持、文字起こし・文書整理・RAG",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "anthropics/anthropic-cookbook",
-      "title": "Anthropic Cookbook：公式情報が更新",
-      "summary": "Claudeを業務やシステムへ組み込む公式実装例の更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：Claude API、ツール利用、長文処理、評価設計の具体例を確認できます。次にすること：OpenAI側の実装例と比較し、モデル依存を避けられる設計を選ぶ。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "Claude",
-        "実装例",
-        "公式",
-        "公式更新"
-      ],
-      "score": 97,
-      "published_at": "2026-10-14T17:15:24Z",
-      "url": "https://github.com/anthropics/claude-cookbooks/commit/b2b0aa1ff7d8980b005b225d3802969c87bedad5",
-      "original_excerpt": "feat(observability): add OpenTelemetry tracing cookbook (#922)",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "検証・証拠・安全性",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：検証・証拠・安全性、コード・設定・手順",
       "verdict": "最優先"
     },
     {
