@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-17T15:35:28.635498+00:00",
+  "updated_at": "2026-10-17T20:36:46.558325+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -386,7 +386,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 99,
+      "score": 97,
       "published_at": "2026-10-09T19:41:21Z",
       "url": "https://github.com/openai/openai-cookbook/commit/5bd6cb40b6b84b69b2032d810610aa85064102df",
       "original_excerpt": "Add deepsense.ai cookbook on harness-aware plugin evaluation (#3129)",
