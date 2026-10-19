@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-18T20:43:43.313579+00:00",
+  "updated_at": "2026-10-19T04:41:04.751055+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,34 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.303",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-18T22:26:54Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+      "original_excerpt": "## What's changed - Bug fixes and reliability improvements",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性",
+        "コード・設定・手順",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_commit",
       "source_name": "anthropics/anthropic-cookbook",
@@ -155,32 +183,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.302",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-16T20:53:06Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
-      "original_excerpt": "## What's changed - Added `CLAUDE_CODE_AUTO_MODE_MODEL` to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode - Added an `Idle compaction` row to `/config` for turning idle compaction off or back on; the notices shown after an idle comp…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -363,14 +365,16 @@
       "score": 100,
       "published_at": "2026-10-11T02:40:29Z",
       "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
-      "original_excerpt": "## Packages | Package | Version | Registry | In this release | | --- | --- | --- | --- | | `@modelcontextprotocol/server-everything` | `1.0.0` | npm | **published** | | `@modelcontextprotocol/server-filesystem` | `1.0.0` | npm | **published** | | `@modelcontextprotocol/server-memory` | `1.0.0` | npm…",
-      "personalization_adjustment": 10,
+      "original_excerpt": "## Final Legacy Server Release This release contains many bug and security fixes, and represents the final release of the legacy era servers. ## Packages | Package | Version | Registry | In this release | | --- | --- | --- | --- | | `@modelcontextprotocol/server-everything` | `1.0.0` | npm | **publi…",
+      "personalization_adjustment": 15,
       "personalization_matches": [
         "AIエージェント実装",
+        "検証・証拠・安全性",
+        "失敗・回避策",
         "一次情報"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
+      "personalization_reason": "あなたとの一致：AIエージェント実装、検証・証拠・安全性、失敗・回避策、一次情報",
       "verdict": "最優先"
     },
     {
