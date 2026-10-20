@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-19T22:21:18.833857+00:00",
+  "updated_at": "2026-10-20T04:51:31.732341+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -276,7 +276,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 99,
+      "score": 97,
       "published_at": "2026-10-15T23:50:45Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.13",
       "original_excerpt": "This release includes the OpenAI browser-tool driver and fixes two integration issues. - Handle temporary empty Cloud tab URLs during navigation. - Keep screenshots, crops, and pointer coordinates aligned on scaled displays. - Provide 18 default browser tools and six optional actions through Browser…",
