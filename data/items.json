@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-22T11:53:03.907884+00:00",
+  "updated_at": "2026-10-22T17:10:55.660576+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -92,9 +92,9 @@
         "公式更新"
       ],
       "score": 98,
-      "published_at": "2026-10-22T11:52:34Z",
-      "url": "https://github.com/openai/codex/commit/94350a910143c406013683ae634708320f93f1f6",
-      "original_excerpt": "Add managed network review domains before allow rules (#56154)",
+      "published_at": "2026-10-22T17:09:38Z",
+      "url": "https://github.com/openai/codex/commit/9cb547349e7b16d7b00738e7a11b1a1dd28e6366",
+      "original_excerpt": "Consolidate Bazel CI setup into `prepare-bazel-ci` (#56222)",
       "personalization_adjustment": 8,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
