@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-23T04:49:50.193175+00:00",
+  "updated_at": "2026-10-23T11:39:38.951034+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,59 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：n8n@1.123.87",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-10-23T07:51:27Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.87",
+      "original_excerpt": "## [1.123.87](https://github.com/n8n-io/n8n/compare/n8n@1.123.86...n8n@1.123.87) (2026-10-23) <!-- This is an auto-generated description by cubic. --> <a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41902?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture…",
+      "personalization_adjustment": 14,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "langgenius/dify",
+      "title": "Dify：v1.18.0 — Smarter Agent Routing, Portable Apps, Deeper Workflow Visibi…",
+      "summary": "RAG、チャットボット、エージェント型業務アプリを構築するDifyの更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：社内文書検索、相談受付、補助金候補整理などの試作を短期間で作れます。次にすること：機密情報を入れず、公開資料だけで小規模な業務試作を行う。",
+      "category": "AI業務アプリ",
+      "tags": [
+        "Dify",
+        "RAG",
+        "業務アプリ",
+        "正式版"
+      ],
+      "score": 98,
+      "published_at": "2026-10-23T06:33:50Z",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.18.0",
+      "original_excerpt": "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line. > [!IMPORTANT] > **Read the upgr…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "ブラウザ・業務自動化",
+        "文字起こし・文書整理・RAG"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、文字起こし・文書整理・RAG",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "openai/codex",
       "title": "OpenAI Codex：0.164.0",
       "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -133,33 +186,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、Mac・ローカルAI・機密保持、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-22T09:21:52Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.44.6](https://github.com/n8n-io/n8n/compare/n8n@2.44.5...n8n@2.44.6) (2026-10-22) ### Bug Fixes * **Postgres Node:** Prevent global pgtypes overwrite ([#41667](https://github.com/n8n-io/n8n/issues/41667)) ([654315e](https://github.com/n8n-io/n8n/commit/654315ee2b751212f09026d112d86b262687b181)…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
@@ -401,33 +427,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、Garoon・経営カルテ自動化、失敗・回避策",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langgenius/dify",
-      "title": "Dify：v1.17.1 - Bug Fixes and Improvements",
-      "summary": "RAG、チャットボット、エージェント型業務アプリを構築するDifyの更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：社内文書検索、相談受付、補助金候補整理などの試作を短期間で作れます。次にすること：機密情報を入れず、公開資料だけで小規模な業務試作を行う。",
-      "category": "AI業務アプリ",
-      "tags": [
-        "Dify",
-        "RAG",
-        "業務アプリ",
-        "正式版"
-      ],
-      "score": 93,
-      "published_at": "2026-09-10T10:04:06Z",
-      "url": "https://github.com/langgenius/dify/releases/tag/1.17.1",
-      "original_excerpt": "> [!WARNING] > **Self-hosted deployments using the bundled Weaviate must complete a manual, staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2` — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently and perma…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "ブラウザ・業務自動化",
-        "文字起こし・文書整理・RAG",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、文字起こし・文書整理・RAG、失敗・回避策",
-      "verdict": "読む価値あり"
     }
   ]
 }
