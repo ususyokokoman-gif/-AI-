@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-22T21:36:02.128518+00:00",
+  "updated_at": "2026-10-23T04:49:50.193175+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -79,32 +79,60 @@
   ],
   "items": [
     {
-      "source_kind": "github_commit",
+      "source_kind": "github_release",
       "source_name": "openai/codex",
-      "title": "OpenAI Codex：公式情報が更新",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、MCP・外部サービス連携に関する変更です。",
+      "title": "OpenAI Codex：0.164.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
       "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
       "category": "AI開発エージェント",
       "tags": [
         "Codex",
         "開発自動化",
         "公式",
-        "公式更新"
+        "正式版"
       ],
       "score": 100,
-      "published_at": "2026-10-22T21:11:21Z",
-      "url": "https://github.com/openai/codex/commit/cb2581dae8de14ca5282332ec329c335bf04195f",
-      "original_excerpt": "Preserve MCP disable reasons across runtime overlays (#56266)",
-      "personalization_adjustment": 13,
+      "published_at": "2026-10-23T04:48:10Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
+      "original_excerpt": "## New Features - Save reusable prompts and slash commands in ten numbered `/presets` slots, with a keyboard menu for quick access. (#54380, #54381) - Set model, reasoning effort, speed, and permission profiles directly with inline `/model` and `/permissions` arguments. (#54378, #54383) - Preview vi…",
+      "personalization_adjustment": 14,
       "personalization_matches": [
-        "AIエージェント実装",
         "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性",
         "コード・設定・手順"
       ],
       "personalization_penalties": [
         "求人・イベント告知"
       ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.309",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-22T22:18:57Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "original_excerpt": "## What's changed - Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command - Fixed macOS sandbox `denyWrite` glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink - Fixed sandbox…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性",
+        "Mac・ローカルAI・機密保持",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、Mac・ローカルAI・機密保持、コード・設定・手順",
       "verdict": "最優先"
     },
     {
@@ -136,31 +164,28 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.308",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.40.9",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
       "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
         "正式版"
       ],
-      "score": 100,
-      "published_at": "2026-10-22T04:34:55Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
-      "original_excerpt": "## What's changed - Bug fixes and reliability improvements",
-      "personalization_adjustment": 15,
+      "score": 94,
+      "published_at": "2026-10-22T01:33:10Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
+      "original_excerpt": "## Speech Ollama can now generate [speech](https://docs.ollama.com/capabilities/speech) with Phonon on Apple Silicon. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint. ```sh ollama run…",
+      "personalization_adjustment": 7,
       "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "検証・証拠・安全性",
-        "コード・設定・手順",
-        "失敗・回避策"
+        "Mac・ローカルAI・機密保持"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
-      "verdict": "最優先"
+      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_commit",
@@ -186,33 +211,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：コード・設定・手順",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.40.8",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-21T16:20:30Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
-      "original_excerpt": "<p align=\"center\"><img width=\"160\" alt=\"flint-logo\" src=\"https://github.com/user-attachments/assets/3c1741a5-710c-4bde-8ac7-096e40b495bb\" /></p> ## Recursive Flint [Flint](https://ollama.com/library/flint) brings Recursive's coding model to Ollama. It is designed for the work coding agents do across…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "Mac・ローカルAI・機密保持"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、Mac・ローカルAI・機密保持",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
