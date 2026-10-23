@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-23T11:39:38.951034+00:00",
+  "updated_at": "2026-10-23T17:07:27.247480+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,31 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph-sdk==0.4.9",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 89,
+      "published_at": "2026-10-23T14:19:24Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9",
+      "original_excerpt": "Changes since sdk==0.4.8 * release(sdk-py): 0.4.9 (#9398) * feat(sdk-py): add Priority for thread priority settings (#9392) * chore(deps): remove precautionary third-party upper bounds (#9390) * chore(deps): bump certifi from 2026.2.25 to 2026.10.19 in /libs/sdk-py (#9370) * chore(deps-dev): bump do…",
+      "personalization_adjustment": 6,
+      "personalization_matches": [
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：一次情報",
+      "verdict": "読む価値あり"
+    },
     {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
@@ -263,33 +288,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph-cli==0.4.37",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、MCP・外部サービス連携、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 97,
-      "published_at": "2026-10-19T14:06:22Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
-      "original_excerpt": "Changes since cli==0.4.36 * release(cli): 0.4.37 (#9351) * fix(cli): stop printing subprocess stdin in verbose output (#9350) * Merge PR #9349 * fix(cli): default deploy to serverless (#9333) * chore(deps): bump the minor-and-patch group in /libs/cli/js-examples with 9 updates (#9152) * chore(deps-d…",
-      "personalization_adjustment": 14,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "コード・設定・手順",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、コード・設定・手順、一次情報",
       "verdict": "最優先"
     },
     {
