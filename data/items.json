@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-26T04:47:51.313831+00:00",
+  "updated_at": "2026-10-26T13:03:39.659931+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,34 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-26T06:22:02Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.44.7](https://github.com/n8n-io/n8n/compare/n8n@2.44.6...n8n@2.44.7) (2026-10-26) ### Bug Fixes * **core:** Start sub-workflow error workflow when a pre-run check fails ([#41978](https://github.com/n8n-io/n8n/issues/41978)) ([67d0e65](https://github.com/n8n-io/n8n/commit/67d0e65f5d5d01d49b1d14…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "modelcontextprotocol/servers",
@@ -230,32 +258,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：検証・証拠・安全性、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：n8n@1.123.87",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 99,
-      "published_at": "2026-10-23T07:51:27Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.87",
-      "original_excerpt": "## [1.123.87](https://github.com/n8n-io/n8n/compare/n8n@1.123.86...n8n@1.123.87) (2026-10-23) <!-- This is an auto-generated description by cubic. --> <a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/41902?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture…",
-      "personalization_adjustment": 14,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化",
       "verdict": "最優先"
     },
     {
