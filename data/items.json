@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-26T13:03:39.659931+00:00",
+  "updated_at": "2026-10-26T22:40:36.557314+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,110 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "browser-use/browser-use",
+      "title": "Browser Use：0.13.14: Python agent and integration updates",
+      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
+      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "ブラウザ操作",
+        "AIエージェント",
+        "自動化",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-10-26T22:00:34Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.14",
+      "original_excerpt": "This release keeps the Python agent and its existing models. The Pi migration remains separate. Changes since the last PyPI release: - Add OpenAI browser tools and the shared Bash helper. - Improve bounded page observations, form state, file access, and browser recovery. - Fix temporary empty Cloud …",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "ブラウザ・業務自動化",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.311",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-26T21:51:23Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "original_excerpt": "## What's changed - Added `--hold-idle-file` and `--max-hold-min` to `self-hosted-runner`, to keep an idle session while your host reports processes it left running - Added a tip for the Explanatory output style, shown when you ask Claude for explanations - Fixed long freezes at startup and after re…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 93,
+      "published_at": "2026-10-26T21:23:30Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/a8132ca2f7a5de3a6cf15d9e79d172787b42b697",
+      "original_excerpt": "Fix Bedrock notebook output contrast in dark mode (#3224)",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph==1.2.18",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、RAG・文書検索・知識活用、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 93,
+      "published_at": "2026-10-26T20:04:45Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
+      "original_excerpt": "Changes since 1.2.17 * release(checkpoint): 4.3.1 (#9447) * release(langgraph): 1.2.18 (#9445) * fix(langgraph): let error_handler recover on every path and stream failed task results (#9408) * feat(langgraph): default delta snapshots to 100 updates (#9420). `DeltaChannel` now takes a full snapshot …",
+      "personalization_adjustment": 10,
+      "personalization_matches": [
+        "文字起こし・文書整理・RAG",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：文字起こし・文書整理・RAG、一次情報",
+      "verdict": "読む価値あり"
+    },
     {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
@@ -160,31 +264,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph==1.2.17",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 89,
-      "published_at": "2026-10-24T01:08:05Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
-      "original_excerpt": "Changes since 1.2.16 * release(langgraph): 1.2.17 (#9418) * fix(langgraph): apply an explicit recursion_limit equal to the default (#9417) * fix(langgraph): keep the caller's namespace in RemoteGraph.stream(subgraphs=True) (#9401) * chore(deps): remove precautionary third-party upper bounds (#9390) …",
-      "personalization_adjustment": 6,
-      "personalization_matches": [
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：一次情報",
-      "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "ollama/ollama",
       "title": "Ollama：v0.40.11",
       "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークン、実装例・ガイド・ドキュメントに関する変更です。",
@@ -207,58 +286,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.310",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-23T23:39:00Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
-      "original_excerpt": "## What's changed - Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too - Fixed requests failing behind some gateways and compatible servers that reject the `effort-2025-1…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 99,
-      "published_at": "2026-10-23T21:10:36Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/8495326b6f1b7cec94e7f5e393a4045e328a268e",
-      "original_excerpt": "Add Databricks Sandbox application-managed example (#3231)",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "検証・証拠・安全性",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：検証・証拠・安全性、コード・設定・手順",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -341,34 +368,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "browser-use/browser-use",
-      "title": "Browser Use：0.13.13: OpenAI browser tools and Cloud fixes",
-      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、ブラウザ操作・自動テストに関する変更です。",
-      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "ブラウザ操作",
-        "AIエージェント",
-        "自動化",
-        "正式版"
-      ],
-      "score": 95,
-      "published_at": "2026-10-15T23:50:45Z",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.13",
-      "original_excerpt": "This release includes the OpenAI browser-tool driver and fixes two integration issues. - Handle temporary empty Cloud tab URLs during navigation. - Keep screenshots, crops, and pointer coordinates aligned on scaled displays. - Provide 18 default browser tools and six optional actions through Browser…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "ブラウザ・業務自動化",
-        "失敗・回避策",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、失敗・回避策、一次情報",
       "verdict": "最優先"
     },
     {
