@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-27T05:05:37.857220+00:00",
+  "updated_at": "2026-10-27T12:12:12.515048+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,35 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-27T08:49:50Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.45.4](https://github.com/n8n-io/n8n/compare/n8n@2.45.3...n8n@2.45.4) (2026-10-26) ### Bug Fixes * **core:** Recreate removed n8n-sandbox sandboxes and rerun workspace setup ([#41919](https://github.com/n8n-io/n8n/issues/41919)) ([11e279a](https://github.com/n8n-io/n8n/commit/11e279a51d497f8d96…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "検証・証拠・安全性",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、中小企業支援・コンサル商品化、ブラウザ・業務自動化、検証・証拠・安全性、コード・設定・手順",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "browser-use/browser-use",
@@ -184,34 +213,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-26T06:22:02Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.44.7](https://github.com/n8n-io/n8n/compare/n8n@2.44.6...n8n@2.44.7) (2026-10-26) ### Bug Fixes * **core:** Start sub-workflow error workflow when a pre-run check fails ([#41978](https://github.com/n8n-io/n8n/issues/41978)) ([67d0e65](https://github.com/n8n-io/n8n/commit/67d0e65f5d5d01d49b1d14…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "modelcontextprotocol/servers",
       "title": "MCP公式サーバー集：v2.1.0",
       "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -300,7 +301,7 @@
         "業務アプリ",
         "正式版"
       ],
-      "score": 98,
+      "score": 96,
       "published_at": "2026-10-23T06:33:50Z",
       "url": "https://github.com/langgenius/dify/releases/tag/1.18.0",
       "original_excerpt": "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line. > [!IMPORTANT] > **Read the upgr…",
