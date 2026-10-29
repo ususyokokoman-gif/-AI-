@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-29T13:01:23.276507+00:00",
+  "updated_at": "2026-10-29T22:45:16.580009+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,59 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.166.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-29T19:47:53Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
+      "original_excerpt": "## New Features - Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts. (#57221, #57222, #57223, #57224) - Rendered Markdown consistently in async questions, choices, answers, and transcript replies. (#57259, #57292) - Added GPT-…",
+      "personalization_adjustment": 8,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 93,
+      "published_at": "2026-10-29T16:53:35Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/f5819076643583e2c2a77268e7fe522e927499d0",
+      "original_excerpt": "Add customer-support routing example using the Decisions API (#3255)",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
+    },
     {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
@@ -215,36 +268,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.165.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-27T20:09:38Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
-      "original_excerpt": "## New Features - Added a built-in Google Cloud Vertex AI provider, configured with `model_provider = \"gcp\"`. (#56265) - Added GPT-6.1 Terra to the model catalogs. (#57337) - Added a repository filter to the session picker and directory grouping to the agent command center, making it easier to navig…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "一次情報"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "browser-use/browser-use",
       "title": "Browser Use：0.13.14: Python agent and integration updates",
       "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
@@ -269,31 +292,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、一次情報",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 93,
-      "published_at": "2026-10-26T21:23:30Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/a8132ca2f7a5de3a6cf15d9e79d172787b42b697",
-      "original_excerpt": "Fix Bedrock notebook output contrast in dark mode (#3224)",
-      "personalization_adjustment": 7,
-      "personalization_matches": [
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：コード・設定・手順",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
