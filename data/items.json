@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-30T12:56:41.918448+00:00",
+  "updated_at": "2026-10-30T22:20:31.207237+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,31 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph-sdk==0.4.11",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 89,
+      "published_at": "2026-10-30T22:17:59Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.11",
+      "original_excerpt": "Changes since sdk==0.4.10 * release(langgraph): 1.2.19 (#9504) * release(sdk-py): 0.4.11 (#9503) * test(sdk-py): check that a reconnect loop resumes after the newest event (#9483) * fix(sdk-py): retry runs.wait, join and cancel(wait=True) reconnects with backoff (#9481) * fix(sdk-py): warn when a st…",
+      "personalization_adjustment": 6,
+      "personalization_matches": [
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：一次情報",
+      "verdict": "読む価値あり"
+    },
     {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
@@ -280,7 +305,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 99,
+      "score": 97,
       "published_at": "2026-10-26T22:00:34Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.14",
       "original_excerpt": "This release keeps the Python agent and its existing models. The Pi migration remains separate. Changes since the last PyPI release: - Add OpenAI browser tools and the shared Bash helper. - Improve bounded page observations, form state, file access, and browser recovery. - Fix temporary empty Cloud …",
@@ -293,32 +318,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、一次情報",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph==1.2.18",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、RAG・文書検索・知識活用、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 93,
-      "published_at": "2026-10-26T20:04:45Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
-      "original_excerpt": "Changes since 1.2.17 * release(checkpoint): 4.3.1 (#9447) * release(langgraph): 1.2.18 (#9445) * fix(langgraph): let error_handler recover on every path and stream failed task results (#9408) * feat(langgraph): default delta snapshots to 100 updates (#9420). `DeltaChannel` now takes a full snapshot …",
-      "personalization_adjustment": 10,
-      "personalization_matches": [
-        "文字起こし・文書整理・RAG",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：文字起こし・文書整理・RAG、一次情報",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_commit",
