@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-31T05:41:24.232105+00:00",
+  "updated_at": "2026-10-31T12:30:24.633202+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -358,7 +358,7 @@
         "業務アプリ",
         "正式版"
       ],
-      "score": 96,
+      "score": 94,
       "published_at": "2026-10-23T06:33:50Z",
       "url": "https://github.com/langgenius/dify/releases/tag/1.18.0",
       "original_excerpt": "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line. > [!IMPORTANT] > **Read the upgr…",
@@ -370,7 +370,7 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、文字起こし・文書整理・RAG",
-      "verdict": "最優先"
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
