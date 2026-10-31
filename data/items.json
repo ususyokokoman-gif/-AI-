@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-10-30T22:20:31.207237+00:00",
+  "updated_at": "2026-10-31T05:41:24.232105+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,9 +80,35 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.316",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-10-31T01:01:35Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "original_excerpt": "## What's changed - Added `CLAUDE_CODE_DISABLE_ULTRATHINK`, which turns the `ultrathink` keyword off - Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with `pooled_budget` on the spend limits admin API - A…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph-sdk==0.4.11",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性に関する変更です。",
+      "title": "LangGraph：langgraph==1.2.19",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、不具合修正・安定性に関する変更です。",
       "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
       "category": "AIエージェント",
       "tags": [
@@ -91,17 +117,19 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 89,
-      "published_at": "2026-10-30T22:17:59Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.11",
-      "original_excerpt": "Changes since sdk==0.4.10 * release(langgraph): 1.2.19 (#9504) * release(sdk-py): 0.4.11 (#9503) * test(sdk-py): check that a reconnect loop resumes after the newest event (#9483) * fix(sdk-py): retry runs.wait, join and cancel(wait=True) reconnects with backoff (#9481) * fix(sdk-py): warn when a st…",
-      "personalization_adjustment": 6,
+      "score": 98,
+      "published_at": "2026-10-30T22:23:43Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
+      "original_excerpt": "Changes since 1.2.18 * release(langgraph): 1.2.19 (#9504) * release(checkpoint-sqlite): 3.1.3 (#9505) * fix(langgraph): keep trace_policy from rewriting streamed node payloads (#9486) * fix(langgraph): give messages and tools events the namespace of their graph (#9458) * chore(deps): bump setuptools…",
+      "personalization_adjustment": 15,
       "personalization_matches": [
+        "検証・証拠・安全性",
+        "コード・設定・手順",
         "一次情報"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：一次情報",
-      "verdict": "読む価値あり"
+      "personalization_reason": "あなたとの一致：検証・証拠・安全性、コード・設定・手順、一次情報",
+      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -129,33 +157,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.314",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-30T01:06:26Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-      "original_excerpt": "## What's changed - Added `permissions.blockWritesOutsideWorkingDirectories`: Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode - Added an optional `groups` list to Claude apps gateway upstreams: only developers in the listed IdP groups are sent to th…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "検証・証拠・安全性",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順",
       "verdict": "最優先"
     },
     {
