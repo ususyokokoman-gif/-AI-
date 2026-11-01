@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-01T13:25:09.041653+00:00",
+  "updated_at": "2026-11-01T22:01:46.273383+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -253,7 +253,7 @@
         "機密情報",
         "正式版"
       ],
-      "score": 96,
+      "score": 94,
       "published_at": "2026-10-28T19:55:04Z",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13",
       "original_excerpt": "## LFM3 on Linux and Windows Liquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon. **Full Changelog**: h…",
@@ -264,7 +264,7 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持、一次情報",
-      "verdict": "最優先"
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
@@ -333,7 +333,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 89,
+      "score": 87,
       "published_at": "2026-10-24T18:54:16Z",
       "url": "https://github.com/anthropics/claude-cookbooks/commit/bfe50e59dbb4f5546a0af9ca36ebb77e637c9ce1",
       "original_excerpt": "Bump cookbook defaults to Opus 5.5, Sonnet 5.5 and Fable 5.1 (#924)",
