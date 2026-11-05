@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-05T06:46:46.827145+00:00",
+  "updated_at": "2026-11-05T19:57:06.244030+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,62 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：公式情報が更新",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "公式更新"
+      ],
+      "score": 100,
+      "published_at": "2026-11-05T19:46:31Z",
+      "url": "https://github.com/openai/codex/commit/119a547a31342b0c64fb15d2f6782f303bc3a5b7",
+      "original_excerpt": "Prevent idle Windows MCP pipes from blocking unrelated I/O (#59726)",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "microsoft/playwright",
+      "title": "Playwright：v1.65.0",
+      "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：Garoonや各種Webサービスの操作検証、自動テスト、画面取得の安定性向上に使えます。次にすること：AI任せにする前に、固定手順をPlaywrightで再現可能にする。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "Playwright",
+        "ブラウザ自動化",
+        "テスト",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-05T18:25:45Z",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
+      "original_excerpt": "## 🥟 Run tests with Bun The test runner now runs under [Bun](https://bun.com). Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the `--bun` flag, because without it `bunx playwright test` runs on Node.js: ```bash bunx --bun playwright …",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "ブラウザ・業務自動化",
+        "Garoon・経営カルテ自動化"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、Garoon・経営カルテ自動化",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "langchain-ai/langgraph",
@@ -322,34 +378,6 @@
     },
     {
       "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.166.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-10-29T19:47:53Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
-      "original_excerpt": "## New Features - Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts. (#57221, #57222, #57223, #57224) - Rendered Markdown consistently in async questions, choices, answers, and transcript replies. (#57259, #57292) - Added GPT-…",
-      "personalization_adjustment": 8,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
       "source_name": "browser-use/browser-use",
       "title": "Browser Use：0.13.14: Python agent and integration updates",
       "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
@@ -400,33 +428,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "microsoft/playwright",
-      "title": "Playwright：v1.64.1",
-      "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、ブラウザ操作・自動テスト、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：Garoonや各種Webサービスの操作検証、自動テスト、画面取得の安定性向上に使えます。次にすること：AI任せにする前に、固定手順をPlaywrightで再現可能にする。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "Playwright",
-        "ブラウザ自動化",
-        "テスト",
-        "正式版"
-      ],
-      "score": 97,
-      "published_at": "2026-10-14T11:51:33Z",
-      "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.1",
-      "original_excerpt": "### Bug Fixes - #43247 [Bug]: _electron.launch intermittently loses a packaged app's first window since 1.64.0 - #43242 [Regression]: Chromium 155+ aborts a preflighted cross-origin redirect whenever any route is registered (net::ERR_ABORTED)",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "ブラウザ・業務自動化",
-        "Garoon・経営カルテ自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、Garoon・経営カルテ自動化、失敗・回避策",
       "verdict": "最優先"
     }
   ]
