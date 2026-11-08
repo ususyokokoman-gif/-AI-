@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-08T06:01:11.850339+00:00",
+  "updated_at": "2026-11-08T13:25:05.512016+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -306,7 +306,7 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 100,
+      "score": 98,
       "published_at": "2026-11-04T13:10:09Z",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "original_excerpt": "## [2.46.6](https://github.com/n8n-io/n8n/compare/n8n@2.46.5...n8n@2.46.6) (2026-11-04) ### Bug Fixes * Make npm install of n8n work on all platforms again ([#43035](https://github.com/n8n-io/n8n/issues/43035)) ([6abcfc7](https://github.com/n8n-io/n8n/commit/6abcfc7547b037bafd6c4fe422580ff1679bf7ad)…",
@@ -333,7 +333,7 @@
         "業務アプリ",
         "正式版"
       ],
-      "score": 98,
+      "score": 96,
       "published_at": "2026-11-04T07:36:16Z",
       "url": "https://github.com/langgenius/dify/releases/tag/1.19.0",
       "original_excerpt": "**Dify 1.19.0 brings nested workflow tracing to your observability tools.** Follow a workflow into the Workflow Tools it calls, inspect the steps inside each invocation, and keep the LLM context alongside the execution tree. This release also makes Workflow Tools portable with App packages, adds Ski…",
