@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-10T07:18:34.551700+00:00",
+  "updated_at": "2026-11-10T19:44:00.375650+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,60 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：n8n@1.123.93",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-10T11:34:53Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.93",
+      "original_excerpt": "## [1.123.93](https://github.com/n8n-io/n8n/compare/n8n@1.123.92...n8n@1.123.93) (2026-11-09) ### Bug Fixes * **core:** Limit resume attempts for waiting and queued executions ([#42864](https://github.com/n8n-io/n8n/issues/42864)) ([106a957](https://github.com/n8n-io/n8n/commit/106a9577f012d2e5b11c7…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "browser-use/browser-use",
+      "title": "Browser Use：browser-use 1.0.1",
+      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、MCP・外部サービス連携、ブラウザ操作・自動テスト、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "ブラウザ操作",
+        "AIエージェント",
+        "自動化",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-11-10T09:27:28Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.1",
+      "original_excerpt": "Fixes on 1.0.0. - **MCP without Chrome:** `browser-use --cli-mcp` on servers, containers and CI boxes now drives its own Chromium, installed on first use. When no browser can run, you get one clear error. - **`http_get`** in the CLI and MCP always fetches from your machine. - **`--mcp` with `allowed…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "ブラウザ・業務自動化",
+        "Mac・ローカルAI・機密保持"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、Mac・ローカルAI・機密保持",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.322",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、速度・メモリ・処理性能に関する変更です。",
@@ -102,34 +156,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "browser-use/browser-use",
-      "title": "Browser Use：browser-use 1.0: CDP is all you need",
-      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "ブラウザ操作",
-        "AIエージェント",
-        "自動化",
-        "正式版"
-      ],
-      "score": 99,
-      "published_at": "2026-11-10T02:04:48Z",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0",
-      "original_excerpt": "<img src=\"https://github.com/browser-use/browser-use/releases/download/1.0.0/browser-use-1.0-vs-0.x-bench.png\" alt=\"browser-use 1.0 vs 0.x: higher score, cheaper, faster, 80% less code\" width=\"100%\"> ## −136,866 lines. 80% of the library deleted. We started over. The agent now writes Python in one p…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "ブラウザ・業務自動化",
-        "コード・設定・手順",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、コード・設定・手順、一次情報",
       "verdict": "最優先"
     },
     {
@@ -159,33 +185,6 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-09T08:25:30Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.46.7](https://github.com/n8n-io/n8n/compare/n8n@2.46.6...n8n@2.46.7) (2026-11-09) ### Bug Fixes * **core:** Limit resume attempts for waiting and queued executions ([#42862](https://github.com/n8n-io/n8n/issues/42862)) ([c7aa6aa](https://github.com/n8n-io/n8n/commit/c7aa6aa6e1aa8d891d454a7516c…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
       "source_kind": "github_commit",
       "source_name": "openai/openai-cookbook",
       "title": "OpenAI Cookbook：公式情報が更新",
@@ -198,7 +197,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 100,
+      "score": 99,
       "published_at": "2026-11-06T18:39:48Z",
       "url": "https://github.com/openai/openai-cookbook/commit/2d5b1a9b6e706a732b03048d701c7086fda5f010",
       "original_excerpt": "docs: update sales meeting prep for current workspace agents (#3195)",
