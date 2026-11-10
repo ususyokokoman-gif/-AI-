@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-09T22:21:46.438357+00:00",
+  "updated_at": "2026-11-10T07:18:34.551700+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -81,8 +81,8 @@
     {
       "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.321",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "title": "Claude Code：v2.1.322",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、速度・メモリ・処理性能に関する変更です。",
       "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
       "category": "AI開発エージェント",
       "tags": [
@@ -92,9 +92,9 @@
         "正式版"
       ],
       "score": 100,
-      "published_at": "2026-11-09T19:22:30Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
-      "original_excerpt": "## What's changed - Added Claude Fable 5.2 (`claude-fable-5-2`), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads - Added `--settings <file>` to `claude remote-control`, which applies a settings file to every session it starts; if the file changes, no new session…",
+      "published_at": "2026-11-10T02:29:43Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "original_excerpt": "## What's changed - Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
       "personalization_adjustment": 13,
       "personalization_matches": [
         "Codex・Claude Code等の開発AI",
@@ -102,6 +102,60 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "browser-use/browser-use",
+      "title": "Browser Use：browser-use 1.0: CDP is all you need",
+      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "ブラウザ操作",
+        "AIエージェント",
+        "自動化",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-11-10T02:04:48Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.0",
+      "original_excerpt": "<img src=\"https://github.com/browser-use/browser-use/releases/download/1.0.0/browser-use-1.0-vs-0.x-bench.png\" alt=\"browser-use 1.0 vs 0.x: higher score, cheaper, faster, 80% less code\" width=\"100%\"> ## −136,866 lines. 80% of the library deleted. We started over. The agent now writes Python in one p…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "ブラウザ・業務自動化",
+        "コード・設定・手順",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、コード・設定・手順、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.40.16",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能に関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-11-09T18:21:19Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "original_excerpt": "## Ripple Preview [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding. ```sh ollama run ripple-preview ``` ## What's Changed - Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon - `ollama launch claude` …",
+      "personalization_adjustment": 12,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Mac・ローカルAI・機密保持"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持",
       "verdict": "最優先"
     },
     {
@@ -171,7 +225,7 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 89,
+      "score": 87,
       "published_at": "2026-11-06T03:03:34Z",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.14",
       "original_excerpt": "Changes since sdk==0.4.13 * release(sdk-py): 0.4.14 (#9610) * feat(sdk-py): add strict_resume to runs.create, stream and wait (#9599) * feat(sdk-py): add tools and lifecycle to StreamMode (#9601)",
@@ -347,60 +401,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.40.15",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-03T22:52:31Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
-      "original_excerpt": "## MiMo V2.6 Xiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama. ```sh ollama run mimo-v2.6 ``` ## AutoTrust decision models [AutoTrust](https://ollama.com/library/autotrust-jev) decision models read text and ret…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Mac・ローカルAI・機密保持",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "browser-use/browser-use",
-      "title": "Browser Use：0.13.14: Python agent and integration updates",
-      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
-      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "ブラウザ操作",
-        "AIエージェント",
-        "自動化",
-        "正式版"
-      ],
-      "score": 95,
-      "published_at": "2026-10-26T22:00:34Z",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.14",
-      "original_excerpt": "This release keeps the Python agent and its existing models. The Pi migration remains separate. Changes since the last PyPI release: - Add OpenAI browser tools and the shared Bash helper. - Improve bounded page observations, form state, file access, and browser recovery. - Fix temporary empty Cloud …",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "ブラウザ・業務自動化",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、一次情報",
       "verdict": "最優先"
     },
     {
