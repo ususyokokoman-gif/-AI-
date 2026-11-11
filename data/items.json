@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-11T06:20:51.051520+00:00",
+  "updated_at": "2026-11-11T19:35:53.580882+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,60 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、速度・メモリ・処理性能、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-11T08:40:18Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.47.4](https://github.com/n8n-io/n8n/compare/n8n@2.47.3...n8n@2.47.4) (2026-11-11) ### Bug Fixes * **core:** Keep expression transfers working after built-in replacements ([#43360](https://github.com/n8n-io/n8n/issues/43360)) ([b110abb](https://github.com/n8n-io/n8n/commit/b110abb47e9286c57c045…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "modelcontextprotocol/servers",
+      "title": "MCP公式サーバー集：v2.4.0",
+      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
+      "category": "MCP・外部連携",
+      "tags": [
+        "MCP",
+        "外部連携",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-11T07:07:16Z",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "original_excerpt": "## Security fixes v2.4.0 fixes six vulnerabilities in three servers. Upgrade `@modelcontextprotocol/server-filesystem` to 2.3.0, and `mcp-server-git` and `mcp-server-fetch` to 2026.11.11. | Package | Affected | Fixed in | | --- | --- | --- | | `@modelcontextprotocol/server-filesystem` | all versions…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "検証・証拠・安全性",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、検証・証拠・安全性、失敗・回避策",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "browser-use/browser-use",
@@ -160,33 +214,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、失敗・回避策、一次情報",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：n8n@1.123.93",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-10T11:34:53Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.93",
-      "original_excerpt": "## [1.123.93](https://github.com/n8n-io/n8n/compare/n8n@1.123.92...n8n@1.123.93) (2026-11-09) ### Bug Fixes * **core:** Limit resume attempts for waiting and queued executions ([#42864](https://github.com/n8n-io/n8n/issues/42864)) ([106a957](https://github.com/n8n-io/n8n/commit/106a9577f012d2e5b11c7…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
@@ -318,32 +345,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、Garoon・経営カルテ自動化",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "modelcontextprotocol/servers",
-      "title": "MCP公式サーバー集：v2.3.0",
-      "summary": "AIから外部サービスやデータへ接続するMCPの公式実装例です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Google Drive、GitHub、データベース等をAIへ安全につなぐ際の基準として使えます。次にすること：導入前に権限範囲、読み書き可否、秘密情報の扱いを確認する。",
-      "category": "MCP・外部連携",
-      "tags": [
-        "MCP",
-        "外部連携",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-04T21:28:41Z",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
-      "original_excerpt": "## Packages | Package | Version | Registry | In this release | | --- | --- | --- | --- | | `@modelcontextprotocol/server-everything` | `2.2.1` | npm | **published** | | `@modelcontextprotocol/server-filesystem` | `2.2.0` | npm | **published** | | `@modelcontextprotocol/server-memory` | `2.1.0` | npm…",
-      "personalization_adjustment": 10,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、一次情報",
       "verdict": "最優先"
     },
     {
