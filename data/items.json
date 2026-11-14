@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-13T19:42:23.281256+00:00",
+  "updated_at": "2026-11-14T06:23:20.932721+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,112 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph==1.2.22",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 89,
+      "published_at": "2026-11-14T01:43:55Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.22",
+      "original_excerpt": "Changes since 1.2.21 * release(langgraph): 1.2.22 (#9702) * release(checkpoint-postgres): 3.2.1 (#9700) * release(prebuilt): 1.1.2 (#9701) * release(checkpoint): 4.3.2 (#9699) * fix(langgraph): stream a child graph on its own thread to a caller streaming subgraphs (#9698) * perf(langgraph): skip mes…",
+      "personalization_adjustment": 6,
+      "personalization_matches": [
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：一次情報",
+      "verdict": "読む価値あり"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "microsoft/playwright",
+      "title": "Playwright：v1.65.1",
+      "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、ブラウザ操作・自動テスト、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Garoonや各種Webサービスの操作検証、自動テスト、画面取得の安定性向上に使えます。次にすること：AI任せにする前に、固定手順をPlaywrightで再現可能にする。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "Playwright",
+        "ブラウザ自動化",
+        "テスト",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-13T21:46:58Z",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
+      "original_excerpt": "### Bug Fixes - #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false - #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ ### Browser Versions - Chromium 159.0.8154.6 - Mozilla Firefox 159.0 …",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "ブラウザ・業務自動化",
+        "Garoon・経営カルテ自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、Garoon・経営カルテ自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "browser-use/browser-use",
+      "title": "Browser Use：browser-use 1.0.4",
+      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
+      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "ブラウザ操作",
+        "AIエージェント",
+        "自動化",
+        "正式版"
+      ],
+      "score": 98,
+      "published_at": "2026-11-13T20:50:13Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.4",
+      "original_excerpt": "`pip install 'browser-use==1.0.4'` - The agent drops old screenshots in one batch once 20 tool results carry one, instead of on every new screenshot. Each prune rewrote an earlier message and broke the provider's prompt cache, so screenshot-heavy runs paid full input price on almost every step (BU B…",
+      "personalization_adjustment": 14,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "ブラウザ・業務自動化"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "anthropics/claude-code",
+      "title": "Claude Code：v2.1.325",
+      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Claude Code",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-13T20:40:01Z",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+      "original_excerpt": "## What's changed - Fixed a security issue in how zstd-compressed responses are decoded - Added a spinner tip in VS Code and similar integrated terminals about re-running a notebook cell, shown once Claude has read or edited a Jupyter notebook - Added a line under the error shown when your organizat…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "検証・証拠・安全性",
+        "コード・設定・手順",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
       "title": "n8n：stable",
       "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
@@ -132,84 +238,6 @@
         "求人・イベント告知"
       ],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "anthropics/claude-code",
-      "title": "Claude Code：v2.1.323",
-      "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexとの役割分担、長時間タスク、権限管理、エージェント運用の改善判断に使えます。次にすること：現在の開発手順に影響する変更だけを確認し、既存フローをむやみに変えない。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Claude Code",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-12T22:12:13Z",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
-      "original_excerpt": "## What's changed - Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization - Added `engines[\"claude-code\"]` to `plugin.json`: plugins outside their stated Claude C…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph==1.2.21",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 89,
-      "published_at": "2026-11-12T18:06:43Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.21",
-      "original_excerpt": "Changes since 1.2.20 * release(langgraph): 1.2.21 (#9683) * chore(deps): bump the minor-and-patch group across 1 directory with 9 updates (#9530) * fix(langgraph): match whole namespace segments in get_subgraphs (#9615) * fix(langgraph): read an undeclared subgraph namespace with the parent graph (#…",
-      "personalization_adjustment": 6,
-      "personalization_matches": [
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：一次情報",
-      "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "browser-use/browser-use",
-      "title": "Browser Use：browser-use 1.0.3",
-      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、ブラウザ操作・自動テストに関する変更です。",
-      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "ブラウザ操作",
-        "AIエージェント",
-        "自動化",
-        "正式版"
-      ],
-      "score": 99,
-      "published_at": "2026-11-12T16:52:54Z",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.3",
-      "original_excerpt": "`pip install 'browser-use==1.0.3'` - `--cli-mcp` exits cleanly when the client closed the pipe before the reply (was exit 1 with `ExceptionGroup`). - The CLI runs its own Chromium when no browser has remote debugging on or there is no display, like `--cli-mcp`. It persists across calls; `browser-use…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
@@ -318,33 +346,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、中小企業支援・コンサル商品化、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "microsoft/playwright",
-      "title": "Playwright：v1.65.0",
-      "summary": "ブラウザ操作と自動テストの基盤であるPlaywrightの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
-      "reason": "あなたへの使い道：Garoonや各種Webサービスの操作検証、自動テスト、画面取得の安定性向上に使えます。次にすること：AI任せにする前に、固定手順をPlaywrightで再現可能にする。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "Playwright",
-        "ブラウザ自動化",
-        "テスト",
-        "正式版"
-      ],
-      "score": 98,
-      "published_at": "2026-11-05T18:25:45Z",
-      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
-      "original_excerpt": "## 🥟 Run tests with Bun The test runner now runs under [Bun](https://bun.com). Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the `--bun` flag, because without it `bunx playwright test` runs on Node.js: ```bash bunx --bun playwright …",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "ブラウザ・業務自動化",
-        "Garoon・経営カルテ自動化"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、Garoon・経営カルテ自動化",
       "verdict": "最優先"
     },
     {
