@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-15T18:51:14.732737+00:00",
+  "updated_at": "2026-11-16T06:30:14.617554+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -81,7 +81,7 @@
     {
       "source_kind": "github_release",
       "source_name": "browser-use/browser-use",
-      "title": "Browser Use：browser-use 1.0.5",
+      "title": "Browser Use：browser-use 1.0.6",
       "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
       "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
       "category": "ブラウザ自動化",
@@ -92,17 +92,17 @@
         "正式版"
       ],
       "score": 99,
-      "published_at": "2026-11-14T08:24:22Z",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.5",
-      "original_excerpt": "`pip install 'browser-use==1.0.5'` - Every run is judged by your own model: one more low-effort request checks the run against the task and fills `result.judgement` with `success`, `failure_reason`, `description`, `prompt_injection_detected`, `bot_block_or_captcha_detected` and `gotchas`. `judge_con…",
+      "published_at": "2026-11-16T00:51:24Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.6",
+      "original_excerpt": "`pip install 'browser-use==1.0.6'` - **BU 4.0 is the default model.** `Agent(task)` and `ChatBrowserUse()` now run `bu-4.0` on the Browser Use gateway instead of `bu-fast`. Pass `llm='bu-4.0-mini'` for simple tasks at the lowest cost, or `llm='bu-4.0-pro'` for the hardest tasks (#6430). - **This cos…",
       "personalization_adjustment": 15,
       "personalization_matches": [
+        "AIエージェント実装",
         "ブラウザ・業務自動化",
-        "検証・証拠・安全性",
-        "失敗・回避策"
+        "数値・比較・検証"
       ],
       "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、検証・証拠・安全性、失敗・回避策",
+      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、数値・比較・検証",
       "verdict": "最優先"
     },
     {
