@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-16T06:30:14.617554+00:00",
+  "updated_at": "2026-11-16T22:01:42.306840+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,57 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_commit",
+      "source_name": "openai/openai-cookbook",
+      "title": "OpenAI Cookbook：公式情報が更新",
+      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、詳細は公式の更新内容で確認が必要です。",
+      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
+      "category": "実装例・ノウハウ",
+      "tags": [
+        "実装例",
+        "評価",
+        "公式",
+        "公式更新"
+      ],
+      "score": 93,
+      "published_at": "2026-11-16T21:48:42Z",
+      "url": "https://github.com/openai/openai-cookbook/commit/dfd760b4de0bd175b51ad05b9b5260c36dfea09c",
+      "original_excerpt": "Add space below the failed lookup audio player (#3323)",
+      "personalization_adjustment": 7,
+      "personalization_matches": [
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：コード・設定・手順",
+      "verdict": "読む価値あり"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：n8n@1.123.97",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-11-16T08:36:16Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.97",
+      "original_excerpt": "## [1.123.97](https://github.com/n8n-io/n8n/compare/n8n@1.123.96...n8n@1.123.97) (2026-11-16) <!-- This is an auto-generated description by cubic. --> <a href=\"https://cubic.dev/pr/n8n-io/n8n/pull/43969?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\" data-no-image-dialog=\"true\"><picture…",
+      "personalization_adjustment": 14,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化",
+      "verdict": "最優先"
+    },
     {
       "source_kind": "github_release",
       "source_name": "browser-use/browser-use",
@@ -183,33 +234,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、検証・証拠・安全性、コード・設定・手順、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-13T09:44:38Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.47.7](https://github.com/n8n-io/n8n/compare/n8n@2.47.6...n8n@2.47.7) (2026-11-13) ### Bug Fixes * **core:** Stop redacting executions that use global credentials ([#43776](https://github.com/n8n-io/n8n/issues/43776)) ([c067170](https://github.com/n8n-io/n8n/commit/c0671702ca19e108652e5ac0e289e…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
@@ -320,33 +344,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_commit",
-      "source_name": "openai/openai-cookbook",
-      "title": "OpenAI Cookbook：公式情報が更新",
-      "summary": "OpenAI公式の実装例、設計例、評価方法に関する更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：新機能の宣伝ではなく、実際にどう組み込むかをコードと手順で確認できます。次にすること：相談案件や自作ツールに近い例だけを選び、再現してから知識化する。",
-      "category": "実装例・ノウハウ",
-      "tags": [
-        "実装例",
-        "評価",
-        "公式",
-        "公式更新"
-      ],
-      "score": 97,
-      "published_at": "2026-11-06T18:39:48Z",
-      "url": "https://github.com/openai/openai-cookbook/commit/2d5b1a9b6e706a732b03048d701c7086fda5f010",
-      "original_excerpt": "docs: update sales meeting prep for current workspace agents (#3195)",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "中小企業支援・コンサル商品化",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、中小企業支援・コンサル商品化、コード・設定・手順",
       "verdict": "最優先"
     },
     {
