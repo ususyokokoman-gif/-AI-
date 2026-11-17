@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-17T07:55:12.527427+00:00",
+  "updated_at": "2026-11-17T20:55:36.129376+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -332,7 +332,7 @@
         "機密情報",
         "正式版"
       ],
-      "score": 97,
+      "score": 95,
       "published_at": "2026-11-09T18:21:19Z",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
       "original_excerpt": "## Ripple Preview [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding. ```sh ollama run ripple-preview ``` ## What's Changed - Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon - `ollama launch claude` …",
