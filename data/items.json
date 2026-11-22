@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-21T19:16:03.714236+00:00",
+  "updated_at": "2026-11-22T06:48:19.696388+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,33 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "browser-use/browser-use",
+      "title": "Browser Use：browser-use 1.0.8",
+      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、ブラウザ操作・自動テストに関する変更です。",
+      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
+      "category": "ブラウザ自動化",
+      "tags": [
+        "ブラウザ操作",
+        "AIエージェント",
+        "自動化",
+        "正式版"
+      ],
+      "score": 99,
+      "published_at": "2026-11-22T03:30:41Z",
+      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.8",
+      "original_excerpt": "`pip install 'browser-use==1.0.8'` - The judge asks as one more turn of the run, so the provider reads the run from its cache instead of billing the trace again. It returns the same verdict fields, gotchas included (#6457). - No API key over SSH or on a headless machine: the run prints a link and a …",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "ブラウザ・業務自動化",
+        "検証・証拠・安全性",
+        "Mac・ローカルAI・機密保持"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、検証・証拠・安全性、Mac・ローカルAI・機密保持",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.330",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -103,32 +130,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "browser-use/browser-use",
-      "title": "Browser Use：browser-use 1.0.7",
-      "summary": "AIエージェントによるブラウザ操作を実装するための更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、ブラウザ操作・自動テストに関する変更です。",
-      "reason": "あなたへの使い道：APIがないWeb画面の調査や定型入力を自動化できる可能性があります。次にすること：利用規約、誤操作、認証情報を確認し、読み取り専用の作業から試す。",
-      "category": "ブラウザ自動化",
-      "tags": [
-        "ブラウザ操作",
-        "AIエージェント",
-        "自動化",
-        "正式版"
-      ],
-      "score": 98,
-      "published_at": "2026-11-20T20:01:20Z",
-      "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.7",
-      "original_excerpt": "`pip install 'browser-use==1.0.7'` - **MCP calls no longer time out at 60 s.** A long `browser_exec` now replies within 50 s with the output so far, so Cursor and other clients with a 60 s limit get a result instead of `Request timed out`. The cell keeps running, and calling `browser_exec` again wit…",
-      "personalization_adjustment": 14,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "ブラウザ・業務自動化"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化",
       "verdict": "最優先"
     },
     {
@@ -360,7 +361,7 @@
         "テスト",
         "正式版"
       ],
-      "score": 100,
+      "score": 98,
       "published_at": "2026-11-13T21:46:58Z",
       "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
       "original_excerpt": "### Bug Fixes - #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false - #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ ### Browser Versions - Chromium 159.0.8154.6 - Mozilla Firefox 159.0 …",
