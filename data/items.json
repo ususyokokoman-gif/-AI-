@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-23T23:53:46.155348+00:00",
+  "updated_at": "2026-11-24T09:54:18.633710+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,142 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、対応モデル・コンテキスト・トークン、速度・メモリ・処理性能、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-24T09:30:20Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.49.5](https://github.com/n8n-io/n8n/compare/n8n@2.49.4...n8n@2.49.5) (2026-11-23) ### Bug Fixes * **core:** Refresh the cached token of an expirable credential during its test ([#44832](https://github.com/n8n-io/n8n/issues/44832)) ([5041b0d](https://github.com/n8n-io/n8n/commit/5041b0deb0aefe8…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "ollama/ollama",
+      "title": "Ollama：v0.40.18",
+      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
+      "category": "ローカルAI",
+      "tags": [
+        "Ollama",
+        "ローカルLLM",
+        "機密情報",
+        "正式版"
+      ],
+      "score": 97,
+      "published_at": "2026-11-24T04:18:13Z",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18",
+      "original_excerpt": "## What's Changed * mlx: fuse Inkling residual mixing on Metal by @dhiltgen in https://github.com/ollama/ollama/pull/19808 * mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in https://github.com/ollama/ollama/pull/19805 * llama.cpp: version bump b12651 + remove je…",
+      "personalization_adjustment": 10,
+      "personalization_matches": [
+        "Mac・ローカルAI・機密保持",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Mac・ローカルAI・機密保持、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "google-gemini/gemini-cli",
+      "title": "Gemini CLI：Release v0.71.1",
+      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、対応モデル・コンテキスト・トークン、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Gemini CLI",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-24T03:50:24Z",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1",
+      "original_excerpt": "## What's Changed * fix(patch): cherry-pick aafdfdf to release/v0.71.0-pr-30420 to patch version v0.71.0 and create version 0.71.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30429 **Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0...v0.71.1",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順",
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/openai-agents-python",
+      "title": "OpenAI Agents SDK：v0.26.0",
+      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
+      "category": "AIエージェント",
+      "tags": [
+        "Agents SDK",
+        "エージェント設計",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-24T03:15:47Z",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.26.0",
+      "original_excerpt": "## [0.26.0](https://github.com/openai/openai-agents-python/compare/v0.25.0...v0.26.0) (2026-11-24) ### Features * Upgrade the GPT-Live demo to 1.1 ([6c4e4a2](https://github.com/openai/openai-agents-python/commit/6c4e4a29cd08eef454db6980d74da6afc8939d24)) ### Bug Fixes * allow SDK 0.25 in the externa…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
+      "source_name": "openai/codex",
+      "title": "OpenAI Codex：0.172.0",
+      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
+      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
+      "category": "AI開発エージェント",
+      "tags": [
+        "Codex",
+        "開発自動化",
+        "公式",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-24T00:03:55Z",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "original_excerpt": "## New Features - Follow thread links from search results and transcripts to open saved conversations and nested agents in the terminal. (#62332) - Press `Tab` to complete arguments for supported slash commands. For example, `/mcp lo` completes to `/mcp login`. (#62343) - Jump between task groups in…",
+      "personalization_adjustment": 13,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "Codex・Claude Code等の開発AI",
+        "コード・設定・手順"
+      ],
+      "personalization_penalties": [
+        "求人・イベント告知"
+      ],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "anthropics/claude-code",
       "title": "Claude Code：v2.1.331",
       "summary": "Claude Codeの機能追加、修正、運用上の注意点に関する公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
@@ -103,34 +239,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、速度・メモリ・処理性能に関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-23T08:34:03Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.48.8](https://github.com/n8n-io/n8n/compare/n8n@2.48.7...n8n@2.48.8) (2026-11-23) ### Bug Fixes * Broken e2e test in source-control-helper ([#44756](https://github.com/n8n-io/n8n/issues/44756)) ([0a1c9f0](https://github.com/n8n-io/n8n/commit/0a1c9f05346a1f3c8ce8a474b3acbe98fccc808c)) * **core:…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
       "verdict": "最優先"
     },
     {
@@ -173,7 +281,7 @@
         "ワークフロー",
         "正式版"
       ],
-      "score": 89,
+      "score": 87,
       "published_at": "2026-11-20T01:10:26Z",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.24",
       "original_excerpt": "Changes since 1.2.23 * release(langgraph): 1.2.24 (#9752) * fix(langgraph): handle `REMOVE_ALL_MESSAGES` in `_messages_delta_reducer` and `None` checkpoints in `DeltaChannel` (#9735)",
@@ -184,62 +292,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：一次情報",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "openai/codex",
-      "title": "OpenAI Codex：0.171.0",
-      "summary": "Codex CLIとクラウド型コーディングエージェントの公式更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codexへ任せられる開発作業、承認方法、サンドボックス、並列実行の変化を把握できます。次にすること：検証用リポジトリで変更点を一つだけ再現し、採用可否を判断する。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Codex",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-20T00:44:47Z",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
-      "original_excerpt": "## New Features - Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection. (#62106) - Enabled the TUI workspace by default, with searchable document previews, image previews, and subagent transcripts alongside the main conversation. (#61352, #61888, #61889, #61919, #…",
-      "personalization_adjustment": 13,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順"
-      ],
-      "personalization_penalties": [
-        "求人・イベント告知"
-      ],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、コード・設定・手順",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "google-gemini/gemini-cli",
-      "title": "Gemini CLI：Release v0.70.0",
-      "summary": "Google公式のGemini CLIに関する機能追加と修正です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：Codex・Claude Code以外の選択肢として、長い文脈やGoogle連携を検証できます。次にすること：無料枠や既存Google環境で代替価値が出る作業だけを小さく試す。",
-      "category": "AI開発エージェント",
-      "tags": [
-        "Gemini CLI",
-        "開発自動化",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-19T21:08:05Z",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0",
-      "original_excerpt": "## What's Changed * Changelog for v0.69.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30222 * Changelog for v0.68.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30224 * chore(release): bump version to 0.70.0-nightly.20261110.g1603e9b…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "Codex・Claude Code等の開発AI",
-        "コード・設定・手順",
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：Codex・Claude Code等の開発AI、コード・設定・手順、一次情報",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -297,33 +349,6 @@
       "verdict": "最優先"
     },
     {
-      "source_kind": "github_release",
-      "source_name": "openai/openai-agents-python",
-      "title": "OpenAI Agents SDK：v0.25.0",
-      "summary": "OpenAI公式のエージェント開発SDKに関する更新です。主な論点は、権限・認証・サンドボックスなど安全性、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークンに関する変更です。",
-      "reason": "あなたへの使い道：複数エージェント、ツール実行、引き継ぎ、監視を業務システムへ組み込む判断材料になります。次にすること：LINE会員基盤や内部支援ツールへ直結する機能だけをサンプルで検証する。",
-      "category": "AIエージェント",
-      "tags": [
-        "Agents SDK",
-        "エージェント設計",
-        "公式",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-18T00:22:25Z",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.25.0",
-      "original_excerpt": "## [0.25.0](https://github.com/openai/openai-agents-python/compare/v0.24.0...v0.25.0) (2026-11-17) ## Key Changes Version 0.25.0 removes the beta Runloop sandbox provider and changes how Pydantic run contexts are checkpointed. Runloop users should preserve their workspace data before switching provi…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Codex・Claude Code等の開発AI",
-        "検証・証拠・安全性"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Codex・Claude Code等の開発AI、検証・証拠・安全性",
-      "verdict": "最優先"
-    },
-    {
       "source_kind": "github_commit",
       "source_name": "openai/openai-cookbook",
       "title": "OpenAI Cookbook：公式情報が更新",
@@ -373,32 +398,6 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、Garoon・経営カルテ自動化、失敗・回避策",
-      "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "ollama/ollama",
-      "title": "Ollama：v0.40.17",
-      "summary": "MacやPC内でLLMを動かすOllamaの公式更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、対応モデル・コンテキスト・トークン、MCP・外部サービス連携に関する変更です。",
-      "reason": "あなたへの使い道：機密性の高い文書の要約、分類、下処理を外部送信せず実行する判断材料になります。次にすること：速度、精度、メモリ使用量を匿名化データで測る。",
-      "category": "ローカルAI",
-      "tags": [
-        "Ollama",
-        "ローカルLLM",
-        "機密情報",
-        "正式版"
-      ],
-      "score": 95,
-      "published_at": "2026-11-10T22:25:00Z",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
-      "original_excerpt": "## Inkling 2 Mini [Inkling 2 Mini](https://ollama.com/library/inkling-2-mini) from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool call…",
-      "personalization_adjustment": 12,
-      "personalization_matches": [
-        "AIエージェント実装",
-        "Mac・ローカルAI・機密保持"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：AIエージェント実装、Mac・ローカルAI・機密保持",
       "verdict": "最優先"
     },
     {
