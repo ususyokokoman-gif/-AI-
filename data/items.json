@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-24T09:54:18.633710+00:00",
+  "updated_at": "2026-11-24T22:26:37.112463+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -361,7 +361,7 @@
         "公式",
         "公式更新"
       ],
-      "score": 91,
+      "score": 89,
       "published_at": "2026-11-16T21:48:42Z",
       "url": "https://github.com/openai/openai-cookbook/commit/dfd760b4de0bd175b51ad05b9b5260c36dfea09c",
       "original_excerpt": "Add space below the failed lookup audio player (#3323)",
