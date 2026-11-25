@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-25T08:34:25.691883+00:00",
+  "updated_at": "2026-11-25T21:42:13.091326+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -78,6 +78,31 @@
     }
   ],
   "items": [
+    {
+      "source_kind": "github_release",
+      "source_name": "langchain-ai/langgraph",
+      "title": "LangGraph：langgraph-cli==0.4.44",
+      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性に関する変更です。",
+      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
+      "category": "AIエージェント",
+      "tags": [
+        "LangGraph",
+        "エージェント設計",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 89,
+      "published_at": "2026-11-25T20:52:34Z",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.44",
+      "original_excerpt": "Changes since cli==0.4.43 * feat(cli): add url to deploy list --json (#9793) * release(cli): 0.4.44 (#9794) * fix(cli): omit an empty secrets list when updating a deployment (#9737) * chore(deps): bump opentelemetry-api from 1.45.1 to 1.45.2 in /libs/cli (#9695) * feat(cli): deploy to BYOC data plan…",
+      "personalization_adjustment": 6,
+      "personalization_matches": [
+        "一次情報"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：一次情報",
+      "verdict": "読む価値あり"
+    },
     {
       "source_kind": "github_release",
       "source_name": "n8n-io/n8n",
@@ -268,31 +293,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：ブラウザ・業務自動化、検証・証拠・安全性、Mac・ローカルAI・機密保持",
       "verdict": "最優先"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "langchain-ai/langgraph",
-      "title": "LangGraph：langgraph==1.2.24",
-      "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、不具合修正・安定性に関する変更です。",
-      "reason": "あなたへの使い道：相談整理、調査、反証、提案、レビューを段階化した支援フローの設計に使えます。次にすること：分岐と再試行が必要な案件だけで小さく試す。",
-      "category": "AIエージェント",
-      "tags": [
-        "LangGraph",
-        "エージェント設計",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 87,
-      "published_at": "2026-11-20T01:10:26Z",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.24",
-      "original_excerpt": "Changes since 1.2.23 * release(langgraph): 1.2.24 (#9752) * fix(langgraph): handle `REMOVE_ALL_MESSAGES` in `_messages_delta_reducer` and `None` checkpoints in `DeltaChannel` (#9735)",
-      "personalization_adjustment": 6,
-      "personalization_matches": [
-        "一次情報"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：一次情報",
-      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
