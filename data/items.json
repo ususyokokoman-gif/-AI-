@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-25T21:42:13.091326+00:00",
+  "updated_at": "2026-11-26T08:18:04.155755+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -80,6 +80,34 @@
   "items": [
     {
       "source_kind": "github_release",
+      "source_name": "n8n-io/n8n",
+      "title": "n8n：stable",
+      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、エージェント実行・ツール連携・ワークフロー、MCP・外部サービス連携、速度・メモリ・処理性能に関する変更です。",
+      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
+      "category": "業務自動化",
+      "tags": [
+        "n8n",
+        "業務自動化",
+        "ワークフロー",
+        "正式版"
+      ],
+      "score": 100,
+      "published_at": "2026-11-26T07:23:36Z",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "original_excerpt": "## [2.49.7](https://github.com/n8n-io/n8n/compare/n8n@2.49.6...n8n@2.49.7) (2026-11-26) ### Bug Fixes * Apply execution data size limit in MCP get_workflow_execution ([#45142](https://github.com/n8n-io/n8n/issues/45142)) ([1e42a0a](https://github.com/n8n-io/n8n/commit/1e42a0a5b5cf8a4d9406911885708e2…",
+      "personalization_adjustment": 15,
+      "personalization_matches": [
+        "AIエージェント実装",
+        "中小企業支援・コンサル商品化",
+        "ブラウザ・業務自動化",
+        "失敗・回避策"
+      ],
+      "personalization_penalties": [],
+      "personalization_reason": "あなたとの一致：AIエージェント実装、中小企業支援・コンサル商品化、ブラウザ・業務自動化、失敗・回避策",
+      "verdict": "最優先"
+    },
+    {
+      "source_kind": "github_release",
       "source_name": "langchain-ai/langgraph",
       "title": "LangGraph：langgraph-cli==0.4.44",
       "summary": "状態を持つ複数工程のAIエージェントを構築するLangGraphの更新です。主な論点は、権限・認証・サンドボックスなど安全性、不具合修正・安定性に関する変更です。",
@@ -102,34 +130,6 @@
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：一次情報",
       "verdict": "読む価値あり"
-    },
-    {
-      "source_kind": "github_release",
-      "source_name": "n8n-io/n8n",
-      "title": "n8n：stable",
-      "summary": "ノーコード・ローコードで業務フローを自動化するn8nの更新です。主な論点は、不具合修正・安定性、実装例・ガイド・ドキュメントに関する変更です。",
-      "reason": "あなたへの使い道：メール、表計算、Web API、AIをつなぎ、中小企業の定型業務を自動化できます。次にすること：実案件の一工程だけを自動化し、削減時間とエラー率を測る。",
-      "category": "業務自動化",
-      "tags": [
-        "n8n",
-        "業務自動化",
-        "ワークフロー",
-        "正式版"
-      ],
-      "score": 100,
-      "published_at": "2026-11-25T08:27:09Z",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "original_excerpt": "## [2.49.6](https://github.com/n8n-io/n8n/compare/n8n@2.49.5...n8n@2.49.6) (2026-11-25) ### Bug Fixes * **core:** Align base64, urlEncode and format results of isolate expression engines with legacy ([#44969](https://github.com/n8n-io/n8n/issues/44969)) ([7fb24bd](https://github.com/n8n-io/n8n/commi…",
-      "personalization_adjustment": 15,
-      "personalization_matches": [
-        "中小企業支援・コンサル商品化",
-        "ブラウザ・業務自動化",
-        "コード・設定・手順",
-        "失敗・回避策"
-      ],
-      "personalization_penalties": [],
-      "personalization_reason": "あなたとの一致：中小企業支援・コンサル商品化、ブラウザ・業務自動化、コード・設定・手順、失敗・回避策",
-      "verdict": "最優先"
     },
     {
       "source_kind": "github_release",
@@ -280,7 +280,7 @@
         "自動化",
         "正式版"
       ],
-      "score": 99,
+      "score": 97,
       "published_at": "2026-11-22T03:30:41Z",
       "url": "https://github.com/browser-use/browser-use/releases/tag/1.0.8",
       "original_excerpt": "`pip install 'browser-use==1.0.8'` - The judge asks as one more turn of the run, so the provider reads the run from its cache instead of billing the trace again. It returns the same verdict fields, gotchas included (#6457). - No API key over SSH or on a headless machine: the run prints a link and a …",
