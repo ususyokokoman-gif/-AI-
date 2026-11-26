@@ -8,7 +8,7 @@
     "mission": "独立総合コンサルタントとしての能力と商品を育てながら、現在の中小企業支援と業務自動化へ即転用できるAI情報を優先する。",
     "sort": "newest_then_personalized"
   },
-  "updated_at": "2026-11-26T08:18:04.155755+00:00",
+  "updated_at": "2026-11-26T21:31:54.094344+00:00",
   "item_count": 13,
   "sources": [
     {
@@ -307,7 +307,7 @@
         "業務アプリ",
         "正式版"
       ],
-      "score": 96,
+      "score": 94,
       "published_at": "2026-11-18T09:55:28Z",
       "url": "https://github.com/langgenius/dify/releases/tag/1.20.0",
       "original_excerpt": "**Dify 1.20.0 keeps your traces flowing and your knowledge bases safer.** Export traces to any OpenTelemetry collector, keep Langfuse working after its legacy ingestion endpoint retirement, and scan uploaded knowledge files for malware before they are indexed. Chatflows can show Agent tool activity …",
@@ -320,7 +320,7 @@
       ],
       "personalization_penalties": [],
       "personalization_reason": "あなたとの一致：AIエージェント実装、ブラウザ・業務自動化、検証・証拠・安全性、文字起こし・文書整理・RAG",
-      "verdict": "最優先"
+      "verdict": "読む価値あり"
     },
     {
       "source_kind": "github_release",
